@@ -1,0 +1,1200 @@
+[
+  {
+    "id": "1983843622",
+    "type": "PushEvent",
+    "actor": {
+      "id": 232094,
+      "login": "pjsinco",
+      "gravatar_id": "78101ad7460d8b92ef488c689df05cc7",
+      "url": "https://api.github.com/users/pjsinco",
+      "avatar_url": "https://gravatar.com/avatar/78101ad7460d8b92ef488c689df05cc7?d=https%3A%2F%2Fa248.e.akamai.net%2Fassets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&r=x"
+    },
+    "repo": {
+      "id": 16501909,
+      "name": "pjsinco/d3-book",
+      "url": "https://api.github.com/repos/pjsinco/d3-book"
+    },
+    "payload": {
+      "push_id": 310556566,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "59260eb5ad9b4b0c46b11859de40310e13fc7ba2",
+      "before": "bfd44ea28ecf907f33ba61b3f343a5161c780c67",
+      "commits": [
+        {
+          "sha": "59260eb5ad9b4b0c46b11859de40310e13fc7ba2",
+          "author": {
+            "email": "psinco@gmail.com",
+            "name": "Patrick Sinco"
+          },
+          "message": "practices more code from lab 3",
+          "distinct": true,
+          "url": "https://api.github.com/repos/pjsinco/d3-book/commits/59260eb5ad9b4b0c46b11859de40310e13fc7ba2"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2014-02-18T01:14:06Z"
+  },
+  {
+    "id": "1982645265",
+    "type": "PushEvent",
+    "actor": {
+      "id": 232094,
+      "login": "pjsinco",
+      "gravatar_id": "78101ad7460d8b92ef488c689df05cc7",
+      "url": "https://api.github.com/users/pjsinco",
+      "avatar_url": "https://gravatar.com/avatar/78101ad7460d8b92ef488c689df05cc7?d=https%3A%2F%2Fa248.e.akamai.net%2Fassets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&r=x"
+    },
+    "repo": {
+      "id": 16501909,
+      "name": "pjsinco/d3-book",
+      "url": "https://api.github.com/repos/pjsinco/d3-book"
+    },
+    "payload": {
+      "push_id": 309940499,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "bfd44ea28ecf907f33ba61b3f343a5161c780c67",
+      "before": "08eebe2826dd0acd5cfe78b73f0fbbed0dde98ad",
+      "commits": [
+        {
+          "sha": "bfd44ea28ecf907f33ba61b3f343a5161c780c67",
+          "author": {
+            "email": "psinco@gmail.com",
+            "name": "Patrick Sinco"
+          },
+          "message": "finishes chapter 11",
+          "distinct": true,
+          "url": "https://api.github.com/repos/pjsinco/d3-book/commits/bfd44ea28ecf907f33ba61b3f343a5161c780c67"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2014-02-17T04:33:44Z"
+  },
+  {
+    "id": "1982506575",
+    "type": "PushEvent",
+    "actor": {
+      "id": 232094,
+      "login": "pjsinco",
+      "gravatar_id": "78101ad7460d8b92ef488c689df05cc7",
+      "url": "https://api.github.com/users/pjsinco",
+      "avatar_url": "https://gravatar.com/avatar/78101ad7460d8b92ef488c689df05cc7?d=https%3A%2F%2Fa248.e.akamai.net%2Fassets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&r=x"
+    },
+    "repo": {
+      "id": 16501909,
+      "name": "pjsinco/d3-book",
+      "url": "https://api.github.com/repos/pjsinco/d3-book"
+    },
+    "payload": {
+      "push_id": 309866299,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "08eebe2826dd0acd5cfe78b73f0fbbed0dde98ad",
+      "before": "4c88256104d74ec38c765ab00d6527193b8a36cc",
+      "commits": [
+        {
+          "sha": "08eebe2826dd0acd5cfe78b73f0fbbed0dde98ad",
+          "author": {
+            "email": "psinco@gmail.com",
+            "name": "Patrick Sinco"
+          },
+          "message": "gets through pie layout in chapter 11",
+          "distinct": true,
+          "url": "https://api.github.com/repos/pjsinco/d3-book/commits/08eebe2826dd0acd5cfe78b73f0fbbed0dde98ad"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2014-02-16T23:27:45Z"
+  },
+  {
+    "id": "1982491107",
+    "type": "PushEvent",
+    "actor": {
+      "id": 232094,
+      "login": "pjsinco",
+      "gravatar_id": "78101ad7460d8b92ef488c689df05cc7",
+      "url": "https://api.github.com/users/pjsinco",
+      "avatar_url": "https://gravatar.com/avatar/78101ad7460d8b92ef488c689df05cc7?d=https%3A%2F%2Fa248.e.akamai.net%2Fassets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&r=x"
+    },
+    "repo": {
+      "id": 16501909,
+      "name": "pjsinco/d3-book",
+      "url": "https://api.github.com/repos/pjsinco/d3-book"
+    },
+    "payload": {
+      "push_id": 309857684,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "4c88256104d74ec38c765ab00d6527193b8a36cc",
+      "before": "8ba568769198fa6aa2b8d31aac0b2755e78d2bbb",
+      "commits": [
+        {
+          "sha": "4c88256104d74ec38c765ab00d6527193b8a36cc",
+          "author": {
+            "email": "psinco@gmail.com",
+            "name": "Patrick Sinco"
+          },
+          "message": "finished chapter 10",
+          "distinct": true,
+          "url": "https://api.github.com/repos/pjsinco/d3-book/commits/4c88256104d74ec38c765ab00d6527193b8a36cc"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2014-02-16T22:53:33Z"
+  },
+  {
+    "id": "1982399904",
+    "type": "PushEvent",
+    "actor": {
+      "id": 232094,
+      "login": "pjsinco",
+      "gravatar_id": "78101ad7460d8b92ef488c689df05cc7",
+      "url": "https://api.github.com/users/pjsinco",
+      "avatar_url": "https://gravatar.com/avatar/78101ad7460d8b92ef488c689df05cc7?d=https%3A%2F%2Fa248.e.akamai.net%2Fassets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&r=x"
+    },
+    "repo": {
+      "id": 16501909,
+      "name": "pjsinco/d3-book",
+      "url": "https://api.github.com/repos/pjsinco/d3-book"
+    },
+    "payload": {
+      "push_id": 309807894,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "8ba568769198fa6aa2b8d31aac0b2755e78d2bbb",
+      "before": "0b7be3955f4d352f1157f38866dcae5ef18c0068",
+      "commits": [
+        {
+          "sha": "8ba568769198fa6aa2b8d31aac0b2755e78d2bbb",
+          "author": {
+            "email": "psinco@gmail.com",
+            "name": "Patrick Sinco"
+          },
+          "message": "completes chapter 9 -- whew",
+          "distinct": true,
+          "url": "https://api.github.com/repos/pjsinco/d3-book/commits/8ba568769198fa6aa2b8d31aac0b2755e78d2bbb"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2014-02-16T19:41:01Z"
+  },
+  {
+    "id": "1982058980",
+    "type": "PushEvent",
+    "actor": {
+      "id": 232094,
+      "login": "pjsinco",
+      "gravatar_id": "78101ad7460d8b92ef488c689df05cc7",
+      "url": "https://api.github.com/users/pjsinco",
+      "avatar_url": "https://gravatar.com/avatar/78101ad7460d8b92ef488c689df05cc7?d=https%3A%2F%2Fa248.e.akamai.net%2Fassets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&r=x"
+    },
+    "repo": {
+      "id": 16501909,
+      "name": "pjsinco/d3-book",
+      "url": "https://api.github.com/repos/pjsinco/d3-book"
+    },
+    "payload": {
+      "push_id": 309623102,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "0b7be3955f4d352f1157f38866dcae5ef18c0068",
+      "before": "93b6b884845b7a3296a5ff24940eac8d8ee1a107",
+      "commits": [
+        {
+          "sha": "0b7be3955f4d352f1157f38866dcae5ef18c0068",
+          "author": {
+            "email": "psinco@gmail.com",
+            "name": "Patrick Sinco"
+          },
+          "message": "get through p. 162",
+          "distinct": true,
+          "url": "https://api.github.com/repos/pjsinco/d3-book/commits/0b7be3955f4d352f1157f38866dcae5ef18c0068"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2014-02-16T01:45:01Z"
+  },
+  {
+    "id": "1982022587",
+    "type": "PushEvent",
+    "actor": {
+      "id": 232094,
+      "login": "pjsinco",
+      "gravatar_id": "78101ad7460d8b92ef488c689df05cc7",
+      "url": "https://api.github.com/users/pjsinco",
+      "avatar_url": "https://gravatar.com/avatar/78101ad7460d8b92ef488c689df05cc7?d=https%3A%2F%2Fa248.e.akamai.net%2Fassets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&r=x"
+    },
+    "repo": {
+      "id": 16501909,
+      "name": "pjsinco/d3-book",
+      "url": "https://api.github.com/repos/pjsinco/d3-book"
+    },
+    "payload": {
+      "push_id": 309603892,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "93b6b884845b7a3296a5ff24940eac8d8ee1a107",
+      "before": "a093b63a0121d78d88ff12f10776b0f9f5497470",
+      "commits": [
+        {
+          "sha": "93b6b884845b7a3296a5ff24940eac8d8ee1a107",
+          "author": {
+            "email": "psinco@gmail.com",
+            "name": "Patrick Sinco"
+          },
+          "message": "gets into chapter 9",
+          "distinct": true,
+          "url": "https://api.github.com/repos/pjsinco/d3-book/commits/93b6b884845b7a3296a5ff24940eac8d8ee1a107"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2014-02-15T23:56:06Z"
+  },
+  {
+    "id": "1982022420",
+    "type": "PushEvent",
+    "actor": {
+      "id": 232094,
+      "login": "pjsinco",
+      "gravatar_id": "78101ad7460d8b92ef488c689df05cc7",
+      "url": "https://api.github.com/users/pjsinco",
+      "avatar_url": "https://gravatar.com/avatar/78101ad7460d8b92ef488c689df05cc7?d=https%3A%2F%2Fa248.e.akamai.net%2Fassets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&r=x"
+    },
+    "repo": {
+      "id": 16501909,
+      "name": "pjsinco/d3-book",
+      "url": "https://api.github.com/repos/pjsinco/d3-book"
+    },
+    "payload": {
+      "push_id": 309603816,
+      "size": 2,
+      "distinct_size": 2,
+      "ref": "refs/heads/master",
+      "head": "a093b63a0121d78d88ff12f10776b0f9f5497470",
+      "before": "d52ae1e4fb7587376480ca0c38acb7a666a6ccf8",
+      "commits": [
+        {
+          "sha": "93556965a29f40246dea99127869751f7b1ac018",
+          "author": {
+            "email": "psinco@gmail.com",
+            "name": "Patrick Sinco"
+          },
+          "message": "makes minor style change",
+          "distinct": true,
+          "url": "https://api.github.com/repos/pjsinco/d3-book/commits/93556965a29f40246dea99127869751f7b1ac018"
+        },
+        {
+          "sha": "a093b63a0121d78d88ff12f10776b0f9f5497470",
+          "author": {
+            "email": "psinco@gmail.com",
+            "name": "Patrick Sinco"
+          },
+          "message": "gets into chapter 9",
+          "distinct": true,
+          "url": "https://api.github.com/repos/pjsinco/d3-book/commits/a093b63a0121d78d88ff12f10776b0f9f5497470"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2014-02-15T23:55:39Z"
+  },
+  {
+    "id": "1975321388",
+    "type": "PushEvent",
+    "actor": {
+      "id": 232094,
+      "login": "pjsinco",
+      "gravatar_id": "78101ad7460d8b92ef488c689df05cc7",
+      "url": "https://api.github.com/users/pjsinco",
+      "avatar_url": "https://gravatar.com/avatar/78101ad7460d8b92ef488c689df05cc7?d=https%3A%2F%2Fa248.e.akamai.net%2Fassets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&r=x"
+    },
+    "repo": {
+      "id": 15806764,
+      "name": "pjsinco/work.10rempatrick.com",
+      "url": "https://api.github.com/repos/pjsinco/work.10rempatrick.com"
+    },
+    "payload": {
+      "push_id": 306249258,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "a443cbd7de92351f5bafbd6ed35e9bdd11a5abae",
+      "before": "7a0f47a57cbdaaec4670a19310f614cae7c45761",
+      "commits": [
+        {
+          "sha": "a443cbd7de92351f5bafbd6ed35e9bdd11a5abae",
+          "author": {
+            "email": "psinco@osteopathic.org",
+            "name": "TheDOmagazine"
+          },
+          "message": "adds margin-botton: 10px to h1 in main body; adds slashes to <img> elements",
+          "distinct": true,
+          "url": "https://api.github.com/repos/pjsinco/work.10rempatrick.com/commits/a443cbd7de92351f5bafbd6ed35e9bdd11a5abae"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2014-02-10T22:21:21Z"
+  },
+  {
+    "id": "1973357548",
+    "type": "PushEvent",
+    "actor": {
+      "id": 232094,
+      "login": "pjsinco",
+      "gravatar_id": "78101ad7460d8b92ef488c689df05cc7",
+      "url": "https://api.github.com/users/pjsinco",
+      "avatar_url": "https://gravatar.com/avatar/78101ad7460d8b92ef488c689df05cc7?d=https%3A%2F%2Fa248.e.akamai.net%2Fassets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&r=x"
+    },
+    "repo": {
+      "id": 16501909,
+      "name": "pjsinco/d3-book",
+      "url": "https://api.github.com/repos/pjsinco/d3-book"
+    },
+    "payload": {
+      "push_id": 305224984,
+      "size": 3,
+      "distinct_size": 3,
+      "ref": "refs/heads/master",
+      "head": "d52ae1e4fb7587376480ca0c38acb7a666a6ccf8",
+      "before": "501e3f919d3a7db81af0034d69daed599bafeda6",
+      "commits": [
+        {
+          "sha": "7a57c2a9a4e7346292850b0b4afe03321591cadd",
+          "author": {
+            "email": "psinco@gmail.com",
+            "name": "Patrick Sinco"
+          },
+          "message": "works up examples from lab 2014-02-07",
+          "distinct": true,
+          "url": "https://api.github.com/repos/pjsinco/d3-book/commits/7a57c2a9a4e7346292850b0b4afe03321591cadd"
+        },
+        {
+          "sha": "6450e21096a345dee3897e7c6c6101472d3864b2",
+          "author": {
+            "email": "psinco@gmail.com",
+            "name": "Patrick Sinco"
+          },
+          "message": "finishes chapter 8",
+          "distinct": true,
+          "url": "https://api.github.com/repos/pjsinco/d3-book/commits/6450e21096a345dee3897e7c6c6101472d3864b2"
+        },
+        {
+          "sha": "d52ae1e4fb7587376480ca0c38acb7a666a6ccf8",
+          "author": {
+            "email": "psinco@gmail.com",
+            "name": "Patrick Sinco"
+          },
+          "message": "fixes merge conflicts",
+          "distinct": true,
+          "url": "https://api.github.com/repos/pjsinco/d3-book/commits/d52ae1e4fb7587376480ca0c38acb7a666a6ccf8"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2014-02-08T19:54:09Z"
+  },
+  {
+    "id": "1972828377",
+    "type": "PushEvent",
+    "actor": {
+      "id": 232094,
+      "login": "pjsinco",
+      "gravatar_id": "78101ad7460d8b92ef488c689df05cc7",
+      "url": "https://api.github.com/users/pjsinco",
+      "avatar_url": "https://gravatar.com/avatar/78101ad7460d8b92ef488c689df05cc7?d=https%3A%2F%2Fa248.e.akamai.net%2Fassets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&r=x"
+    },
+    "repo": {
+      "id": 16501909,
+      "name": "pjsinco/d3-book",
+      "url": "https://api.github.com/repos/pjsinco/d3-book"
+    },
+    "payload": {
+      "push_id": 304950424,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "501e3f919d3a7db81af0034d69daed599bafeda6",
+      "before": "43712dc0e286230ebfb1c2d11537fd52428667b3",
+      "commits": [
+        {
+          "sha": "501e3f919d3a7db81af0034d69daed599bafeda6",
+          "author": {
+            "email": "psinco@osteopathic.org",
+            "name": "TheDOmagazine"
+          },
+          "message": "finishes chapter 7; barely starts chapter 8",
+          "distinct": true,
+          "url": "https://api.github.com/repos/pjsinco/d3-book/commits/501e3f919d3a7db81af0034d69daed599bafeda6"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2014-02-07T22:58:38Z"
+  },
+  {
+    "id": "1971522514",
+    "type": "PushEvent",
+    "actor": {
+      "id": 232094,
+      "login": "pjsinco",
+      "gravatar_id": "78101ad7460d8b92ef488c689df05cc7",
+      "url": "https://api.github.com/users/pjsinco",
+      "avatar_url": "https://gravatar.com/avatar/78101ad7460d8b92ef488c689df05cc7?d=https%3A%2F%2Fa248.e.akamai.net%2Fassets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&r=x"
+    },
+    "repo": {
+      "id": 16501909,
+      "name": "pjsinco/d3-book",
+      "url": "https://api.github.com/repos/pjsinco/d3-book"
+    },
+    "payload": {
+      "push_id": 304312763,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "43712dc0e286230ebfb1c2d11537fd52428667b3",
+      "before": "cdbb4c18031b6249c371b295c204d11f20ca23a6",
+      "commits": [
+        {
+          "sha": "43712dc0e286230ebfb1c2d11537fd52428667b3",
+          "author": {
+            "email": "psinco@gmail.com",
+            "name": "Patrick Sinco"
+          },
+          "message": "works up through ch 7, p. 119",
+          "distinct": true,
+          "url": "https://api.github.com/repos/pjsinco/d3-book/commits/43712dc0e286230ebfb1c2d11537fd52428667b3"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2014-02-07T02:02:14Z"
+  },
+  {
+    "id": "1971161223",
+    "type": "PushEvent",
+    "actor": {
+      "id": 232094,
+      "login": "pjsinco",
+      "gravatar_id": "78101ad7460d8b92ef488c689df05cc7",
+      "url": "https://api.github.com/users/pjsinco",
+      "avatar_url": "https://gravatar.com/avatar/78101ad7460d8b92ef488c689df05cc7?d=https%3A%2F%2Fa248.e.akamai.net%2Fassets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&r=x"
+    },
+    "repo": {
+      "id": 16501909,
+      "name": "pjsinco/d3-book",
+      "url": "https://api.github.com/repos/pjsinco/d3-book"
+    },
+    "payload": {
+      "push_id": 304139580,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "cdbb4c18031b6249c371b295c204d11f20ca23a6",
+      "before": "ba07cb9b3a732f523c7fe16b1eb916001b2408b7",
+      "commits": [
+        {
+          "sha": "cdbb4c18031b6249c371b295c204d11f20ca23a6",
+          "author": {
+            "email": "psinco@osteopathic.org",
+            "name": "TheDOmagazine"
+          },
+          "message": "continues on chap 6; brings in master code examples from author",
+          "distinct": true,
+          "url": "https://api.github.com/repos/pjsinco/d3-book/commits/cdbb4c18031b6249c371b295c204d11f20ca23a6"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2014-02-06T21:01:05Z"
+  },
+  {
+    "id": "1970715587",
+    "type": "PushEvent",
+    "actor": {
+      "id": 232094,
+      "login": "pjsinco",
+      "gravatar_id": "78101ad7460d8b92ef488c689df05cc7",
+      "url": "https://api.github.com/users/pjsinco",
+      "avatar_url": "https://gravatar.com/avatar/78101ad7460d8b92ef488c689df05cc7?d=https%3A%2F%2Fa248.e.akamai.net%2Fassets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&r=x"
+    },
+    "repo": {
+      "id": 15806764,
+      "name": "pjsinco/work.10rempatrick.com",
+      "url": "https://api.github.com/repos/pjsinco/work.10rempatrick.com"
+    },
+    "payload": {
+      "push_id": 303920924,
+      "size": 2,
+      "distinct_size": 0,
+      "ref": "refs/heads/master",
+      "head": "7a0f47a57cbdaaec4670a19310f614cae7c45761",
+      "before": "26804b6e0b011dc9a11623901e989957e56336fa",
+      "commits": [
+        {
+          "sha": "b1bd290d4a4f26464a09a748c18c9d7ee5df24d7",
+          "author": {
+            "email": "psinco@osteopathic.org",
+            "name": "TheDOmagazine"
+          },
+          "message": "starts to build in signup form",
+          "distinct": false,
+          "url": "https://api.github.com/repos/pjsinco/work.10rempatrick.com/commits/b1bd290d4a4f26464a09a748c18c9d7ee5df24d7"
+        },
+        {
+          "sha": "7a0f47a57cbdaaec4670a19310f614cae7c45761",
+          "author": {
+            "email": "psinco@osteopathic.org",
+            "name": "TheDOmagazine"
+          },
+          "message": "starts to build up login page",
+          "distinct": false,
+          "url": "https://api.github.com/repos/pjsinco/work.10rempatrick.com/commits/7a0f47a57cbdaaec4670a19310f614cae7c45761"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2014-02-06T16:00:02Z"
+  },
+  {
+    "id": "1970715260",
+    "type": "PushEvent",
+    "actor": {
+      "id": 232094,
+      "login": "pjsinco",
+      "gravatar_id": "78101ad7460d8b92ef488c689df05cc7",
+      "url": "https://api.github.com/users/pjsinco",
+      "avatar_url": "https://gravatar.com/avatar/78101ad7460d8b92ef488c689df05cc7?d=https%3A%2F%2Fa248.e.akamai.net%2Fassets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&r=x"
+    },
+    "repo": {
+      "id": 15806764,
+      "name": "pjsinco/work.10rempatrick.com",
+      "url": "https://api.github.com/repos/pjsinco/work.10rempatrick.com"
+    },
+    "payload": {
+      "push_id": 303920753,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/signup",
+      "head": "7a0f47a57cbdaaec4670a19310f614cae7c45761",
+      "before": "b1bd290d4a4f26464a09a748c18c9d7ee5df24d7",
+      "commits": [
+        {
+          "sha": "7a0f47a57cbdaaec4670a19310f614cae7c45761",
+          "author": {
+            "email": "psinco@osteopathic.org",
+            "name": "TheDOmagazine"
+          },
+          "message": "starts to build up login page",
+          "distinct": true,
+          "url": "https://api.github.com/repos/pjsinco/work.10rempatrick.com/commits/7a0f47a57cbdaaec4670a19310f614cae7c45761"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2014-02-06T15:59:50Z"
+  },
+  {
+    "id": "1970632241",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 232094,
+      "login": "pjsinco",
+      "gravatar_id": "78101ad7460d8b92ef488c689df05cc7",
+      "url": "https://api.github.com/users/pjsinco",
+      "avatar_url": "https://gravatar.com/avatar/78101ad7460d8b92ef488c689df05cc7?d=https%3A%2F%2Fa248.e.akamai.net%2Fassets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&r=x"
+    },
+    "repo": {
+      "id": 15806764,
+      "name": "pjsinco/work.10rempatrick.com",
+      "url": "https://api.github.com/repos/pjsinco/work.10rempatrick.com"
+    },
+    "payload": {
+      "ref": "signup",
+      "ref_type": "branch",
+      "master_branch": "master",
+      "description": "Work stuff"
+    },
+    "public": true,
+    "created_at": "2014-02-06T15:05:58Z"
+  },
+  {
+    "id": "1970214430",
+    "type": "PushEvent",
+    "actor": {
+      "id": 232094,
+      "login": "pjsinco",
+      "gravatar_id": "78101ad7460d8b92ef488c689df05cc7",
+      "url": "https://api.github.com/users/pjsinco",
+      "avatar_url": "https://gravatar.com/avatar/78101ad7460d8b92ef488c689df05cc7?d=https%3A%2F%2Fa248.e.akamai.net%2Fassets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&r=x"
+    },
+    "repo": {
+      "id": 16501909,
+      "name": "pjsinco/d3-book",
+      "url": "https://api.github.com/repos/pjsinco/d3-book"
+    },
+    "payload": {
+      "push_id": 303663675,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "ba07cb9b3a732f523c7fe16b1eb916001b2408b7",
+      "before": "e611001b3c84f99e420ceb4ce5550e77f6b97ac4",
+      "commits": [
+        {
+          "sha": "ba07cb9b3a732f523c7fe16b1eb916001b2408b7",
+          "author": {
+            "email": "psinco@gmail.com",
+            "name": "Patrick Sinco"
+          },
+          "message": "works thru p. 102 (ch. 6)",
+          "distinct": true,
+          "url": "https://api.github.com/repos/pjsinco/d3-book/commits/ba07cb9b3a732f523c7fe16b1eb916001b2408b7"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2014-02-06T08:32:08Z"
+  },
+  {
+    "id": "1968411531",
+    "type": "PushEvent",
+    "actor": {
+      "id": 232094,
+      "login": "pjsinco",
+      "gravatar_id": "78101ad7460d8b92ef488c689df05cc7",
+      "url": "https://api.github.com/users/pjsinco",
+      "avatar_url": "https://gravatar.com/avatar/78101ad7460d8b92ef488c689df05cc7?d=https%3A%2F%2Fa248.e.akamai.net%2Fassets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&r=x"
+    },
+    "repo": {
+      "id": 16501909,
+      "name": "pjsinco/d3-book",
+      "url": "https://api.github.com/repos/pjsinco/d3-book"
+    },
+    "payload": {
+      "push_id": 302790785,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "e611001b3c84f99e420ceb4ce5550e77f6b97ac4",
+      "before": "21b6315e80ce61ecdba5d0f8f64a761851dff91c",
+      "commits": [
+        {
+          "sha": "e611001b3c84f99e420ceb4ce5550e77f6b97ac4",
+          "author": {
+            "email": "psinco@gmail.com",
+            "name": "Patrick Sinco"
+          },
+          "message": "works thru middle of chapter 6",
+          "distinct": true,
+          "url": "https://api.github.com/repos/pjsinco/d3-book/commits/e611001b3c84f99e420ceb4ce5550e77f6b97ac4"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2014-02-05T02:31:42Z"
+  },
+  {
+    "id": "1968127467",
+    "type": "PushEvent",
+    "actor": {
+      "id": 232094,
+      "login": "pjsinco",
+      "gravatar_id": "78101ad7460d8b92ef488c689df05cc7",
+      "url": "https://api.github.com/users/pjsinco",
+      "avatar_url": "https://gravatar.com/avatar/78101ad7460d8b92ef488c689df05cc7?d=https%3A%2F%2Fa248.e.akamai.net%2Fassets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&r=x"
+    },
+    "repo": {
+      "id": 16234292,
+      "name": "pjsinco/raphael-mapping-play",
+      "url": "https://api.github.com/repos/pjsinco/raphael-mapping-play"
+    },
+    "payload": {
+      "push_id": 302649893,
+      "size": 1,
+      "distinct_size": 0,
+      "ref": "refs/heads/master",
+      "head": "5161e11c9b59a10cdcb245cdde1bce82acda150e",
+      "before": "6c56ad2e4670c02d651e04cbcc5d630c9000a261",
+      "commits": [
+        {
+          "sha": "5161e11c9b59a10cdcb245cdde1bce82acda150e",
+          "author": {
+            "email": "psinco@osteopathic.org",
+            "name": "TheDOmagazine"
+          },
+          "message": "begins to change callout to tooltip",
+          "distinct": false,
+          "url": "https://api.github.com/repos/pjsinco/raphael-mapping-play/commits/5161e11c9b59a10cdcb245cdde1bce82acda150e"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2014-02-04T22:04:19Z"
+  },
+  {
+    "id": "1968127210",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 232094,
+      "login": "pjsinco",
+      "gravatar_id": "78101ad7460d8b92ef488c689df05cc7",
+      "url": "https://api.github.com/users/pjsinco",
+      "avatar_url": "https://gravatar.com/avatar/78101ad7460d8b92ef488c689df05cc7?d=https%3A%2F%2Fa248.e.akamai.net%2Fassets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&r=x"
+    },
+    "repo": {
+      "id": 16234292,
+      "name": "pjsinco/raphael-mapping-play",
+      "url": "https://api.github.com/repos/pjsinco/raphael-mapping-play"
+    },
+    "payload": {
+      "ref": "tooltip",
+      "ref_type": "branch",
+      "master_branch": "master",
+      "description": ""
+    },
+    "public": true,
+    "created_at": "2014-02-04T22:04:07Z"
+  },
+  {
+    "id": "1967947870",
+    "type": "PushEvent",
+    "actor": {
+      "id": 232094,
+      "login": "pjsinco",
+      "gravatar_id": "78101ad7460d8b92ef488c689df05cc7",
+      "url": "https://api.github.com/users/pjsinco",
+      "avatar_url": "https://gravatar.com/avatar/78101ad7460d8b92ef488c689df05cc7?d=https%3A%2F%2Fa248.e.akamai.net%2Fassets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&r=x"
+    },
+    "repo": {
+      "id": 16234292,
+      "name": "pjsinco/raphael-mapping-play",
+      "url": "https://api.github.com/repos/pjsinco/raphael-mapping-play"
+    },
+    "payload": {
+      "push_id": 302561265,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "6c56ad2e4670c02d651e04cbcc5d630c9000a261",
+      "before": "5bd383f9fa632eeac36d423ea5b10f4cee0ac5ff",
+      "commits": [
+        {
+          "sha": "6c56ad2e4670c02d651e04cbcc5d630c9000a261",
+          "author": {
+            "email": "psinco@osteopathic.org",
+            "name": "TheDOmagazine"
+          },
+          "message": "modifies states-data.js",
+          "distinct": true,
+          "url": "https://api.github.com/repos/pjsinco/raphael-mapping-play/commits/6c56ad2e4670c02d651e04cbcc5d630c9000a261"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2014-02-04T19:57:31Z"
+  },
+  {
+    "id": "1967764180",
+    "type": "PushEvent",
+    "actor": {
+      "id": 232094,
+      "login": "pjsinco",
+      "gravatar_id": "78101ad7460d8b92ef488c689df05cc7",
+      "url": "https://api.github.com/users/pjsinco",
+      "avatar_url": "https://gravatar.com/avatar/78101ad7460d8b92ef488c689df05cc7?d=https%3A%2F%2Fa248.e.akamai.net%2Fassets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&r=x"
+    },
+    "repo": {
+      "id": 16234292,
+      "name": "pjsinco/raphael-mapping-play",
+      "url": "https://api.github.com/repos/pjsinco/raphael-mapping-play"
+    },
+    "payload": {
+      "push_id": 302472127,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "5bd383f9fa632eeac36d423ea5b10f4cee0ac5ff",
+      "before": "95e5098f8aa2dab7f9f8f8f64862d50128f82d9a",
+      "commits": [
+        {
+          "sha": "5bd383f9fa632eeac36d423ea5b10f4cee0ac5ff",
+          "author": {
+            "email": "psinco@osteopathic.org",
+            "name": "TheDOmagazine"
+          },
+          "message": "refines format of callouts",
+          "distinct": true,
+          "url": "https://api.github.com/repos/pjsinco/raphael-mapping-play/commits/5bd383f9fa632eeac36d423ea5b10f4cee0ac5ff"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2014-02-04T17:48:46Z"
+  },
+  {
+    "id": "1967730519",
+    "type": "PushEvent",
+    "actor": {
+      "id": 232094,
+      "login": "pjsinco",
+      "gravatar_id": "78101ad7460d8b92ef488c689df05cc7",
+      "url": "https://api.github.com/users/pjsinco",
+      "avatar_url": "https://gravatar.com/avatar/78101ad7460d8b92ef488c689df05cc7?d=https%3A%2F%2Fa248.e.akamai.net%2Fassets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&r=x"
+    },
+    "repo": {
+      "id": 16234292,
+      "name": "pjsinco/raphael-mapping-play",
+      "url": "https://api.github.com/repos/pjsinco/raphael-mapping-play"
+    },
+    "payload": {
+      "push_id": 302455436,
+      "size": 4,
+      "distinct_size": 4,
+      "ref": "refs/heads/master",
+      "head": "95e5098f8aa2dab7f9f8f8f64862d50128f82d9a",
+      "before": "3500a7ce7afa361f092d9abd6bce01c2dcc6b003",
+      "commits": [
+        {
+          "sha": "5208ec49ac1cb979242ac76b31355623d44b881c",
+          "author": {
+            "email": "psinco@osteopathic.org",
+            "name": "TheDOmagazine"
+          },
+          "message": "makes minor change",
+          "distinct": true,
+          "url": "https://api.github.com/repos/pjsinco/raphael-mapping-play/commits/5208ec49ac1cb979242ac76b31355623d44b881c"
+        },
+        {
+          "sha": "15d0ae7ba6edb928f62e8edc34487c7ba8bec987",
+          "author": {
+            "email": "psinco@osteopathic.org",
+            "name": "TheDOmagazine"
+          },
+          "message": "changes format of callouts",
+          "distinct": true,
+          "url": "https://api.github.com/repos/pjsinco/raphael-mapping-play/commits/15d0ae7ba6edb928f62e8edc34487c7ba8bec987"
+        },
+        {
+          "sha": "1c3c0610fca305e46d694963c461e9d02e5ce527",
+          "author": {
+            "email": "psinco@osteopathic.org",
+            "name": "TheDOmagazine"
+          },
+          "message": "style change",
+          "distinct": true,
+          "url": "https://api.github.com/repos/pjsinco/raphael-mapping-play/commits/1c3c0610fca305e46d694963c461e9d02e5ce527"
+        },
+        {
+          "sha": "95e5098f8aa2dab7f9f8f8f64862d50128f82d9a",
+          "author": {
+            "email": "psinco@osteopathic.org",
+            "name": "TheDOmagazine"
+          },
+          "message": "Merge branch 'master' of https://github.com/pjsinco/raphael-mapping-play",
+          "distinct": true,
+          "url": "https://api.github.com/repos/pjsinco/raphael-mapping-play/commits/95e5098f8aa2dab7f9f8f8f64862d50128f82d9a"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2014-02-04T17:25:39Z"
+  },
+  {
+    "id": "1966952137",
+    "type": "PushEvent",
+    "actor": {
+      "id": 232094,
+      "login": "pjsinco",
+      "gravatar_id": "78101ad7460d8b92ef488c689df05cc7",
+      "url": "https://api.github.com/users/pjsinco",
+      "avatar_url": "https://gravatar.com/avatar/78101ad7460d8b92ef488c689df05cc7?d=https%3A%2F%2Fa248.e.akamai.net%2Fassets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&r=x"
+    },
+    "repo": {
+      "id": 16501909,
+      "name": "pjsinco/d3-book",
+      "url": "https://api.github.com/repos/pjsinco/d3-book"
+    },
+    "payload": {
+      "push_id": 302055030,
+      "size": 2,
+      "distinct_size": 2,
+      "ref": "refs/heads/master",
+      "head": "21b6315e80ce61ecdba5d0f8f64a761851dff91c",
+      "before": "fb8b74110299b3d00454b34932bcb5a65a9c6156",
+      "commits": [
+        {
+          "sha": "7f190925b46b1e124811f1f5b20aa097b97c2efb",
+          "author": {
+            "email": "psinco@gmail.com",
+            "name": "Patrick Sinco"
+          },
+          "message": "first commit",
+          "distinct": true,
+          "url": "https://api.github.com/repos/pjsinco/d3-book/commits/7f190925b46b1e124811f1f5b20aa097b97c2efb"
+        },
+        {
+          "sha": "21b6315e80ce61ecdba5d0f8f64a761851dff91c",
+          "author": {
+            "email": "psinco@gmail.com",
+            "name": "Patrick Sinco"
+          },
+          "message": "Merge branch 'master' of https://github.com/pjsinco/d3-book",
+          "distinct": true,
+          "url": "https://api.github.com/repos/pjsinco/d3-book/commits/21b6315e80ce61ecdba5d0f8f64a761851dff91c"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2014-02-04T04:09:19Z"
+  },
+  {
+    "id": "1966951257",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 232094,
+      "login": "pjsinco",
+      "gravatar_id": "78101ad7460d8b92ef488c689df05cc7",
+      "url": "https://api.github.com/users/pjsinco",
+      "avatar_url": "https://gravatar.com/avatar/78101ad7460d8b92ef488c689df05cc7?d=https%3A%2F%2Fa248.e.akamai.net%2Fassets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&r=x"
+    },
+    "repo": {
+      "id": 16501909,
+      "name": "pjsinco/d3-book",
+      "url": "https://api.github.com/repos/pjsinco/d3-book"
+    },
+    "payload": {
+      "ref": null,
+      "ref_type": "repository",
+      "master_branch": "master",
+      "description": ""
+    },
+    "public": true,
+    "created_at": "2014-02-04T04:07:45Z"
+  },
+  {
+    "id": "1964959306",
+    "type": "PushEvent",
+    "actor": {
+      "id": 232094,
+      "login": "pjsinco",
+      "gravatar_id": "78101ad7460d8b92ef488c689df05cc7",
+      "url": "https://api.github.com/users/pjsinco",
+      "avatar_url": "https://gravatar.com/avatar/78101ad7460d8b92ef488c689df05cc7?d=https%3A%2F%2Fa248.e.akamai.net%2Fassets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&r=x"
+    },
+    "repo": {
+      "id": 16397032,
+      "name": "pjsinco/d3-book",
+      "url": "https://api.github.com/repos/pjsinco/d3-book"
+    },
+    "payload": {
+      "push_id": 301045596,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "00d05ace18c306f994d3ea4185a8efee0f3e7e57",
+      "before": "cca4e46acf4339ab713178270dd3c29a7b251a27",
+      "commits": [
+        {
+          "sha": "00d05ace18c306f994d3ea4185a8efee0f3e7e57",
+          "author": {
+            "email": "psinco@gmail.com",
+            "name": "Patrick Sinco"
+          },
+          "message": "reinstalls core",
+          "distinct": true,
+          "url": "https://api.github.com/repos/pjsinco/d3-book/commits/00d05ace18c306f994d3ea4185a8efee0f3e7e57"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2014-02-02T00:12:57Z"
+  },
+  {
+    "id": "1964959007",
+    "type": "PushEvent",
+    "actor": {
+      "id": 232094,
+      "login": "pjsinco",
+      "gravatar_id": "78101ad7460d8b92ef488c689df05cc7",
+      "url": "https://api.github.com/users/pjsinco",
+      "avatar_url": "https://gravatar.com/avatar/78101ad7460d8b92ef488c689df05cc7?d=https%3A%2F%2Fa248.e.akamai.net%2Fassets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&r=x"
+    },
+    "repo": {
+      "id": 16397032,
+      "name": "pjsinco/d3-book",
+      "url": "https://api.github.com/repos/pjsinco/d3-book"
+    },
+    "payload": {
+      "push_id": 301045428,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "cca4e46acf4339ab713178270dd3c29a7b251a27",
+      "before": "13eba61d5f179b6be7ed927134c9995761f763b9",
+      "commits": [
+        {
+          "sha": "cca4e46acf4339ab713178270dd3c29a7b251a27",
+          "author": {
+            "email": "psinco@gmail.com",
+            "name": "Patrick Sinco"
+          },
+          "message": "deletes everything",
+          "distinct": true,
+          "url": "https://api.github.com/repos/pjsinco/d3-book/commits/cca4e46acf4339ab713178270dd3c29a7b251a27"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2014-02-02T00:12:07Z"
+  },
+  {
+    "id": "1964951251",
+    "type": "PushEvent",
+    "actor": {
+      "id": 232094,
+      "login": "pjsinco",
+      "gravatar_id": "78101ad7460d8b92ef488c689df05cc7",
+      "url": "https://api.github.com/users/pjsinco",
+      "avatar_url": "https://gravatar.com/avatar/78101ad7460d8b92ef488c689df05cc7?d=https%3A%2F%2Fa248.e.akamai.net%2Fassets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&r=x"
+    },
+    "repo": {
+      "id": 16234292,
+      "name": "pjsinco/raphael-mapping-play",
+      "url": "https://api.github.com/repos/pjsinco/raphael-mapping-play"
+    },
+    "payload": {
+      "push_id": 301041253,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "3500a7ce7afa361f092d9abd6bce01c2dcc6b003",
+      "before": "1d3bee5983503bf51d8ad236bd5cb337913f2865",
+      "commits": [
+        {
+          "sha": "3500a7ce7afa361f092d9abd6bce01c2dcc6b003",
+          "author": {
+            "email": "psinco@gmail.com",
+            "name": "Patrick Sinco"
+          },
+          "message": "removes a console.log() in map_index.js",
+          "distinct": true,
+          "url": "https://api.github.com/repos/pjsinco/raphael-mapping-play/commits/3500a7ce7afa361f092d9abd6bce01c2dcc6b003"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2014-02-01T23:49:54Z"
+  },
+  {
+    "id": "1964839893",
+    "type": "PushEvent",
+    "actor": {
+      "id": 232094,
+      "login": "pjsinco",
+      "gravatar_id": "78101ad7460d8b92ef488c689df05cc7",
+      "url": "https://api.github.com/users/pjsinco",
+      "avatar_url": "https://gravatar.com/avatar/78101ad7460d8b92ef488c689df05cc7?d=https%3A%2F%2Fa248.e.akamai.net%2Fassets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&r=x"
+    },
+    "repo": {
+      "id": 16234292,
+      "name": "pjsinco/raphael-mapping-play",
+      "url": "https://api.github.com/repos/pjsinco/raphael-mapping-play"
+    },
+    "payload": {
+      "push_id": 300980407,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "1d3bee5983503bf51d8ad236bd5cb337913f2865",
+      "before": "0f33531f3810255b4e2186ff4699a3a3b856473c",
+      "commits": [
+        {
+          "sha": "1d3bee5983503bf51d8ad236bd5cb337913f2865",
+          "author": {
+            "email": "psinco@osteopathic.org",
+            "name": "TheDOmagazine"
+          },
+          "message": "adds files from wordpress version of map_index",
+          "distinct": true,
+          "url": "https://api.github.com/repos/pjsinco/raphael-mapping-play/commits/1d3bee5983503bf51d8ad236bd5cb337913f2865"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2014-02-01T19:08:10Z"
+  },
+  {
+    "id": "1964819897",
+    "type": "PushEvent",
+    "actor": {
+      "id": 232094,
+      "login": "pjsinco",
+      "gravatar_id": "78101ad7460d8b92ef488c689df05cc7",
+      "url": "https://api.github.com/users/pjsinco",
+      "avatar_url": "https://gravatar.com/avatar/78101ad7460d8b92ef488c689df05cc7?d=https%3A%2F%2Fa248.e.akamai.net%2Fassets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&r=x"
+    },
+    "repo": {
+      "id": 16234292,
+      "name": "pjsinco/raphael-mapping-play",
+      "url": "https://api.github.com/repos/pjsinco/raphael-mapping-play"
+    },
+    "payload": {
+      "push_id": 300969654,
+      "size": 3,
+      "distinct_size": 2,
+      "ref": "refs/heads/master",
+      "head": "0f33531f3810255b4e2186ff4699a3a3b856473c",
+      "before": "d5d7a97f7aa7841610762f91b9a0e8eb8c360df2",
+      "commits": [
+        {
+          "sha": "5c5398b7dc14d47490a4772bfbfc18bd71376914",
+          "author": {
+            "email": "psinco@gmail.com",
+            "name": "Patrick Sinco"
+          },
+          "message": "begins work in chap-6 of Raphael oreilly book",
+          "distinct": false,
+          "url": "https://api.github.com/repos/pjsinco/raphael-mapping-play/commits/5c5398b7dc14d47490a4772bfbfc18bd71376914"
+        },
+        {
+          "sha": "62f0f9ab01fb2ed2361fe21951ec45194bb074aa",
+          "author": {
+            "email": "psinco@gmail.com",
+            "name": "Patrick Sinco"
+          },
+          "message": "Merge branch 'master' of https://github.com/pjsinco/raphael-mapping-play",
+          "distinct": true,
+          "url": "https://api.github.com/repos/pjsinco/raphael-mapping-play/commits/62f0f9ab01fb2ed2361fe21951ec45194bb074aa"
+        },
+        {
+          "sha": "0f33531f3810255b4e2186ff4699a3a3b856473c",
+          "author": {
+            "email": "psinco@gmail.com",
+            "name": "Patrick Sinco"
+          },
+          "message": "scales down map to fit 530px, colors one-year states",
+          "distinct": true,
+          "url": "https://api.github.com/repos/pjsinco/raphael-mapping-play/commits/0f33531f3810255b4e2186ff4699a3a3b856473c"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2014-02-01T18:20:50Z"
+  }
+]
