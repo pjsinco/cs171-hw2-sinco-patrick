@@ -14,9 +14,9 @@ We would like to hear what you found engaging and measure the difficulty — you
 
 ### Warm up questions
 
-* Refresh your GitHub skills by lookuing at [Lab 1](https://github.com/CS171/lab1/).
+* Refresh your GitHub skills by looking at [Lab 1](https://github.com/CS171/lab1/).
 * If you're not familiar, review [graph data structures](http://en.wikipedia.org/wiki/Graph_(abstract_data_type)) and its various [design variations](http://reference.wolfram.com/mathematica/guide/GraphsAndNetworks.html) as well as the lecture held on Feb. 14.
-* Read the D3 chapters from [Scott Muray's book](http://chimera.labs.oreilly.com/books/1230000000345/index.html).
+* Read the D3 chapters from [Scott Murray's book](http://chimera.labs.oreilly.com/books/1230000000345/index.html).
 
 ## Problem 1: Understanding GitHub Data 
 *Answer the questions in a file [problem_1_answers.md](problem_1_answers.md).*
@@ -26,7 +26,7 @@ As you may already know, GitHub tracks two types of data: the underlying Git rev
 GitHub provides two ways to access both revision and social data:
 
 * The GitHub website, containing accessible information for use by humans. 
-* The GitHub API with raw data, for structured access by machines trhough programming languages.
+* The GitHub API with raw data, for structured access by machines through programming languages.
 
 Note that not *all* social data are shared by GitHub, mostly for privacy reasons.
 
@@ -83,7 +83,7 @@ The GitHub website provides a user-friendly way to look at the data. On GitHub, 
 
 <img src="img/user_dashboard.png" width="600" style="display: block; margin-left:auto; margin-right:auto;"/>
 
-Open a Github profile and use your browser's developer tools to locate the `div` with the id of `contributions-calendar`. Its first child div has a `data-url` attribute, which points to the raw data used by the visualization. It is a univariate time series and below is a sample of the data:
+Open a Github profile and use your browser's developer tools to locate the `div` with the `id` of `contributions-calendar`. Its first child `div` has a `data-url` attribute, which points to the raw data used by the visualization. It is a univariate time series and below is a sample of the data:
 
 > [["2013/02/03",0],["2013/02/04",0],["2013/02/05",0],["2013/02/06",0],["2013/02/07",0],["2013/02/08",0],["2013/02/09",0],["2013/02/10",0]
  
@@ -120,7 +120,7 @@ Here is a screen capture of the Network Graph Visualizer:
 Looking at the network graph, answer the same questions as above, plus:
 
 * What is the role of interaction for this visualization? Would a static graph have been sufficient?
-* What happens if many new developers suddenly join the project and push commits for the first time? How would you to preserve the graph's readability in such a situation?
+* What happens if many new developers suddenly join the project and push commits for the first time? How would you preserve the graph's readability in such a situation?
 
 ## Problem 2: Graph Visualization
 *Use the file [simple_graph.html](simple_graph.html) as a template for your code. Your resulting code after completing the problems should be put in a new file called simple_graph_answer.html*
@@ -154,11 +154,13 @@ We provided other layout and visual encoding functions (see [this gist](http://b
 
 Let's re-construct the GitHub Network Graph Visualizer using [simple_graph.html](simple_graph.html) as follows:
 
-1. Use `d3.json` to fetch commit data ([example](https://api.github.com/repos/caleydo/caleydo/commits), see [documentation](http://developer.github.com/v3/repos/commits/)) to use as input dataset to the graph. Use the repository of your choice.
+0. Choose any repository, as long as it meets the following  three conditions: (1) it contains commits from at least two users and has at least two branches, (2) it contains at least 30 commits from different users and branches, and (3) it is public. Because querying the API may result in partial data (e.g., not all commits are visible) it is perfectly fine if there are missing nodes and connections. In general, the diversity of the commits is more important than the quantity. For this problem you may only use a subset of all the commits, between 30 and 100 commits (but you can select more if you want).
 
-2. Populate the provided graph data structure (`{nodes:[], links:[]}`) with commit data. Each node represents a commit with a unique id, each link points to the repositories previous version. Add all metadata of a commit to the node. Note that some attributes are keywords reserved for the layout function (e.g., `x` and `y`) and you can't use them as variable names for metadata.
+1. Use `d3.json` to fetch commit data ([example](https://api.github.com/repos/caleydo/caleydo/commits), see [documentation](http://developer.github.com/v3/repos/commits/)) to use as input dataset to the graph. You can [find all the branches](https://api.github.com/repos/mbostock/d3/branches) of a repository, or you can directly [query the commits by branch](https://api.github.com/repos/mbostock/d3/commits?per_page=100&sha=adopt) using the URL, as demonstrated in the linked examples. If you experience delays or calls limits download the commits and use them as an offline json file. You may have to call the API serveral times, so you will have to make sure that you create the visualization only when all the data has been retrieved. [Here is a discussion on how to do that](https://groups.google.com/forum/#!msg/d3-js/3Y9VHkOOdCM/YnmOPopWUxQJ). For problem 2 you do not need to incude forks, but you may use them if you want to.
 
-3. The GitHub Network Graph Visualizer layout is a linear layout. Extend the provided D3 linear layout with two scales to display commits on the axis. The first scale should be index-based and use equal intervals between nodes. The second scale should use [time scales](https://github.com/mbostock/d3/wiki/Time-Scales), where the position reflects absolute time. Add a radio button and labels to switch from one to another.
+2. Populate the provided graph data structure (`{nodes:[], links:[]}`) with commit data. Each node represents a commit with a unique id, each link points to the `parents` which is an attribute of the commit. Note there may not be parents or there can be multiple (e.g., if the commit is a merge of multiple branches). Add all metadata of a commit to the node. Be careful: some attributes are keywords reserved for the layout function (e.g., `x` and `y`) and you can't use them as variable names for metadata.
+
+3. The GitHub Network Graph Visualizer layout is a linear layout. Extend the provided linear layout with two scales to display commits on the axis. The first scale should be index-based and use equal intervals between nodes. The second scale should use [time scales](https://github.com/mbostock/d3/wiki/Time-Scales), where the position reflects absolute time. Add a radio button and labels to switch from one to another.
 
 4. Add SVG markers to show the link direction ([example](http://bl.ocks.org/d3noob/5155181)) and add labels for branches.
 
@@ -206,7 +208,7 @@ Given your previous design critiques, your experience with the previous graph vi
 
 ### Sketch an alternative to the GitHub Network Graph Visualizer
 
-Drawing on your observations from graphing different types of GitHub networks in the previous part, and from the reading, sketch an alternate design for the Github Network graph. It should use the same data and support at least the same tasks. You are free to use any layout.
+Drawing on your observations from graphing different types of GitHub networks in the previous part, and from the reading, sketch an alternate design for the Github Network graph. Your work should rely on the same source data (i.e. commit history), but be creative — the focus of your visualization is up to you. You are, for example, welcome to aggregate nodes or use additional Github data.
 
 Attach to this homework a picture/scan of your sketch, as well as a paragraph explaining the design decisions you made and how it addresses the limits of the GitHub Network Graph Visualizer you previously identified.
 
