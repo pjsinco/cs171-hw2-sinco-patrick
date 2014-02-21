@@ -1,0 +1,14 @@
+svg .link {
+  stroke: gray;
+  stroke-width: 1.5px;
+}
+
+svg .node {
+  fill: #66cc66;
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+svg .node:hover {
+  fill: red;
+}
