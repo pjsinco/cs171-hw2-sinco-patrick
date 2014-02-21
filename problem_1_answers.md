@@ -58,3 +58,12 @@ ADDITION AND DELETION DETAILS
 *curl https://api.github.com/repos/ireapps/first-news-app/stats/code_frequency*
 
 3. Many updates in a short period of time would lead to problems with the app being up-to-the-minute accurate. I would authenticate the app.
+
+**Network graph**
+
+**Audience:** Someone who is very familiar with how Git works. Someone who is overseeing the repo. Someone who needs to resolve conflicts in changes to the repo.
+
+**Data used:**
+List of commits on the repo, which includes the commit's SHA, who made the commit, when, branch name, commit message, committer's URL and avatar URL. *curl https://api.github.com/repos/propublica/guides/commits*
+
+
