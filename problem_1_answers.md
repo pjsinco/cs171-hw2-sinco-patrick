@@ -57,7 +57,7 @@ CONTRIBUTOR DETAILS
 ADDITION AND DELETION DETAILS
 *curl https://api.github.com/repos/ireapps/first-news-app/stats/code_frequency*
 
-3. Many updates in a short period of time would lead to problems with the app being up-to-the-minute accurate. I would authenticate the app.
+Many updates in a short period of time would lead to problems with the app being up-to-the-minute accurate. I would authenticate the app.
 
 **Network graph**
 
@@ -66,4 +66,11 @@ ADDITION AND DELETION DETAILS
 **Data used:**
 List of commits on the repo, which includes the commit's SHA, who made the commit, when, branch name, commit message, committer's URL and avatar URL. *curl https://api.github.com/repos/propublica/guides/commits*
 
+**Many commits:**
+Many quick commits would create many nodes and edges for that user on that day. 
+
+**Role of interaction**
+The interaction is helpful in seeing what the change was in the commit and who made it. A static graph would be OK but not as useful. The interaction allows the commit details to be hidden until needed. A static graph that included those details would be cluttered. The interaction also provides an easy easy to diff the the before and after, as well get to teh contributor's Github page.
+
+**New developers suddenly join and push**
 
