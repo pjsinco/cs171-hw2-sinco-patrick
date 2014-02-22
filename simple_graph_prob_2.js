@@ -14,8 +14,8 @@ var graph =
   links:[]
 };
 
-//var nb_nodes = 100;
-//var nb_cat = 10;
+var nb_nodes = 100;
+var nb_cat = 10;
 
 d3.json('misc/guides-commits-master.json', function(jsonMaster) 
 {
@@ -25,6 +25,7 @@ d3.json('misc/guides-commits-master.json', function(jsonMaster)
     {
       for (var i = 0; i < jsonMaster.length; i++) {
         graph.nodes.push(jsonMaster[i].commit);
+        //console.log(jsonMaster[i].commit);
         //graph.nodes.push(jsonMaster[i].sha);
       }
 
@@ -40,29 +41,44 @@ d3.json('misc/guides-commits-master.json', function(jsonMaster)
 
       for (var i = 0; i < jsonMaster.length; i++) {
         for (var j = 0; j < jsonMaster[i].parents.length; j++) {
-          //console.log(jsonMaster[i].parents[j].sha);
-          graph.links.push({
-            'source': jsonMaster[i].commit,
-            'target': jsonMaster[i].parents[j].sha
-          })
+          //var sourceIndex;
+          var parentSha = jsonMaster[i].parents[j].sha;
+          //console.log('parentSha: ', parentSha);
+          //console.log(graph.nodes.length);
+          for (var k = 0; k < graph.nodes.length; k++) {
+            //console.log(graph.nodes[k].tree.sha);
+              console.log(graph.nodes[k].sha);
+              //console.log(parentSha);
+            if (graph.nodes[k].tree.url == parentSha) {
+              console.log('found a parent');
+            } else {
+              console.log('dind\'t find a parent');
+            }
+          }
+          //console.log(graph.nodes[i].url);
+          //console.log(jsonMaster[i].parents[j].html_url);
+          //graph.links.push({
+            //'source': jsonMaster[i].commit,
+            //'target': jsonMaster[i].parents[j].sha
+          //})
         } // end for j
       } // end for i
 
       for (var i = 0; i < jsonExcel.length; i++) {
         for (var j = 0; j < jsonExcel[i].parents.length; j++) {
-          graph.links.push({
-            'source': jsonExcel[i].commit,
-            'target': jsonExcel[i].parents[j].sha
-          })
+          //graph.links.push({
+            //'source': jsonExcel[i].commit,
+            //'target': jsonExcel[i].parents[j].sha
+          //})
         } // end for j
       } // end for i
 
       for (var i = 0; i < jsonSisi.length; i++) {
         for (var j = 0; j < jsonSisi[i].parents.length; j++) {
-          graph.links.push({
-            'source': jsonSisi[i].commit,
-            'target': jsonSisi[i].parents[j].sha
-          })
+          //graph.links.push({
+            //'source': jsonSisi[i].commit,
+            //'target': jsonSisi[i].parents[j].sha
+          //})
         } // end for j
       } // end for i
 
@@ -121,7 +137,7 @@ d3.json('misc/guides-commits-master.json', function(jsonMaster)
 
 
 
-      console.log(jsonMaster);
+      //console.log(jsonMaster);
 
 
 
