@@ -8,30 +8,67 @@ var svg = d3.select("body")
 
 var fill = d3.scale.category10();
 
+
 var graph = 
 {
   nodes:[], 
   links:[]
 };
 
-var nb_nodes = 100;
-var nb_cat = 10;
+//var nb_nodes = 100;
+//var nb_cat = 10;
 
-graph.nodes = d3.range(nb_nodes).map(function() {  
-  return { 
-    cat:Math.floor(nb_cat*Math.random()) 
-  }; 
-})
+d3.json('misc/guides-commits-master.json', function(jsonMaster) 
+{
+  d3.json('misc/guides-commits-newexcellimit.json', function(jsonExcel) 
+  {
+    d3.json('misc/guides-commits-sisi.json', function(jsonSisi) 
+    {
+      console.log(jsonMaster[12]);
+      for (var i = 0; i < jsonMaster.length; i++) {
+        graph.nodes.push(jsonMaster[i].sha);
+      }
 
-graph.nodes.map(function(d, i) {
-  graph.nodes.map(function(e, j) {
-    if(Math.random() > 0.99 && i != j)
-      graph.links.push({
-        "source": i, 
-        "target": j
-      });
-  });
-});
+      for (var i = 0; i < jsonExcel.length; i++) {
+        graph.nodes.push(jsonExcel[i].sha);
+      }
+
+      for (var i = 0; i < jsonSisi.length; i++) {
+        graph.nodes.push(jsonSisi[i].sha);
+      }
+
+
+    console.log(graph.nodes[13]);
+
+
+    }); // end jsonSis
+  }); // end jsonExcel
+}); // end jsonMaster
+
+
+  //console.log(graph.nodes);
+
+
+
+
+
+
+
+//graph.nodes = d3.range(nb_nodes).map(function() {  
+//  return { 
+//    cat:Math.floor(nb_cat*Math.random()) 
+//  }; 
+//})
+
+//graph.nodes.map(function(d, i) {
+//  graph.nodes.map(function(e, j) {
+//    if(Math.random() > 0.99 && i != j)
+//      graph.links.push({
+//        "source": i, 
+//        "target": j
+//      });
+//  });
+//});
 
 // Generate the force layout
 var force = d3.layout.force()

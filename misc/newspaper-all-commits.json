@@ -1,0 +1,2137 @@
+[
+  {
+    "sha": "f5b5cebcfef59c5983c976cd2f758020c5c5be4e",
+    "commit": {
+      "author": {
+        "name": "Lucas Ou-Yang",
+        "email": "lucasyangpersonal@gmail.com",
+        "date": "2014-02-07T05:46:31Z"
+      },
+      "committer": {
+        "name": "Lucas Ou-Yang",
+        "email": "lucasyangpersonal@gmail.com",
+        "date": "2014-02-07T05:46:31Z"
+      },
+      "message": "Merge pull request #35 from otemnov/original\n\nUse first image from article top_node",
+      "tree": {
+        "sha": "a4e9add7be4de7886a33a246b14ce0494d241b62",
+        "url": "https://api.github.com/repos/codelucas/newspaper/git/trees/a4e9add7be4de7886a33a246b14ce0494d241b62"
+      },
+      "url": "https://api.github.com/repos/codelucas/newspaper/git/commits/f5b5cebcfef59c5983c976cd2f758020c5c5be4e",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/codelucas/newspaper/commits/f5b5cebcfef59c5983c976cd2f758020c5c5be4e",
+    "html_url": "https://github.com/codelucas/newspaper/commit/f5b5cebcfef59c5983c976cd2f758020c5c5be4e",
+    "comments_url": "https://api.github.com/repos/codelucas/newspaper/commits/f5b5cebcfef59c5983c976cd2f758020c5c5be4e/comments",
+    "author": {
+      "login": "codelucas",
+      "id": 2288709,
+      "avatar_url": "https://gravatar.com/avatar/2cb346768fc8a144fb6f98d7b38a93cc?d=https%3A%2F%2Fidenticons.github.com%2F8f43b78709d1e6bc0c5bd4ea8acdd363.png&r=x",
+      "gravatar_id": "2cb346768fc8a144fb6f98d7b38a93cc",
+      "url": "https://api.github.com/users/codelucas",
+      "html_url": "https://github.com/codelucas",
+      "followers_url": "https://api.github.com/users/codelucas/followers",
+      "following_url": "https://api.github.com/users/codelucas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/codelucas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/codelucas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/codelucas/subscriptions",
+      "organizations_url": "https://api.github.com/users/codelucas/orgs",
+      "repos_url": "https://api.github.com/users/codelucas/repos",
+      "events_url": "https://api.github.com/users/codelucas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/codelucas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "codelucas",
+      "id": 2288709,
+      "avatar_url": "https://gravatar.com/avatar/2cb346768fc8a144fb6f98d7b38a93cc?d=https%3A%2F%2Fidenticons.github.com%2F8f43b78709d1e6bc0c5bd4ea8acdd363.png&r=x",
+      "gravatar_id": "2cb346768fc8a144fb6f98d7b38a93cc",
+      "url": "https://api.github.com/users/codelucas",
+      "html_url": "https://github.com/codelucas",
+      "followers_url": "https://api.github.com/users/codelucas/followers",
+      "following_url": "https://api.github.com/users/codelucas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/codelucas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/codelucas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/codelucas/subscriptions",
+      "organizations_url": "https://api.github.com/users/codelucas/orgs",
+      "repos_url": "https://api.github.com/users/codelucas/repos",
+      "events_url": "https://api.github.com/users/codelucas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/codelucas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c7fce705c635105103646f16f7a5b78bd5fe9c36",
+        "url": "https://api.github.com/repos/codelucas/newspaper/commits/c7fce705c635105103646f16f7a5b78bd5fe9c36",
+        "html_url": "https://github.com/codelucas/newspaper/commit/c7fce705c635105103646f16f7a5b78bd5fe9c36"
+      },
+      {
+        "sha": "d77c3a3434f207215bfc1bf082c4e72456deb908",
+        "url": "https://api.github.com/repos/codelucas/newspaper/commits/d77c3a3434f207215bfc1bf082c4e72456deb908",
+        "html_url": "https://github.com/codelucas/newspaper/commit/d77c3a3434f207215bfc1bf082c4e72456deb908"
+      }
+    ]
+  },
+  {
+    "sha": "d77c3a3434f207215bfc1bf082c4e72456deb908",
+    "commit": {
+      "author": {
+        "name": "Oleg Temnov",
+        "email": "otemnov@academixdirect.com",
+        "date": "2014-02-05T00:28:12Z"
+      },
+      "committer": {
+        "name": "Oleg Temnov",
+        "email": "otemnov@academixdirect.com",
+        "date": "2014-02-05T00:41:57Z"
+      },
+      "message": "Fix for stopwords - wrongly checks bytestring vs unicode set\nExample: http://top.rbc.ru/economics/04/02/2014/903127.shtml",
+      "tree": {
+        "sha": "a4e9add7be4de7886a33a246b14ce0494d241b62",
+        "url": "https://api.github.com/repos/codelucas/newspaper/git/trees/a4e9add7be4de7886a33a246b14ce0494d241b62"
+      },
+      "url": "https://api.github.com/repos/codelucas/newspaper/git/commits/d77c3a3434f207215bfc1bf082c4e72456deb908",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/codelucas/newspaper/commits/d77c3a3434f207215bfc1bf082c4e72456deb908",
+    "html_url": "https://github.com/codelucas/newspaper/commit/d77c3a3434f207215bfc1bf082c4e72456deb908",
+    "comments_url": "https://api.github.com/repos/codelucas/newspaper/commits/d77c3a3434f207215bfc1bf082c4e72456deb908/comments",
+    "author": {
+      "login": "otemnov",
+      "id": 799002,
+      "avatar_url": "https://gravatar.com/avatar/40b4dd726dc8620f38edd32bff0f75bf?d=https%3A%2F%2Fidenticons.github.com%2Ff366040f365941c372ba3b5a6fa887e7.png&r=x",
+      "gravatar_id": "40b4dd726dc8620f38edd32bff0f75bf",
+      "url": "https://api.github.com/users/otemnov",
+      "html_url": "https://github.com/otemnov",
+      "followers_url": "https://api.github.com/users/otemnov/followers",
+      "following_url": "https://api.github.com/users/otemnov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/otemnov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/otemnov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/otemnov/subscriptions",
+      "organizations_url": "https://api.github.com/users/otemnov/orgs",
+      "repos_url": "https://api.github.com/users/otemnov/repos",
+      "events_url": "https://api.github.com/users/otemnov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/otemnov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "otemnov",
+      "id": 799002,
+      "avatar_url": "https://gravatar.com/avatar/40b4dd726dc8620f38edd32bff0f75bf?d=https%3A%2F%2Fidenticons.github.com%2Ff366040f365941c372ba3b5a6fa887e7.png&r=x",
+      "gravatar_id": "40b4dd726dc8620f38edd32bff0f75bf",
+      "url": "https://api.github.com/users/otemnov",
+      "html_url": "https://github.com/otemnov",
+      "followers_url": "https://api.github.com/users/otemnov/followers",
+      "following_url": "https://api.github.com/users/otemnov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/otemnov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/otemnov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/otemnov/subscriptions",
+      "organizations_url": "https://api.github.com/users/otemnov/orgs",
+      "repos_url": "https://api.github.com/users/otemnov/repos",
+      "events_url": "https://api.github.com/users/otemnov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/otemnov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "b0ec588877fcbb5d97d1c46d3ac246613bdc9a7f",
+        "url": "https://api.github.com/repos/codelucas/newspaper/commits/b0ec588877fcbb5d97d1c46d3ac246613bdc9a7f",
+        "html_url": "https://github.com/codelucas/newspaper/commit/b0ec588877fcbb5d97d1c46d3ac246613bdc9a7f"
+      }
+    ]
+  },
+  {
+    "sha": "b0ec588877fcbb5d97d1c46d3ac246613bdc9a7f",
+    "commit": {
+      "author": {
+        "name": "Oleg Temnov",
+        "email": "otemnov@academixdirect.com",
+        "date": "2014-02-03T07:59:41Z"
+      },
+      "committer": {
+        "name": "Oleg Temnov",
+        "email": "otemnov@academixdirect.com",
+        "date": "2014-02-03T08:03:10Z"
+      },
+      "message": "Resolve relative image urls",
+      "tree": {
+        "sha": "8bc4ec42ec3882cbb174aacda7821cd43a32cf1e",
+        "url": "https://api.github.com/repos/codelucas/newspaper/git/trees/8bc4ec42ec3882cbb174aacda7821cd43a32cf1e"
+      },
+      "url": "https://api.github.com/repos/codelucas/newspaper/git/commits/b0ec588877fcbb5d97d1c46d3ac246613bdc9a7f",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/codelucas/newspaper/commits/b0ec588877fcbb5d97d1c46d3ac246613bdc9a7f",
+    "html_url": "https://github.com/codelucas/newspaper/commit/b0ec588877fcbb5d97d1c46d3ac246613bdc9a7f",
+    "comments_url": "https://api.github.com/repos/codelucas/newspaper/commits/b0ec588877fcbb5d97d1c46d3ac246613bdc9a7f/comments",
+    "author": {
+      "login": "otemnov",
+      "id": 799002,
+      "avatar_url": "https://gravatar.com/avatar/40b4dd726dc8620f38edd32bff0f75bf?d=https%3A%2F%2Fidenticons.github.com%2Ff366040f365941c372ba3b5a6fa887e7.png&r=x",
+      "gravatar_id": "40b4dd726dc8620f38edd32bff0f75bf",
+      "url": "https://api.github.com/users/otemnov",
+      "html_url": "https://github.com/otemnov",
+      "followers_url": "https://api.github.com/users/otemnov/followers",
+      "following_url": "https://api.github.com/users/otemnov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/otemnov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/otemnov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/otemnov/subscriptions",
+      "organizations_url": "https://api.github.com/users/otemnov/orgs",
+      "repos_url": "https://api.github.com/users/otemnov/repos",
+      "events_url": "https://api.github.com/users/otemnov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/otemnov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "otemnov",
+      "id": 799002,
+      "avatar_url": "https://gravatar.com/avatar/40b4dd726dc8620f38edd32bff0f75bf?d=https%3A%2F%2Fidenticons.github.com%2Ff366040f365941c372ba3b5a6fa887e7.png&r=x",
+      "gravatar_id": "40b4dd726dc8620f38edd32bff0f75bf",
+      "url": "https://api.github.com/users/otemnov",
+      "html_url": "https://github.com/otemnov",
+      "followers_url": "https://api.github.com/users/otemnov/followers",
+      "following_url": "https://api.github.com/users/otemnov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/otemnov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/otemnov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/otemnov/subscriptions",
+      "organizations_url": "https://api.github.com/users/otemnov/orgs",
+      "repos_url": "https://api.github.com/users/otemnov/repos",
+      "events_url": "https://api.github.com/users/otemnov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/otemnov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e278edf7042ae7fd4e780ae387f1cb196ffaf9a0",
+        "url": "https://api.github.com/repos/codelucas/newspaper/commits/e278edf7042ae7fd4e780ae387f1cb196ffaf9a0",
+        "html_url": "https://github.com/codelucas/newspaper/commit/e278edf7042ae7fd4e780ae387f1cb196ffaf9a0"
+      }
+    ]
+  },
+  {
+    "sha": "e278edf7042ae7fd4e780ae387f1cb196ffaf9a0",
+    "commit": {
+      "author": {
+        "name": "Oleg Temnov",
+        "email": "otemnov@academixdirect.com",
+        "date": "2014-02-03T07:38:51Z"
+      },
+      "committer": {
+        "name": "Oleg Temnov",
+        "email": "otemnov@academixdirect.com",
+        "date": "2014-02-03T08:03:10Z"
+      },
+      "message": "Include meta image url to images collection",
+      "tree": {
+        "sha": "686950669d00fb4502c77a672fa9bea9e4f06afc",
+        "url": "https://api.github.com/repos/codelucas/newspaper/git/trees/686950669d00fb4502c77a672fa9bea9e4f06afc"
+      },
+      "url": "https://api.github.com/repos/codelucas/newspaper/git/commits/e278edf7042ae7fd4e780ae387f1cb196ffaf9a0",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/codelucas/newspaper/commits/e278edf7042ae7fd4e780ae387f1cb196ffaf9a0",
+    "html_url": "https://github.com/codelucas/newspaper/commit/e278edf7042ae7fd4e780ae387f1cb196ffaf9a0",
+    "comments_url": "https://api.github.com/repos/codelucas/newspaper/commits/e278edf7042ae7fd4e780ae387f1cb196ffaf9a0/comments",
+    "author": {
+      "login": "otemnov",
+      "id": 799002,
+      "avatar_url": "https://gravatar.com/avatar/40b4dd726dc8620f38edd32bff0f75bf?d=https%3A%2F%2Fidenticons.github.com%2Ff366040f365941c372ba3b5a6fa887e7.png&r=x",
+      "gravatar_id": "40b4dd726dc8620f38edd32bff0f75bf",
+      "url": "https://api.github.com/users/otemnov",
+      "html_url": "https://github.com/otemnov",
+      "followers_url": "https://api.github.com/users/otemnov/followers",
+      "following_url": "https://api.github.com/users/otemnov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/otemnov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/otemnov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/otemnov/subscriptions",
+      "organizations_url": "https://api.github.com/users/otemnov/orgs",
+      "repos_url": "https://api.github.com/users/otemnov/repos",
+      "events_url": "https://api.github.com/users/otemnov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/otemnov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "otemnov",
+      "id": 799002,
+      "avatar_url": "https://gravatar.com/avatar/40b4dd726dc8620f38edd32bff0f75bf?d=https%3A%2F%2Fidenticons.github.com%2Ff366040f365941c372ba3b5a6fa887e7.png&r=x",
+      "gravatar_id": "40b4dd726dc8620f38edd32bff0f75bf",
+      "url": "https://api.github.com/users/otemnov",
+      "html_url": "https://github.com/otemnov",
+      "followers_url": "https://api.github.com/users/otemnov/followers",
+      "following_url": "https://api.github.com/users/otemnov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/otemnov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/otemnov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/otemnov/subscriptions",
+      "organizations_url": "https://api.github.com/users/otemnov/orgs",
+      "repos_url": "https://api.github.com/users/otemnov/repos",
+      "events_url": "https://api.github.com/users/otemnov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/otemnov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "1f134ac632a291e78f71327e4fee7184f1da72ad",
+        "url": "https://api.github.com/repos/codelucas/newspaper/commits/1f134ac632a291e78f71327e4fee7184f1da72ad",
+        "html_url": "https://github.com/codelucas/newspaper/commit/1f134ac632a291e78f71327e4fee7184f1da72ad"
+      }
+    ]
+  },
+  {
+    "sha": "1f134ac632a291e78f71327e4fee7184f1da72ad",
+    "commit": {
+      "author": {
+        "name": "Oleg Temnov",
+        "email": "otemnov@academixdirect.com",
+        "date": "2014-02-03T06:41:05Z"
+      },
+      "committer": {
+        "name": "Oleg Temnov",
+        "email": "otemnov@academixdirect.com",
+        "date": "2014-02-03T08:03:10Z"
+      },
+      "message": "Initialize images and top_mage",
+      "tree": {
+        "sha": "e29c0a8df2ab324b20270bf3053e9cab7ce8396b",
+        "url": "https://api.github.com/repos/codelucas/newspaper/git/trees/e29c0a8df2ab324b20270bf3053e9cab7ce8396b"
+      },
+      "url": "https://api.github.com/repos/codelucas/newspaper/git/commits/1f134ac632a291e78f71327e4fee7184f1da72ad",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/codelucas/newspaper/commits/1f134ac632a291e78f71327e4fee7184f1da72ad",
+    "html_url": "https://github.com/codelucas/newspaper/commit/1f134ac632a291e78f71327e4fee7184f1da72ad",
+    "comments_url": "https://api.github.com/repos/codelucas/newspaper/commits/1f134ac632a291e78f71327e4fee7184f1da72ad/comments",
+    "author": {
+      "login": "otemnov",
+      "id": 799002,
+      "avatar_url": "https://gravatar.com/avatar/40b4dd726dc8620f38edd32bff0f75bf?d=https%3A%2F%2Fidenticons.github.com%2Ff366040f365941c372ba3b5a6fa887e7.png&r=x",
+      "gravatar_id": "40b4dd726dc8620f38edd32bff0f75bf",
+      "url": "https://api.github.com/users/otemnov",
+      "html_url": "https://github.com/otemnov",
+      "followers_url": "https://api.github.com/users/otemnov/followers",
+      "following_url": "https://api.github.com/users/otemnov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/otemnov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/otemnov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/otemnov/subscriptions",
+      "organizations_url": "https://api.github.com/users/otemnov/orgs",
+      "repos_url": "https://api.github.com/users/otemnov/repos",
+      "events_url": "https://api.github.com/users/otemnov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/otemnov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "otemnov",
+      "id": 799002,
+      "avatar_url": "https://gravatar.com/avatar/40b4dd726dc8620f38edd32bff0f75bf?d=https%3A%2F%2Fidenticons.github.com%2Ff366040f365941c372ba3b5a6fa887e7.png&r=x",
+      "gravatar_id": "40b4dd726dc8620f38edd32bff0f75bf",
+      "url": "https://api.github.com/users/otemnov",
+      "html_url": "https://github.com/otemnov",
+      "followers_url": "https://api.github.com/users/otemnov/followers",
+      "following_url": "https://api.github.com/users/otemnov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/otemnov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/otemnov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/otemnov/subscriptions",
+      "organizations_url": "https://api.github.com/users/otemnov/orgs",
+      "repos_url": "https://api.github.com/users/otemnov/repos",
+      "events_url": "https://api.github.com/users/otemnov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/otemnov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "0997aeaa811a9351c68cf98616074ad8f5eabd44",
+        "url": "https://api.github.com/repos/codelucas/newspaper/commits/0997aeaa811a9351c68cf98616074ad8f5eabd44",
+        "html_url": "https://github.com/codelucas/newspaper/commit/0997aeaa811a9351c68cf98616074ad8f5eabd44"
+      }
+    ]
+  },
+  {
+    "sha": "0997aeaa811a9351c68cf98616074ad8f5eabd44",
+    "commit": {
+      "author": {
+        "name": "Oleg Temnov",
+        "email": "otemnov@academixdirect.com",
+        "date": "2014-02-02T19:06:32Z"
+      },
+      "committer": {
+        "name": "Oleg Temnov",
+        "email": "otemnov@academixdirect.com",
+        "date": "2014-02-03T05:41:41Z"
+      },
+      "message": "Check image requirements before set",
+      "tree": {
+        "sha": "8a635c1b5499f831a8b4c00f1de494eb107af6a3",
+        "url": "https://api.github.com/repos/codelucas/newspaper/git/trees/8a635c1b5499f831a8b4c00f1de494eb107af6a3"
+      },
+      "url": "https://api.github.com/repos/codelucas/newspaper/git/commits/0997aeaa811a9351c68cf98616074ad8f5eabd44",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/codelucas/newspaper/commits/0997aeaa811a9351c68cf98616074ad8f5eabd44",
+    "html_url": "https://github.com/codelucas/newspaper/commit/0997aeaa811a9351c68cf98616074ad8f5eabd44",
+    "comments_url": "https://api.github.com/repos/codelucas/newspaper/commits/0997aeaa811a9351c68cf98616074ad8f5eabd44/comments",
+    "author": {
+      "login": "otemnov",
+      "id": 799002,
+      "avatar_url": "https://gravatar.com/avatar/40b4dd726dc8620f38edd32bff0f75bf?d=https%3A%2F%2Fidenticons.github.com%2Ff366040f365941c372ba3b5a6fa887e7.png&r=x",
+      "gravatar_id": "40b4dd726dc8620f38edd32bff0f75bf",
+      "url": "https://api.github.com/users/otemnov",
+      "html_url": "https://github.com/otemnov",
+      "followers_url": "https://api.github.com/users/otemnov/followers",
+      "following_url": "https://api.github.com/users/otemnov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/otemnov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/otemnov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/otemnov/subscriptions",
+      "organizations_url": "https://api.github.com/users/otemnov/orgs",
+      "repos_url": "https://api.github.com/users/otemnov/repos",
+      "events_url": "https://api.github.com/users/otemnov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/otemnov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "otemnov",
+      "id": 799002,
+      "avatar_url": "https://gravatar.com/avatar/40b4dd726dc8620f38edd32bff0f75bf?d=https%3A%2F%2Fidenticons.github.com%2Ff366040f365941c372ba3b5a6fa887e7.png&r=x",
+      "gravatar_id": "40b4dd726dc8620f38edd32bff0f75bf",
+      "url": "https://api.github.com/users/otemnov",
+      "html_url": "https://github.com/otemnov",
+      "followers_url": "https://api.github.com/users/otemnov/followers",
+      "following_url": "https://api.github.com/users/otemnov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/otemnov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/otemnov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/otemnov/subscriptions",
+      "organizations_url": "https://api.github.com/users/otemnov/orgs",
+      "repos_url": "https://api.github.com/users/otemnov/repos",
+      "events_url": "https://api.github.com/users/otemnov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/otemnov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "6aa62d096c47ce80cb3c5fc82a1cc88c0b6ff7fc",
+        "url": "https://api.github.com/repos/codelucas/newspaper/commits/6aa62d096c47ce80cb3c5fc82a1cc88c0b6ff7fc",
+        "html_url": "https://github.com/codelucas/newspaper/commit/6aa62d096c47ce80cb3c5fc82a1cc88c0b6ff7fc"
+      }
+    ]
+  },
+  {
+    "sha": "6aa62d096c47ce80cb3c5fc82a1cc88c0b6ff7fc",
+    "commit": {
+      "author": {
+        "name": "Oleg Temnov",
+        "email": "otemnov@academixdirect.com",
+        "date": "2014-01-30T01:19:09Z"
+      },
+      "committer": {
+        "name": "Oleg Temnov",
+        "email": "otemnov@academixdirect.com",
+        "date": "2014-02-03T05:41:24Z"
+      },
+      "message": "Use first image from article top_node",
+      "tree": {
+        "sha": "cd5705c673737905bd3096c86bd2edf6b23eb9bd",
+        "url": "https://api.github.com/repos/codelucas/newspaper/git/trees/cd5705c673737905bd3096c86bd2edf6b23eb9bd"
+      },
+      "url": "https://api.github.com/repos/codelucas/newspaper/git/commits/6aa62d096c47ce80cb3c5fc82a1cc88c0b6ff7fc",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/codelucas/newspaper/commits/6aa62d096c47ce80cb3c5fc82a1cc88c0b6ff7fc",
+    "html_url": "https://github.com/codelucas/newspaper/commit/6aa62d096c47ce80cb3c5fc82a1cc88c0b6ff7fc",
+    "comments_url": "https://api.github.com/repos/codelucas/newspaper/commits/6aa62d096c47ce80cb3c5fc82a1cc88c0b6ff7fc/comments",
+    "author": {
+      "login": "otemnov",
+      "id": 799002,
+      "avatar_url": "https://gravatar.com/avatar/40b4dd726dc8620f38edd32bff0f75bf?d=https%3A%2F%2Fidenticons.github.com%2Ff366040f365941c372ba3b5a6fa887e7.png&r=x",
+      "gravatar_id": "40b4dd726dc8620f38edd32bff0f75bf",
+      "url": "https://api.github.com/users/otemnov",
+      "html_url": "https://github.com/otemnov",
+      "followers_url": "https://api.github.com/users/otemnov/followers",
+      "following_url": "https://api.github.com/users/otemnov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/otemnov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/otemnov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/otemnov/subscriptions",
+      "organizations_url": "https://api.github.com/users/otemnov/orgs",
+      "repos_url": "https://api.github.com/users/otemnov/repos",
+      "events_url": "https://api.github.com/users/otemnov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/otemnov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "otemnov",
+      "id": 799002,
+      "avatar_url": "https://gravatar.com/avatar/40b4dd726dc8620f38edd32bff0f75bf?d=https%3A%2F%2Fidenticons.github.com%2Ff366040f365941c372ba3b5a6fa887e7.png&r=x",
+      "gravatar_id": "40b4dd726dc8620f38edd32bff0f75bf",
+      "url": "https://api.github.com/users/otemnov",
+      "html_url": "https://github.com/otemnov",
+      "followers_url": "https://api.github.com/users/otemnov/followers",
+      "following_url": "https://api.github.com/users/otemnov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/otemnov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/otemnov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/otemnov/subscriptions",
+      "organizations_url": "https://api.github.com/users/otemnov/orgs",
+      "repos_url": "https://api.github.com/users/otemnov/repos",
+      "events_url": "https://api.github.com/users/otemnov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/otemnov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c7fce705c635105103646f16f7a5b78bd5fe9c36",
+        "url": "https://api.github.com/repos/codelucas/newspaper/commits/c7fce705c635105103646f16f7a5b78bd5fe9c36",
+        "html_url": "https://github.com/codelucas/newspaper/commit/c7fce705c635105103646f16f7a5b78bd5fe9c36"
+      }
+    ]
+  },
+  {
+    "sha": "c7fce705c635105103646f16f7a5b78bd5fe9c36",
+    "commit": {
+      "author": {
+        "name": "Lucas Ou-Yang",
+        "email": "lucasyangpersonal@gmail.com",
+        "date": "2014-02-02T22:10:34Z"
+      },
+      "committer": {
+        "name": "Lucas Ou-Yang",
+        "email": "lucasyangpersonal@gmail.com",
+        "date": "2014-02-02T22:10:34Z"
+      },
+      "message": "add new languages to readme",
+      "tree": {
+        "sha": "4a02f852781be050b56688f40c61cd939ffe75ef",
+        "url": "https://api.github.com/repos/codelucas/newspaper/git/trees/4a02f852781be050b56688f40c61cd939ffe75ef"
+      },
+      "url": "https://api.github.com/repos/codelucas/newspaper/git/commits/c7fce705c635105103646f16f7a5b78bd5fe9c36",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/codelucas/newspaper/commits/c7fce705c635105103646f16f7a5b78bd5fe9c36",
+    "html_url": "https://github.com/codelucas/newspaper/commit/c7fce705c635105103646f16f7a5b78bd5fe9c36",
+    "comments_url": "https://api.github.com/repos/codelucas/newspaper/commits/c7fce705c635105103646f16f7a5b78bd5fe9c36/comments",
+    "author": {
+      "login": "codelucas",
+      "id": 2288709,
+      "avatar_url": "https://gravatar.com/avatar/2cb346768fc8a144fb6f98d7b38a93cc?d=https%3A%2F%2Fidenticons.github.com%2F8f43b78709d1e6bc0c5bd4ea8acdd363.png&r=x",
+      "gravatar_id": "2cb346768fc8a144fb6f98d7b38a93cc",
+      "url": "https://api.github.com/users/codelucas",
+      "html_url": "https://github.com/codelucas",
+      "followers_url": "https://api.github.com/users/codelucas/followers",
+      "following_url": "https://api.github.com/users/codelucas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/codelucas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/codelucas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/codelucas/subscriptions",
+      "organizations_url": "https://api.github.com/users/codelucas/orgs",
+      "repos_url": "https://api.github.com/users/codelucas/repos",
+      "events_url": "https://api.github.com/users/codelucas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/codelucas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "codelucas",
+      "id": 2288709,
+      "avatar_url": "https://gravatar.com/avatar/2cb346768fc8a144fb6f98d7b38a93cc?d=https%3A%2F%2Fidenticons.github.com%2F8f43b78709d1e6bc0c5bd4ea8acdd363.png&r=x",
+      "gravatar_id": "2cb346768fc8a144fb6f98d7b38a93cc",
+      "url": "https://api.github.com/users/codelucas",
+      "html_url": "https://github.com/codelucas",
+      "followers_url": "https://api.github.com/users/codelucas/followers",
+      "following_url": "https://api.github.com/users/codelucas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/codelucas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/codelucas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/codelucas/subscriptions",
+      "organizations_url": "https://api.github.com/users/codelucas/orgs",
+      "repos_url": "https://api.github.com/users/codelucas/repos",
+      "events_url": "https://api.github.com/users/codelucas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/codelucas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "1eaa45217cade7214748fff2477beb1d87155fbe",
+        "url": "https://api.github.com/repos/codelucas/newspaper/commits/1eaa45217cade7214748fff2477beb1d87155fbe",
+        "html_url": "https://github.com/codelucas/newspaper/commit/1eaa45217cade7214748fff2477beb1d87155fbe"
+      }
+    ]
+  },
+  {
+    "sha": "1eaa45217cade7214748fff2477beb1d87155fbe",
+    "commit": {
+      "author": {
+        "name": "Lucas Ou-Yang",
+        "email": "lucasyangpersonal@gmail.com",
+        "date": "2014-02-02T22:07:07Z"
+      },
+      "committer": {
+        "name": "Lucas Ou-Yang",
+        "email": "lucasyangpersonal@gmail.com",
+        "date": "2014-02-02T22:07:07Z"
+      },
+      "message": "added languages into api, fixed bug in readme link",
+      "tree": {
+        "sha": "59f831959d6b5c0d2bf511f93dce4cb2876f75a3",
+        "url": "https://api.github.com/repos/codelucas/newspaper/git/trees/59f831959d6b5c0d2bf511f93dce4cb2876f75a3"
+      },
+      "url": "https://api.github.com/repos/codelucas/newspaper/git/commits/1eaa45217cade7214748fff2477beb1d87155fbe",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/codelucas/newspaper/commits/1eaa45217cade7214748fff2477beb1d87155fbe",
+    "html_url": "https://github.com/codelucas/newspaper/commit/1eaa45217cade7214748fff2477beb1d87155fbe",
+    "comments_url": "https://api.github.com/repos/codelucas/newspaper/commits/1eaa45217cade7214748fff2477beb1d87155fbe/comments",
+    "author": {
+      "login": "codelucas",
+      "id": 2288709,
+      "avatar_url": "https://gravatar.com/avatar/2cb346768fc8a144fb6f98d7b38a93cc?d=https%3A%2F%2Fidenticons.github.com%2F8f43b78709d1e6bc0c5bd4ea8acdd363.png&r=x",
+      "gravatar_id": "2cb346768fc8a144fb6f98d7b38a93cc",
+      "url": "https://api.github.com/users/codelucas",
+      "html_url": "https://github.com/codelucas",
+      "followers_url": "https://api.github.com/users/codelucas/followers",
+      "following_url": "https://api.github.com/users/codelucas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/codelucas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/codelucas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/codelucas/subscriptions",
+      "organizations_url": "https://api.github.com/users/codelucas/orgs",
+      "repos_url": "https://api.github.com/users/codelucas/repos",
+      "events_url": "https://api.github.com/users/codelucas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/codelucas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "codelucas",
+      "id": 2288709,
+      "avatar_url": "https://gravatar.com/avatar/2cb346768fc8a144fb6f98d7b38a93cc?d=https%3A%2F%2Fidenticons.github.com%2F8f43b78709d1e6bc0c5bd4ea8acdd363.png&r=x",
+      "gravatar_id": "2cb346768fc8a144fb6f98d7b38a93cc",
+      "url": "https://api.github.com/users/codelucas",
+      "html_url": "https://github.com/codelucas",
+      "followers_url": "https://api.github.com/users/codelucas/followers",
+      "following_url": "https://api.github.com/users/codelucas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/codelucas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/codelucas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/codelucas/subscriptions",
+      "organizations_url": "https://api.github.com/users/codelucas/orgs",
+      "repos_url": "https://api.github.com/users/codelucas/repos",
+      "events_url": "https://api.github.com/users/codelucas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/codelucas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "b6455ae64b96134335521841370996a0c627a8f8",
+        "url": "https://api.github.com/repos/codelucas/newspaper/commits/b6455ae64b96134335521841370996a0c627a8f8",
+        "html_url": "https://github.com/codelucas/newspaper/commit/b6455ae64b96134335521841370996a0c627a8f8"
+      }
+    ]
+  },
+  {
+    "sha": "b6455ae64b96134335521841370996a0c627a8f8",
+    "commit": {
+      "author": {
+        "name": "Lucas Ou-Yang",
+        "email": "lucasyangpersonal@gmail.com",
+        "date": "2014-02-02T22:04:23Z"
+      },
+      "committer": {
+        "name": "Lucas Ou-Yang",
+        "email": "lucasyangpersonal@gmail.com",
+        "date": "2014-02-02T22:04:23Z"
+      },
+      "message": "completly revamped docs, added 6 new languages",
+      "tree": {
+        "sha": "643e8a461d442b03e163aecc73bc9d48d7ab0e07",
+        "url": "https://api.github.com/repos/codelucas/newspaper/git/trees/643e8a461d442b03e163aecc73bc9d48d7ab0e07"
+      },
+      "url": "https://api.github.com/repos/codelucas/newspaper/git/commits/b6455ae64b96134335521841370996a0c627a8f8",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/codelucas/newspaper/commits/b6455ae64b96134335521841370996a0c627a8f8",
+    "html_url": "https://github.com/codelucas/newspaper/commit/b6455ae64b96134335521841370996a0c627a8f8",
+    "comments_url": "https://api.github.com/repos/codelucas/newspaper/commits/b6455ae64b96134335521841370996a0c627a8f8/comments",
+    "author": {
+      "login": "codelucas",
+      "id": 2288709,
+      "avatar_url": "https://gravatar.com/avatar/2cb346768fc8a144fb6f98d7b38a93cc?d=https%3A%2F%2Fidenticons.github.com%2F8f43b78709d1e6bc0c5bd4ea8acdd363.png&r=x",
+      "gravatar_id": "2cb346768fc8a144fb6f98d7b38a93cc",
+      "url": "https://api.github.com/users/codelucas",
+      "html_url": "https://github.com/codelucas",
+      "followers_url": "https://api.github.com/users/codelucas/followers",
+      "following_url": "https://api.github.com/users/codelucas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/codelucas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/codelucas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/codelucas/subscriptions",
+      "organizations_url": "https://api.github.com/users/codelucas/orgs",
+      "repos_url": "https://api.github.com/users/codelucas/repos",
+      "events_url": "https://api.github.com/users/codelucas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/codelucas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "codelucas",
+      "id": 2288709,
+      "avatar_url": "https://gravatar.com/avatar/2cb346768fc8a144fb6f98d7b38a93cc?d=https%3A%2F%2Fidenticons.github.com%2F8f43b78709d1e6bc0c5bd4ea8acdd363.png&r=x",
+      "gravatar_id": "2cb346768fc8a144fb6f98d7b38a93cc",
+      "url": "https://api.github.com/users/codelucas",
+      "html_url": "https://github.com/codelucas",
+      "followers_url": "https://api.github.com/users/codelucas/followers",
+      "following_url": "https://api.github.com/users/codelucas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/codelucas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/codelucas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/codelucas/subscriptions",
+      "organizations_url": "https://api.github.com/users/codelucas/orgs",
+      "repos_url": "https://api.github.com/users/codelucas/repos",
+      "events_url": "https://api.github.com/users/codelucas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/codelucas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "3219d39280b3505ca22740015632725a216d72fd",
+        "url": "https://api.github.com/repos/codelucas/newspaper/commits/3219d39280b3505ca22740015632725a216d72fd",
+        "html_url": "https://github.com/codelucas/newspaper/commit/3219d39280b3505ca22740015632725a216d72fd"
+      }
+    ]
+  },
+  {
+    "sha": "3219d39280b3505ca22740015632725a216d72fd",
+    "commit": {
+      "author": {
+        "name": "Lucas Ou-Yang",
+        "email": "lucasyangpersonal@gmail.com",
+        "date": "2014-02-02T21:05:49Z"
+      },
+      "committer": {
+        "name": "Lucas Ou-Yang",
+        "email": "lucasyangpersonal@gmail.com",
+        "date": "2014-02-02T21:05:49Z"
+      },
+      "message": "added arabic urls to testing suite, fixed broken link to boilerpipe",
+      "tree": {
+        "sha": "325f6cb4ffd3ff9eca802ab9015ad866e9ca84dc",
+        "url": "https://api.github.com/repos/codelucas/newspaper/git/trees/325f6cb4ffd3ff9eca802ab9015ad866e9ca84dc"
+      },
+      "url": "https://api.github.com/repos/codelucas/newspaper/git/commits/3219d39280b3505ca22740015632725a216d72fd",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/codelucas/newspaper/commits/3219d39280b3505ca22740015632725a216d72fd",
+    "html_url": "https://github.com/codelucas/newspaper/commit/3219d39280b3505ca22740015632725a216d72fd",
+    "comments_url": "https://api.github.com/repos/codelucas/newspaper/commits/3219d39280b3505ca22740015632725a216d72fd/comments",
+    "author": {
+      "login": "codelucas",
+      "id": 2288709,
+      "avatar_url": "https://gravatar.com/avatar/2cb346768fc8a144fb6f98d7b38a93cc?d=https%3A%2F%2Fidenticons.github.com%2F8f43b78709d1e6bc0c5bd4ea8acdd363.png&r=x",
+      "gravatar_id": "2cb346768fc8a144fb6f98d7b38a93cc",
+      "url": "https://api.github.com/users/codelucas",
+      "html_url": "https://github.com/codelucas",
+      "followers_url": "https://api.github.com/users/codelucas/followers",
+      "following_url": "https://api.github.com/users/codelucas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/codelucas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/codelucas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/codelucas/subscriptions",
+      "organizations_url": "https://api.github.com/users/codelucas/orgs",
+      "repos_url": "https://api.github.com/users/codelucas/repos",
+      "events_url": "https://api.github.com/users/codelucas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/codelucas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "codelucas",
+      "id": 2288709,
+      "avatar_url": "https://gravatar.com/avatar/2cb346768fc8a144fb6f98d7b38a93cc?d=https%3A%2F%2Fidenticons.github.com%2F8f43b78709d1e6bc0c5bd4ea8acdd363.png&r=x",
+      "gravatar_id": "2cb346768fc8a144fb6f98d7b38a93cc",
+      "url": "https://api.github.com/users/codelucas",
+      "html_url": "https://github.com/codelucas",
+      "followers_url": "https://api.github.com/users/codelucas/followers",
+      "following_url": "https://api.github.com/users/codelucas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/codelucas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/codelucas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/codelucas/subscriptions",
+      "organizations_url": "https://api.github.com/users/codelucas/orgs",
+      "repos_url": "https://api.github.com/users/codelucas/repos",
+      "events_url": "https://api.github.com/users/codelucas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/codelucas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "3eaa8d135e0ee6a47c0dd929e3f27fa800d1a091",
+        "url": "https://api.github.com/repos/codelucas/newspaper/commits/3eaa8d135e0ee6a47c0dd929e3f27fa800d1a091",
+        "html_url": "https://github.com/codelucas/newspaper/commit/3eaa8d135e0ee6a47c0dd929e3f27fa800d1a091"
+      }
+    ]
+  },
+  {
+    "sha": "3eaa8d135e0ee6a47c0dd929e3f27fa800d1a091",
+    "commit": {
+      "author": {
+        "name": "Lucas Ou-Yang",
+        "email": "lucasyangpersonal@gmail.com",
+        "date": "2014-02-02T21:04:35Z"
+      },
+      "committer": {
+        "name": "Lucas Ou-Yang",
+        "email": "lucasyangpersonal@gmail.com",
+        "date": "2014-02-02T21:04:35Z"
+      },
+      "message": "added many more file types to allowed in urls.py, added more related projects",
+      "tree": {
+        "sha": "0c50a596264482177effc40c53152e27434411dd",
+        "url": "https://api.github.com/repos/codelucas/newspaper/git/trees/0c50a596264482177effc40c53152e27434411dd"
+      },
+      "url": "https://api.github.com/repos/codelucas/newspaper/git/commits/3eaa8d135e0ee6a47c0dd929e3f27fa800d1a091",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/codelucas/newspaper/commits/3eaa8d135e0ee6a47c0dd929e3f27fa800d1a091",
+    "html_url": "https://github.com/codelucas/newspaper/commit/3eaa8d135e0ee6a47c0dd929e3f27fa800d1a091",
+    "comments_url": "https://api.github.com/repos/codelucas/newspaper/commits/3eaa8d135e0ee6a47c0dd929e3f27fa800d1a091/comments",
+    "author": {
+      "login": "codelucas",
+      "id": 2288709,
+      "avatar_url": "https://gravatar.com/avatar/2cb346768fc8a144fb6f98d7b38a93cc?d=https%3A%2F%2Fidenticons.github.com%2F8f43b78709d1e6bc0c5bd4ea8acdd363.png&r=x",
+      "gravatar_id": "2cb346768fc8a144fb6f98d7b38a93cc",
+      "url": "https://api.github.com/users/codelucas",
+      "html_url": "https://github.com/codelucas",
+      "followers_url": "https://api.github.com/users/codelucas/followers",
+      "following_url": "https://api.github.com/users/codelucas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/codelucas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/codelucas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/codelucas/subscriptions",
+      "organizations_url": "https://api.github.com/users/codelucas/orgs",
+      "repos_url": "https://api.github.com/users/codelucas/repos",
+      "events_url": "https://api.github.com/users/codelucas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/codelucas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "codelucas",
+      "id": 2288709,
+      "avatar_url": "https://gravatar.com/avatar/2cb346768fc8a144fb6f98d7b38a93cc?d=https%3A%2F%2Fidenticons.github.com%2F8f43b78709d1e6bc0c5bd4ea8acdd363.png&r=x",
+      "gravatar_id": "2cb346768fc8a144fb6f98d7b38a93cc",
+      "url": "https://api.github.com/users/codelucas",
+      "html_url": "https://github.com/codelucas",
+      "followers_url": "https://api.github.com/users/codelucas/followers",
+      "following_url": "https://api.github.com/users/codelucas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/codelucas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/codelucas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/codelucas/subscriptions",
+      "organizations_url": "https://api.github.com/users/codelucas/orgs",
+      "repos_url": "https://api.github.com/users/codelucas/repos",
+      "events_url": "https://api.github.com/users/codelucas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/codelucas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "491a91cbf367c2d739bde2e966ab9d3a81da38d7",
+        "url": "https://api.github.com/repos/codelucas/newspaper/commits/491a91cbf367c2d739bde2e966ab9d3a81da38d7",
+        "html_url": "https://github.com/codelucas/newspaper/commit/491a91cbf367c2d739bde2e966ab9d3a81da38d7"
+      }
+    ]
+  },
+  {
+    "sha": "491a91cbf367c2d739bde2e966ab9d3a81da38d7",
+    "commit": {
+      "author": {
+        "name": "Lucas Ou-Yang",
+        "email": "lucasyangpersonal@gmail.com",
+        "date": "2014-02-02T20:37:50Z"
+      },
+      "committer": {
+        "name": "Lucas Ou-Yang",
+        "email": "lucasyangpersonal@gmail.com",
+        "date": "2014-02-02T20:37:50Z"
+      },
+      "message": "Merge pull request #33 from cantino/master\n\nAdd a section with links to related projects",
+      "tree": {
+        "sha": "099582e8a2f4b4e1cb2b9d5719d57f2983b4a242",
+        "url": "https://api.github.com/repos/codelucas/newspaper/git/trees/099582e8a2f4b4e1cb2b9d5719d57f2983b4a242"
+      },
+      "url": "https://api.github.com/repos/codelucas/newspaper/git/commits/491a91cbf367c2d739bde2e966ab9d3a81da38d7",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/codelucas/newspaper/commits/491a91cbf367c2d739bde2e966ab9d3a81da38d7",
+    "html_url": "https://github.com/codelucas/newspaper/commit/491a91cbf367c2d739bde2e966ab9d3a81da38d7",
+    "comments_url": "https://api.github.com/repos/codelucas/newspaper/commits/491a91cbf367c2d739bde2e966ab9d3a81da38d7/comments",
+    "author": {
+      "login": "codelucas",
+      "id": 2288709,
+      "avatar_url": "https://gravatar.com/avatar/2cb346768fc8a144fb6f98d7b38a93cc?d=https%3A%2F%2Fidenticons.github.com%2F8f43b78709d1e6bc0c5bd4ea8acdd363.png&r=x",
+      "gravatar_id": "2cb346768fc8a144fb6f98d7b38a93cc",
+      "url": "https://api.github.com/users/codelucas",
+      "html_url": "https://github.com/codelucas",
+      "followers_url": "https://api.github.com/users/codelucas/followers",
+      "following_url": "https://api.github.com/users/codelucas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/codelucas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/codelucas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/codelucas/subscriptions",
+      "organizations_url": "https://api.github.com/users/codelucas/orgs",
+      "repos_url": "https://api.github.com/users/codelucas/repos",
+      "events_url": "https://api.github.com/users/codelucas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/codelucas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "codelucas",
+      "id": 2288709,
+      "avatar_url": "https://gravatar.com/avatar/2cb346768fc8a144fb6f98d7b38a93cc?d=https%3A%2F%2Fidenticons.github.com%2F8f43b78709d1e6bc0c5bd4ea8acdd363.png&r=x",
+      "gravatar_id": "2cb346768fc8a144fb6f98d7b38a93cc",
+      "url": "https://api.github.com/users/codelucas",
+      "html_url": "https://github.com/codelucas",
+      "followers_url": "https://api.github.com/users/codelucas/followers",
+      "following_url": "https://api.github.com/users/codelucas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/codelucas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/codelucas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/codelucas/subscriptions",
+      "organizations_url": "https://api.github.com/users/codelucas/orgs",
+      "repos_url": "https://api.github.com/users/codelucas/repos",
+      "events_url": "https://api.github.com/users/codelucas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/codelucas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f9aafc4a0c9dc1041160934e4f1237e9e20cdc1f",
+        "url": "https://api.github.com/repos/codelucas/newspaper/commits/f9aafc4a0c9dc1041160934e4f1237e9e20cdc1f",
+        "html_url": "https://github.com/codelucas/newspaper/commit/f9aafc4a0c9dc1041160934e4f1237e9e20cdc1f"
+      },
+      {
+        "sha": "4871668cde0ac6e1f65185deb4a4e4747aa21300",
+        "url": "https://api.github.com/repos/codelucas/newspaper/commits/4871668cde0ac6e1f65185deb4a4e4747aa21300",
+        "html_url": "https://github.com/codelucas/newspaper/commit/4871668cde0ac6e1f65185deb4a4e4747aa21300"
+      }
+    ]
+  },
+  {
+    "sha": "4871668cde0ac6e1f65185deb4a4e4747aa21300",
+    "commit": {
+      "author": {
+        "name": "Andrew Cantino",
+        "email": "cantino@users.noreply.github.com",
+        "date": "2014-02-01T23:05:31Z"
+      },
+      "committer": {
+        "name": "Andrew Cantino",
+        "email": "cantino@users.noreply.github.com",
+        "date": "2014-02-01T23:05:31Z"
+      },
+      "message": "Fix formatting",
+      "tree": {
+        "sha": "099582e8a2f4b4e1cb2b9d5719d57f2983b4a242",
+        "url": "https://api.github.com/repos/codelucas/newspaper/git/trees/099582e8a2f4b4e1cb2b9d5719d57f2983b4a242"
+      },
+      "url": "https://api.github.com/repos/codelucas/newspaper/git/commits/4871668cde0ac6e1f65185deb4a4e4747aa21300",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/codelucas/newspaper/commits/4871668cde0ac6e1f65185deb4a4e4747aa21300",
+    "html_url": "https://github.com/codelucas/newspaper/commit/4871668cde0ac6e1f65185deb4a4e4747aa21300",
+    "comments_url": "https://api.github.com/repos/codelucas/newspaper/commits/4871668cde0ac6e1f65185deb4a4e4747aa21300/comments",
+    "author": {
+      "login": "cantino",
+      "id": 83835,
+      "avatar_url": "https://gravatar.com/avatar/75f5a86eb0e12c8163c17e69b72874e8?d=https%3A%2F%2Fidenticons.github.com%2F4c4a49770905ec324c0ecba3854fb5d8.png&r=x",
+      "gravatar_id": "75f5a86eb0e12c8163c17e69b72874e8",
+      "url": "https://api.github.com/users/cantino",
+      "html_url": "https://github.com/cantino",
+      "followers_url": "https://api.github.com/users/cantino/followers",
+      "following_url": "https://api.github.com/users/cantino/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cantino/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cantino/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cantino/subscriptions",
+      "organizations_url": "https://api.github.com/users/cantino/orgs",
+      "repos_url": "https://api.github.com/users/cantino/repos",
+      "events_url": "https://api.github.com/users/cantino/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cantino/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "cantino",
+      "id": 83835,
+      "avatar_url": "https://gravatar.com/avatar/75f5a86eb0e12c8163c17e69b72874e8?d=https%3A%2F%2Fidenticons.github.com%2F4c4a49770905ec324c0ecba3854fb5d8.png&r=x",
+      "gravatar_id": "75f5a86eb0e12c8163c17e69b72874e8",
+      "url": "https://api.github.com/users/cantino",
+      "html_url": "https://github.com/cantino",
+      "followers_url": "https://api.github.com/users/cantino/followers",
+      "following_url": "https://api.github.com/users/cantino/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cantino/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cantino/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cantino/subscriptions",
+      "organizations_url": "https://api.github.com/users/cantino/orgs",
+      "repos_url": "https://api.github.com/users/cantino/repos",
+      "events_url": "https://api.github.com/users/cantino/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cantino/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "1e2ec8ef9b139a63ca9fe1a0bfbb5ba1e1933649",
+        "url": "https://api.github.com/repos/codelucas/newspaper/commits/1e2ec8ef9b139a63ca9fe1a0bfbb5ba1e1933649",
+        "html_url": "https://github.com/codelucas/newspaper/commit/1e2ec8ef9b139a63ca9fe1a0bfbb5ba1e1933649"
+      }
+    ]
+  },
+  {
+    "sha": "1e2ec8ef9b139a63ca9fe1a0bfbb5ba1e1933649",
+    "commit": {
+      "author": {
+        "name": "Andrew Cantino",
+        "email": "cantino@users.noreply.github.com",
+        "date": "2014-02-01T23:03:12Z"
+      },
+      "committer": {
+        "name": "Andrew Cantino",
+        "email": "cantino@users.noreply.github.com",
+        "date": "2014-02-01T23:03:12Z"
+      },
+      "message": "Add a section with references to related projects",
+      "tree": {
+        "sha": "12c52b8bb66fc2f3414263502a16ee8433ccc25f",
+        "url": "https://api.github.com/repos/codelucas/newspaper/git/trees/12c52b8bb66fc2f3414263502a16ee8433ccc25f"
+      },
+      "url": "https://api.github.com/repos/codelucas/newspaper/git/commits/1e2ec8ef9b139a63ca9fe1a0bfbb5ba1e1933649",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/codelucas/newspaper/commits/1e2ec8ef9b139a63ca9fe1a0bfbb5ba1e1933649",
+    "html_url": "https://github.com/codelucas/newspaper/commit/1e2ec8ef9b139a63ca9fe1a0bfbb5ba1e1933649",
+    "comments_url": "https://api.github.com/repos/codelucas/newspaper/commits/1e2ec8ef9b139a63ca9fe1a0bfbb5ba1e1933649/comments",
+    "author": {
+      "login": "cantino",
+      "id": 83835,
+      "avatar_url": "https://gravatar.com/avatar/75f5a86eb0e12c8163c17e69b72874e8?d=https%3A%2F%2Fidenticons.github.com%2F4c4a49770905ec324c0ecba3854fb5d8.png&r=x",
+      "gravatar_id": "75f5a86eb0e12c8163c17e69b72874e8",
+      "url": "https://api.github.com/users/cantino",
+      "html_url": "https://github.com/cantino",
+      "followers_url": "https://api.github.com/users/cantino/followers",
+      "following_url": "https://api.github.com/users/cantino/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cantino/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cantino/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cantino/subscriptions",
+      "organizations_url": "https://api.github.com/users/cantino/orgs",
+      "repos_url": "https://api.github.com/users/cantino/repos",
+      "events_url": "https://api.github.com/users/cantino/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cantino/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "cantino",
+      "id": 83835,
+      "avatar_url": "https://gravatar.com/avatar/75f5a86eb0e12c8163c17e69b72874e8?d=https%3A%2F%2Fidenticons.github.com%2F4c4a49770905ec324c0ecba3854fb5d8.png&r=x",
+      "gravatar_id": "75f5a86eb0e12c8163c17e69b72874e8",
+      "url": "https://api.github.com/users/cantino",
+      "html_url": "https://github.com/cantino",
+      "followers_url": "https://api.github.com/users/cantino/followers",
+      "following_url": "https://api.github.com/users/cantino/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cantino/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cantino/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cantino/subscriptions",
+      "organizations_url": "https://api.github.com/users/cantino/orgs",
+      "repos_url": "https://api.github.com/users/cantino/repos",
+      "events_url": "https://api.github.com/users/cantino/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cantino/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f9aafc4a0c9dc1041160934e4f1237e9e20cdc1f",
+        "url": "https://api.github.com/repos/codelucas/newspaper/commits/f9aafc4a0c9dc1041160934e4f1237e9e20cdc1f",
+        "html_url": "https://github.com/codelucas/newspaper/commit/f9aafc4a0c9dc1041160934e4f1237e9e20cdc1f"
+      }
+    ]
+  },
+  {
+    "sha": "f9aafc4a0c9dc1041160934e4f1237e9e20cdc1f",
+    "commit": {
+      "author": {
+        "name": "Lucas Ou-Yang",
+        "email": "lucasyangpersonal@gmail.com",
+        "date": "2014-01-31T20:01:18Z"
+      },
+      "committer": {
+        "name": "Lucas Ou-Yang",
+        "email": "lucasyangpersonal@gmail.com",
+        "date": "2014-01-31T20:01:18Z"
+      },
+      "message": "updated contributors, added goose licensing info",
+      "tree": {
+        "sha": "dd2562e143f009723ff0598c10b5dec020bac341",
+        "url": "https://api.github.com/repos/codelucas/newspaper/git/trees/dd2562e143f009723ff0598c10b5dec020bac341"
+      },
+      "url": "https://api.github.com/repos/codelucas/newspaper/git/commits/f9aafc4a0c9dc1041160934e4f1237e9e20cdc1f",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/codelucas/newspaper/commits/f9aafc4a0c9dc1041160934e4f1237e9e20cdc1f",
+    "html_url": "https://github.com/codelucas/newspaper/commit/f9aafc4a0c9dc1041160934e4f1237e9e20cdc1f",
+    "comments_url": "https://api.github.com/repos/codelucas/newspaper/commits/f9aafc4a0c9dc1041160934e4f1237e9e20cdc1f/comments",
+    "author": {
+      "login": "codelucas",
+      "id": 2288709,
+      "avatar_url": "https://gravatar.com/avatar/2cb346768fc8a144fb6f98d7b38a93cc?d=https%3A%2F%2Fidenticons.github.com%2F8f43b78709d1e6bc0c5bd4ea8acdd363.png&r=x",
+      "gravatar_id": "2cb346768fc8a144fb6f98d7b38a93cc",
+      "url": "https://api.github.com/users/codelucas",
+      "html_url": "https://github.com/codelucas",
+      "followers_url": "https://api.github.com/users/codelucas/followers",
+      "following_url": "https://api.github.com/users/codelucas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/codelucas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/codelucas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/codelucas/subscriptions",
+      "organizations_url": "https://api.github.com/users/codelucas/orgs",
+      "repos_url": "https://api.github.com/users/codelucas/repos",
+      "events_url": "https://api.github.com/users/codelucas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/codelucas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "codelucas",
+      "id": 2288709,
+      "avatar_url": "https://gravatar.com/avatar/2cb346768fc8a144fb6f98d7b38a93cc?d=https%3A%2F%2Fidenticons.github.com%2F8f43b78709d1e6bc0c5bd4ea8acdd363.png&r=x",
+      "gravatar_id": "2cb346768fc8a144fb6f98d7b38a93cc",
+      "url": "https://api.github.com/users/codelucas",
+      "html_url": "https://github.com/codelucas",
+      "followers_url": "https://api.github.com/users/codelucas/followers",
+      "following_url": "https://api.github.com/users/codelucas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/codelucas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/codelucas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/codelucas/subscriptions",
+      "organizations_url": "https://api.github.com/users/codelucas/orgs",
+      "repos_url": "https://api.github.com/users/codelucas/repos",
+      "events_url": "https://api.github.com/users/codelucas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/codelucas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "50530561e2cc095300ccd1cb1fd42aed16e332c2",
+        "url": "https://api.github.com/repos/codelucas/newspaper/commits/50530561e2cc095300ccd1cb1fd42aed16e332c2",
+        "html_url": "https://github.com/codelucas/newspaper/commit/50530561e2cc095300ccd1cb1fd42aed16e332c2"
+      }
+    ]
+  },
+  {
+    "sha": "50530561e2cc095300ccd1cb1fd42aed16e332c2",
+    "commit": {
+      "author": {
+        "name": "Lucas Ou-Yang",
+        "email": "lucasyangpersonal@gmail.com",
+        "date": "2014-01-30T00:17:49Z"
+      },
+      "committer": {
+        "name": "Lucas Ou-Yang",
+        "email": "lucasyangpersonal@gmail.com",
+        "date": "2014-01-30T00:17:49Z"
+      },
+      "message": "change type of ration into double from int\n\ndividing two integers in python yields an integer, we need a double",
+      "tree": {
+        "sha": "44e5837e18b4263d5bfa64cdcab5c49ef502bcd0",
+        "url": "https://api.github.com/repos/codelucas/newspaper/git/trees/44e5837e18b4263d5bfa64cdcab5c49ef502bcd0"
+      },
+      "url": "https://api.github.com/repos/codelucas/newspaper/git/commits/50530561e2cc095300ccd1cb1fd42aed16e332c2",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/codelucas/newspaper/commits/50530561e2cc095300ccd1cb1fd42aed16e332c2",
+    "html_url": "https://github.com/codelucas/newspaper/commit/50530561e2cc095300ccd1cb1fd42aed16e332c2",
+    "comments_url": "https://api.github.com/repos/codelucas/newspaper/commits/50530561e2cc095300ccd1cb1fd42aed16e332c2/comments",
+    "author": {
+      "login": "codelucas",
+      "id": 2288709,
+      "avatar_url": "https://gravatar.com/avatar/2cb346768fc8a144fb6f98d7b38a93cc?d=https%3A%2F%2Fidenticons.github.com%2F8f43b78709d1e6bc0c5bd4ea8acdd363.png&r=x",
+      "gravatar_id": "2cb346768fc8a144fb6f98d7b38a93cc",
+      "url": "https://api.github.com/users/codelucas",
+      "html_url": "https://github.com/codelucas",
+      "followers_url": "https://api.github.com/users/codelucas/followers",
+      "following_url": "https://api.github.com/users/codelucas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/codelucas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/codelucas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/codelucas/subscriptions",
+      "organizations_url": "https://api.github.com/users/codelucas/orgs",
+      "repos_url": "https://api.github.com/users/codelucas/repos",
+      "events_url": "https://api.github.com/users/codelucas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/codelucas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "codelucas",
+      "id": 2288709,
+      "avatar_url": "https://gravatar.com/avatar/2cb346768fc8a144fb6f98d7b38a93cc?d=https%3A%2F%2Fidenticons.github.com%2F8f43b78709d1e6bc0c5bd4ea8acdd363.png&r=x",
+      "gravatar_id": "2cb346768fc8a144fb6f98d7b38a93cc",
+      "url": "https://api.github.com/users/codelucas",
+      "html_url": "https://github.com/codelucas",
+      "followers_url": "https://api.github.com/users/codelucas/followers",
+      "following_url": "https://api.github.com/users/codelucas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/codelucas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/codelucas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/codelucas/subscriptions",
+      "organizations_url": "https://api.github.com/users/codelucas/orgs",
+      "repos_url": "https://api.github.com/users/codelucas/repos",
+      "events_url": "https://api.github.com/users/codelucas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/codelucas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "b78529f9132b6001fd96c30a7fcf822f858bc3fd",
+        "url": "https://api.github.com/repos/codelucas/newspaper/commits/b78529f9132b6001fd96c30a7fcf822f858bc3fd",
+        "html_url": "https://github.com/codelucas/newspaper/commit/b78529f9132b6001fd96c30a7fcf822f858bc3fd"
+      }
+    ]
+  },
+  {
+    "sha": "b78529f9132b6001fd96c30a7fcf822f858bc3fd",
+    "commit": {
+      "author": {
+        "name": "Lucas Ou-Yang",
+        "email": "lucasyangpersonal@gmail.com",
+        "date": "2014-01-30T00:14:16Z"
+      },
+      "committer": {
+        "name": "Lucas Ou-Yang",
+        "email": "lucasyangpersonal@gmail.com",
+        "date": "2014-01-30T00:14:16Z"
+      },
+      "message": "Merge pull request #30 from otemnov/original\n\nOriginal",
+      "tree": {
+        "sha": "ca7381da55dc0883e875e18b89a31291c7155b32",
+        "url": "https://api.github.com/repos/codelucas/newspaper/git/trees/ca7381da55dc0883e875e18b89a31291c7155b32"
+      },
+      "url": "https://api.github.com/repos/codelucas/newspaper/git/commits/b78529f9132b6001fd96c30a7fcf822f858bc3fd",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/codelucas/newspaper/commits/b78529f9132b6001fd96c30a7fcf822f858bc3fd",
+    "html_url": "https://github.com/codelucas/newspaper/commit/b78529f9132b6001fd96c30a7fcf822f858bc3fd",
+    "comments_url": "https://api.github.com/repos/codelucas/newspaper/commits/b78529f9132b6001fd96c30a7fcf822f858bc3fd/comments",
+    "author": {
+      "login": "codelucas",
+      "id": 2288709,
+      "avatar_url": "https://gravatar.com/avatar/2cb346768fc8a144fb6f98d7b38a93cc?d=https%3A%2F%2Fidenticons.github.com%2F8f43b78709d1e6bc0c5bd4ea8acdd363.png&r=x",
+      "gravatar_id": "2cb346768fc8a144fb6f98d7b38a93cc",
+      "url": "https://api.github.com/users/codelucas",
+      "html_url": "https://github.com/codelucas",
+      "followers_url": "https://api.github.com/users/codelucas/followers",
+      "following_url": "https://api.github.com/users/codelucas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/codelucas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/codelucas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/codelucas/subscriptions",
+      "organizations_url": "https://api.github.com/users/codelucas/orgs",
+      "repos_url": "https://api.github.com/users/codelucas/repos",
+      "events_url": "https://api.github.com/users/codelucas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/codelucas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "codelucas",
+      "id": 2288709,
+      "avatar_url": "https://gravatar.com/avatar/2cb346768fc8a144fb6f98d7b38a93cc?d=https%3A%2F%2Fidenticons.github.com%2F8f43b78709d1e6bc0c5bd4ea8acdd363.png&r=x",
+      "gravatar_id": "2cb346768fc8a144fb6f98d7b38a93cc",
+      "url": "https://api.github.com/users/codelucas",
+      "html_url": "https://github.com/codelucas",
+      "followers_url": "https://api.github.com/users/codelucas/followers",
+      "following_url": "https://api.github.com/users/codelucas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/codelucas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/codelucas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/codelucas/subscriptions",
+      "organizations_url": "https://api.github.com/users/codelucas/orgs",
+      "repos_url": "https://api.github.com/users/codelucas/repos",
+      "events_url": "https://api.github.com/users/codelucas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/codelucas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "42d113fb28ab01919906b5bd2f83c474fe6ab909",
+        "url": "https://api.github.com/repos/codelucas/newspaper/commits/42d113fb28ab01919906b5bd2f83c474fe6ab909",
+        "html_url": "https://github.com/codelucas/newspaper/commit/42d113fb28ab01919906b5bd2f83c474fe6ab909"
+      },
+      {
+        "sha": "393601dc4a57d8ed422aaa155e8029516192a33b",
+        "url": "https://api.github.com/repos/codelucas/newspaper/commits/393601dc4a57d8ed422aaa155e8029516192a33b",
+        "html_url": "https://github.com/codelucas/newspaper/commit/393601dc4a57d8ed422aaa155e8029516192a33b"
+      }
+    ]
+  },
+  {
+    "sha": "393601dc4a57d8ed422aaa155e8029516192a33b",
+    "commit": {
+      "author": {
+        "name": "Oleg Temnov",
+        "email": "otemnov@academixdirect.com",
+        "date": "2014-01-29T23:39:21Z"
+      },
+      "committer": {
+        "name": "Oleg Temnov",
+        "email": "otemnov@academixdirect.com",
+        "date": "2014-01-29T23:40:48Z"
+      },
+      "message": "Configuration for ignore excessively long/wide images ration",
+      "tree": {
+        "sha": "51085aa54a5a62285c27ac863955fd124f6b141b",
+        "url": "https://api.github.com/repos/codelucas/newspaper/git/trees/51085aa54a5a62285c27ac863955fd124f6b141b"
+      },
+      "url": "https://api.github.com/repos/codelucas/newspaper/git/commits/393601dc4a57d8ed422aaa155e8029516192a33b",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/codelucas/newspaper/commits/393601dc4a57d8ed422aaa155e8029516192a33b",
+    "html_url": "https://github.com/codelucas/newspaper/commit/393601dc4a57d8ed422aaa155e8029516192a33b",
+    "comments_url": "https://api.github.com/repos/codelucas/newspaper/commits/393601dc4a57d8ed422aaa155e8029516192a33b/comments",
+    "author": {
+      "login": "otemnov",
+      "id": 799002,
+      "avatar_url": "https://gravatar.com/avatar/40b4dd726dc8620f38edd32bff0f75bf?d=https%3A%2F%2Fidenticons.github.com%2Ff366040f365941c372ba3b5a6fa887e7.png&r=x",
+      "gravatar_id": "40b4dd726dc8620f38edd32bff0f75bf",
+      "url": "https://api.github.com/users/otemnov",
+      "html_url": "https://github.com/otemnov",
+      "followers_url": "https://api.github.com/users/otemnov/followers",
+      "following_url": "https://api.github.com/users/otemnov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/otemnov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/otemnov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/otemnov/subscriptions",
+      "organizations_url": "https://api.github.com/users/otemnov/orgs",
+      "repos_url": "https://api.github.com/users/otemnov/repos",
+      "events_url": "https://api.github.com/users/otemnov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/otemnov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "otemnov",
+      "id": 799002,
+      "avatar_url": "https://gravatar.com/avatar/40b4dd726dc8620f38edd32bff0f75bf?d=https%3A%2F%2Fidenticons.github.com%2Ff366040f365941c372ba3b5a6fa887e7.png&r=x",
+      "gravatar_id": "40b4dd726dc8620f38edd32bff0f75bf",
+      "url": "https://api.github.com/users/otemnov",
+      "html_url": "https://github.com/otemnov",
+      "followers_url": "https://api.github.com/users/otemnov/followers",
+      "following_url": "https://api.github.com/users/otemnov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/otemnov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/otemnov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/otemnov/subscriptions",
+      "organizations_url": "https://api.github.com/users/otemnov/orgs",
+      "repos_url": "https://api.github.com/users/otemnov/repos",
+      "events_url": "https://api.github.com/users/otemnov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/otemnov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "b94e1347bc27f5d3bb748cc73679eefd05d0069a",
+        "url": "https://api.github.com/repos/codelucas/newspaper/commits/b94e1347bc27f5d3bb748cc73679eefd05d0069a",
+        "html_url": "https://github.com/codelucas/newspaper/commit/b94e1347bc27f5d3bb748cc73679eefd05d0069a"
+      }
+    ]
+  },
+  {
+    "sha": "b94e1347bc27f5d3bb748cc73679eefd05d0069a",
+    "commit": {
+      "author": {
+        "name": "Oleg Temnov",
+        "email": "otemnov@academixdirect.com",
+        "date": "2014-01-29T22:39:34Z"
+      },
+      "committer": {
+        "name": "Oleg Temnov",
+        "email": "otemnov@academixdirect.com",
+        "date": "2014-01-29T23:40:48Z"
+      },
+      "message": "Remove duplicate image urls",
+      "tree": {
+        "sha": "6b269b314138fef4b464b22a10830a3c8c9ef422",
+        "url": "https://api.github.com/repos/codelucas/newspaper/git/trees/6b269b314138fef4b464b22a10830a3c8c9ef422"
+      },
+      "url": "https://api.github.com/repos/codelucas/newspaper/git/commits/b94e1347bc27f5d3bb748cc73679eefd05d0069a",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/codelucas/newspaper/commits/b94e1347bc27f5d3bb748cc73679eefd05d0069a",
+    "html_url": "https://github.com/codelucas/newspaper/commit/b94e1347bc27f5d3bb748cc73679eefd05d0069a",
+    "comments_url": "https://api.github.com/repos/codelucas/newspaper/commits/b94e1347bc27f5d3bb748cc73679eefd05d0069a/comments",
+    "author": {
+      "login": "otemnov",
+      "id": 799002,
+      "avatar_url": "https://gravatar.com/avatar/40b4dd726dc8620f38edd32bff0f75bf?d=https%3A%2F%2Fidenticons.github.com%2Ff366040f365941c372ba3b5a6fa887e7.png&r=x",
+      "gravatar_id": "40b4dd726dc8620f38edd32bff0f75bf",
+      "url": "https://api.github.com/users/otemnov",
+      "html_url": "https://github.com/otemnov",
+      "followers_url": "https://api.github.com/users/otemnov/followers",
+      "following_url": "https://api.github.com/users/otemnov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/otemnov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/otemnov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/otemnov/subscriptions",
+      "organizations_url": "https://api.github.com/users/otemnov/orgs",
+      "repos_url": "https://api.github.com/users/otemnov/repos",
+      "events_url": "https://api.github.com/users/otemnov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/otemnov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "otemnov",
+      "id": 799002,
+      "avatar_url": "https://gravatar.com/avatar/40b4dd726dc8620f38edd32bff0f75bf?d=https%3A%2F%2Fidenticons.github.com%2Ff366040f365941c372ba3b5a6fa887e7.png&r=x",
+      "gravatar_id": "40b4dd726dc8620f38edd32bff0f75bf",
+      "url": "https://api.github.com/users/otemnov",
+      "html_url": "https://github.com/otemnov",
+      "followers_url": "https://api.github.com/users/otemnov/followers",
+      "following_url": "https://api.github.com/users/otemnov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/otemnov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/otemnov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/otemnov/subscriptions",
+      "organizations_url": "https://api.github.com/users/otemnov/orgs",
+      "repos_url": "https://api.github.com/users/otemnov/repos",
+      "events_url": "https://api.github.com/users/otemnov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/otemnov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "84f41fbd38f1c10dac3b955e11998da47cbe58fd",
+        "url": "https://api.github.com/repos/codelucas/newspaper/commits/84f41fbd38f1c10dac3b955e11998da47cbe58fd",
+        "html_url": "https://github.com/codelucas/newspaper/commit/84f41fbd38f1c10dac3b955e11998da47cbe58fd"
+      }
+    ]
+  },
+  {
+    "sha": "42d113fb28ab01919906b5bd2f83c474fe6ab909",
+    "commit": {
+      "author": {
+        "name": "Lucas Ou-Yang",
+        "email": "lucasyangpersonal@gmail.com",
+        "date": "2014-01-27T22:32:32Z"
+      },
+      "committer": {
+        "name": "Lucas Ou-Yang",
+        "email": "lucasyangpersonal@gmail.com",
+        "date": "2014-01-27T22:32:32Z"
+      },
+      "message": "removed auto test-run",
+      "tree": {
+        "sha": "ac5e10b5cd10c375a1f9ba89498b1fefc7759624",
+        "url": "https://api.github.com/repos/codelucas/newspaper/git/trees/ac5e10b5cd10c375a1f9ba89498b1fefc7759624"
+      },
+      "url": "https://api.github.com/repos/codelucas/newspaper/git/commits/42d113fb28ab01919906b5bd2f83c474fe6ab909",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/codelucas/newspaper/commits/42d113fb28ab01919906b5bd2f83c474fe6ab909",
+    "html_url": "https://github.com/codelucas/newspaper/commit/42d113fb28ab01919906b5bd2f83c474fe6ab909",
+    "comments_url": "https://api.github.com/repos/codelucas/newspaper/commits/42d113fb28ab01919906b5bd2f83c474fe6ab909/comments",
+    "author": {
+      "login": "codelucas",
+      "id": 2288709,
+      "avatar_url": "https://gravatar.com/avatar/2cb346768fc8a144fb6f98d7b38a93cc?d=https%3A%2F%2Fidenticons.github.com%2F8f43b78709d1e6bc0c5bd4ea8acdd363.png&r=x",
+      "gravatar_id": "2cb346768fc8a144fb6f98d7b38a93cc",
+      "url": "https://api.github.com/users/codelucas",
+      "html_url": "https://github.com/codelucas",
+      "followers_url": "https://api.github.com/users/codelucas/followers",
+      "following_url": "https://api.github.com/users/codelucas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/codelucas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/codelucas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/codelucas/subscriptions",
+      "organizations_url": "https://api.github.com/users/codelucas/orgs",
+      "repos_url": "https://api.github.com/users/codelucas/repos",
+      "events_url": "https://api.github.com/users/codelucas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/codelucas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "codelucas",
+      "id": 2288709,
+      "avatar_url": "https://gravatar.com/avatar/2cb346768fc8a144fb6f98d7b38a93cc?d=https%3A%2F%2Fidenticons.github.com%2F8f43b78709d1e6bc0c5bd4ea8acdd363.png&r=x",
+      "gravatar_id": "2cb346768fc8a144fb6f98d7b38a93cc",
+      "url": "https://api.github.com/users/codelucas",
+      "html_url": "https://github.com/codelucas",
+      "followers_url": "https://api.github.com/users/codelucas/followers",
+      "following_url": "https://api.github.com/users/codelucas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/codelucas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/codelucas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/codelucas/subscriptions",
+      "organizations_url": "https://api.github.com/users/codelucas/orgs",
+      "repos_url": "https://api.github.com/users/codelucas/repos",
+      "events_url": "https://api.github.com/users/codelucas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/codelucas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "89179e0cb7fbc1c8300db77213196164843f9042",
+        "url": "https://api.github.com/repos/codelucas/newspaper/commits/89179e0cb7fbc1c8300db77213196164843f9042",
+        "html_url": "https://github.com/codelucas/newspaper/commit/89179e0cb7fbc1c8300db77213196164843f9042"
+      }
+    ]
+  },
+  {
+    "sha": "89179e0cb7fbc1c8300db77213196164843f9042",
+    "commit": {
+      "author": {
+        "name": "Lucas Ou-Yang",
+        "email": "lucasyangpersonal@gmail.com",
+        "date": "2014-01-27T22:31:33Z"
+      },
+      "committer": {
+        "name": "Lucas Ou-Yang",
+        "email": "lucasyangpersonal@gmail.com",
+        "date": "2014-01-27T22:31:33Z"
+      },
+      "message": "remove un-needed tests",
+      "tree": {
+        "sha": "4ad5e95a99664e3889482de74ff26eb10a568721",
+        "url": "https://api.github.com/repos/codelucas/newspaper/git/trees/4ad5e95a99664e3889482de74ff26eb10a568721"
+      },
+      "url": "https://api.github.com/repos/codelucas/newspaper/git/commits/89179e0cb7fbc1c8300db77213196164843f9042",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/codelucas/newspaper/commits/89179e0cb7fbc1c8300db77213196164843f9042",
+    "html_url": "https://github.com/codelucas/newspaper/commit/89179e0cb7fbc1c8300db77213196164843f9042",
+    "comments_url": "https://api.github.com/repos/codelucas/newspaper/commits/89179e0cb7fbc1c8300db77213196164843f9042/comments",
+    "author": {
+      "login": "codelucas",
+      "id": 2288709,
+      "avatar_url": "https://gravatar.com/avatar/2cb346768fc8a144fb6f98d7b38a93cc?d=https%3A%2F%2Fidenticons.github.com%2F8f43b78709d1e6bc0c5bd4ea8acdd363.png&r=x",
+      "gravatar_id": "2cb346768fc8a144fb6f98d7b38a93cc",
+      "url": "https://api.github.com/users/codelucas",
+      "html_url": "https://github.com/codelucas",
+      "followers_url": "https://api.github.com/users/codelucas/followers",
+      "following_url": "https://api.github.com/users/codelucas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/codelucas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/codelucas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/codelucas/subscriptions",
+      "organizations_url": "https://api.github.com/users/codelucas/orgs",
+      "repos_url": "https://api.github.com/users/codelucas/repos",
+      "events_url": "https://api.github.com/users/codelucas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/codelucas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "codelucas",
+      "id": 2288709,
+      "avatar_url": "https://gravatar.com/avatar/2cb346768fc8a144fb6f98d7b38a93cc?d=https%3A%2F%2Fidenticons.github.com%2F8f43b78709d1e6bc0c5bd4ea8acdd363.png&r=x",
+      "gravatar_id": "2cb346768fc8a144fb6f98d7b38a93cc",
+      "url": "https://api.github.com/users/codelucas",
+      "html_url": "https://github.com/codelucas",
+      "followers_url": "https://api.github.com/users/codelucas/followers",
+      "following_url": "https://api.github.com/users/codelucas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/codelucas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/codelucas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/codelucas/subscriptions",
+      "organizations_url": "https://api.github.com/users/codelucas/orgs",
+      "repos_url": "https://api.github.com/users/codelucas/repos",
+      "events_url": "https://api.github.com/users/codelucas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/codelucas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "9c4b9403a910e9bb8cef5481931afbdad0c835ad",
+        "url": "https://api.github.com/repos/codelucas/newspaper/commits/9c4b9403a910e9bb8cef5481931afbdad0c835ad",
+        "html_url": "https://github.com/codelucas/newspaper/commit/9c4b9403a910e9bb8cef5481931afbdad0c835ad"
+      }
+    ]
+  },
+  {
+    "sha": "9c4b9403a910e9bb8cef5481931afbdad0c835ad",
+    "commit": {
+      "author": {
+        "name": "Lucas Ou-Yang",
+        "email": "lucasyangpersonal@gmail.com",
+        "date": "2014-01-27T22:30:21Z"
+      },
+      "committer": {
+        "name": "Lucas Ou-Yang",
+        "email": "lucasyangpersonal@gmail.com",
+        "date": "2014-01-27T22:30:21Z"
+      },
+      "message": "added slight ease to testing reddit img extract",
+      "tree": {
+        "sha": "46ff43b65c9273df189876a463718260082013b7",
+        "url": "https://api.github.com/repos/codelucas/newspaper/git/trees/46ff43b65c9273df189876a463718260082013b7"
+      },
+      "url": "https://api.github.com/repos/codelucas/newspaper/git/commits/9c4b9403a910e9bb8cef5481931afbdad0c835ad",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/codelucas/newspaper/commits/9c4b9403a910e9bb8cef5481931afbdad0c835ad",
+    "html_url": "https://github.com/codelucas/newspaper/commit/9c4b9403a910e9bb8cef5481931afbdad0c835ad",
+    "comments_url": "https://api.github.com/repos/codelucas/newspaper/commits/9c4b9403a910e9bb8cef5481931afbdad0c835ad/comments",
+    "author": {
+      "login": "codelucas",
+      "id": 2288709,
+      "avatar_url": "https://gravatar.com/avatar/2cb346768fc8a144fb6f98d7b38a93cc?d=https%3A%2F%2Fidenticons.github.com%2F8f43b78709d1e6bc0c5bd4ea8acdd363.png&r=x",
+      "gravatar_id": "2cb346768fc8a144fb6f98d7b38a93cc",
+      "url": "https://api.github.com/users/codelucas",
+      "html_url": "https://github.com/codelucas",
+      "followers_url": "https://api.github.com/users/codelucas/followers",
+      "following_url": "https://api.github.com/users/codelucas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/codelucas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/codelucas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/codelucas/subscriptions",
+      "organizations_url": "https://api.github.com/users/codelucas/orgs",
+      "repos_url": "https://api.github.com/users/codelucas/repos",
+      "events_url": "https://api.github.com/users/codelucas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/codelucas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "codelucas",
+      "id": 2288709,
+      "avatar_url": "https://gravatar.com/avatar/2cb346768fc8a144fb6f98d7b38a93cc?d=https%3A%2F%2Fidenticons.github.com%2F8f43b78709d1e6bc0c5bd4ea8acdd363.png&r=x",
+      "gravatar_id": "2cb346768fc8a144fb6f98d7b38a93cc",
+      "url": "https://api.github.com/users/codelucas",
+      "html_url": "https://github.com/codelucas",
+      "followers_url": "https://api.github.com/users/codelucas/followers",
+      "following_url": "https://api.github.com/users/codelucas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/codelucas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/codelucas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/codelucas/subscriptions",
+      "organizations_url": "https://api.github.com/users/codelucas/orgs",
+      "repos_url": "https://api.github.com/users/codelucas/repos",
+      "events_url": "https://api.github.com/users/codelucas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/codelucas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "adba1d0860d0f42bbf84c3cb4701881f871f6764",
+        "url": "https://api.github.com/repos/codelucas/newspaper/commits/adba1d0860d0f42bbf84c3cb4701881f871f6764",
+        "html_url": "https://github.com/codelucas/newspaper/commit/adba1d0860d0f42bbf84c3cb4701881f871f6764"
+      }
+    ]
+  },
+  {
+    "sha": "adba1d0860d0f42bbf84c3cb4701881f871f6764",
+    "commit": {
+      "author": {
+        "name": "Lucas Ou-Yang",
+        "email": "lucasyangpersonal@gmail.com",
+        "date": "2014-01-27T22:23:23Z"
+      },
+      "committer": {
+        "name": "Lucas Ou-Yang",
+        "email": "lucasyangpersonal@gmail.com",
+        "date": "2014-01-27T22:23:23Z"
+      },
+      "message": "Merge pull request #29 from otemnov/original\n\nFix reddit top image",
+      "tree": {
+        "sha": "5f3a8c78f09ba0bc63ac0228101a6eca8677e50d",
+        "url": "https://api.github.com/repos/codelucas/newspaper/git/trees/5f3a8c78f09ba0bc63ac0228101a6eca8677e50d"
+      },
+      "url": "https://api.github.com/repos/codelucas/newspaper/git/commits/adba1d0860d0f42bbf84c3cb4701881f871f6764",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/codelucas/newspaper/commits/adba1d0860d0f42bbf84c3cb4701881f871f6764",
+    "html_url": "https://github.com/codelucas/newspaper/commit/adba1d0860d0f42bbf84c3cb4701881f871f6764",
+    "comments_url": "https://api.github.com/repos/codelucas/newspaper/commits/adba1d0860d0f42bbf84c3cb4701881f871f6764/comments",
+    "author": {
+      "login": "codelucas",
+      "id": 2288709,
+      "avatar_url": "https://gravatar.com/avatar/2cb346768fc8a144fb6f98d7b38a93cc?d=https%3A%2F%2Fidenticons.github.com%2F8f43b78709d1e6bc0c5bd4ea8acdd363.png&r=x",
+      "gravatar_id": "2cb346768fc8a144fb6f98d7b38a93cc",
+      "url": "https://api.github.com/users/codelucas",
+      "html_url": "https://github.com/codelucas",
+      "followers_url": "https://api.github.com/users/codelucas/followers",
+      "following_url": "https://api.github.com/users/codelucas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/codelucas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/codelucas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/codelucas/subscriptions",
+      "organizations_url": "https://api.github.com/users/codelucas/orgs",
+      "repos_url": "https://api.github.com/users/codelucas/repos",
+      "events_url": "https://api.github.com/users/codelucas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/codelucas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "codelucas",
+      "id": 2288709,
+      "avatar_url": "https://gravatar.com/avatar/2cb346768fc8a144fb6f98d7b38a93cc?d=https%3A%2F%2Fidenticons.github.com%2F8f43b78709d1e6bc0c5bd4ea8acdd363.png&r=x",
+      "gravatar_id": "2cb346768fc8a144fb6f98d7b38a93cc",
+      "url": "https://api.github.com/users/codelucas",
+      "html_url": "https://github.com/codelucas",
+      "followers_url": "https://api.github.com/users/codelucas/followers",
+      "following_url": "https://api.github.com/users/codelucas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/codelucas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/codelucas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/codelucas/subscriptions",
+      "organizations_url": "https://api.github.com/users/codelucas/orgs",
+      "repos_url": "https://api.github.com/users/codelucas/repos",
+      "events_url": "https://api.github.com/users/codelucas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/codelucas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f0d5fae5b22efaa1a6b952637534d548ddec9aed",
+        "url": "https://api.github.com/repos/codelucas/newspaper/commits/f0d5fae5b22efaa1a6b952637534d548ddec9aed",
+        "html_url": "https://github.com/codelucas/newspaper/commit/f0d5fae5b22efaa1a6b952637534d548ddec9aed"
+      },
+      {
+        "sha": "84f41fbd38f1c10dac3b955e11998da47cbe58fd",
+        "url": "https://api.github.com/repos/codelucas/newspaper/commits/84f41fbd38f1c10dac3b955e11998da47cbe58fd",
+        "html_url": "https://github.com/codelucas/newspaper/commit/84f41fbd38f1c10dac3b955e11998da47cbe58fd"
+      }
+    ]
+  },
+  {
+    "sha": "84f41fbd38f1c10dac3b955e11998da47cbe58fd",
+    "commit": {
+      "author": {
+        "name": "Oleg Temnov",
+        "email": "otemnov@academixdirect.com",
+        "date": "2014-01-27T21:18:42Z"
+      },
+      "committer": {
+        "name": "Oleg Temnov",
+        "email": "otemnov@academixdirect.com",
+        "date": "2014-01-27T21:46:52Z"
+      },
+      "message": "fix reddit top image",
+      "tree": {
+        "sha": "c3531733a043ec124681672a2abc9175b1de314b",
+        "url": "https://api.github.com/repos/codelucas/newspaper/git/trees/c3531733a043ec124681672a2abc9175b1de314b"
+      },
+      "url": "https://api.github.com/repos/codelucas/newspaper/git/commits/84f41fbd38f1c10dac3b955e11998da47cbe58fd",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/codelucas/newspaper/commits/84f41fbd38f1c10dac3b955e11998da47cbe58fd",
+    "html_url": "https://github.com/codelucas/newspaper/commit/84f41fbd38f1c10dac3b955e11998da47cbe58fd",
+    "comments_url": "https://api.github.com/repos/codelucas/newspaper/commits/84f41fbd38f1c10dac3b955e11998da47cbe58fd/comments",
+    "author": {
+      "login": "otemnov",
+      "id": 799002,
+      "avatar_url": "https://gravatar.com/avatar/40b4dd726dc8620f38edd32bff0f75bf?d=https%3A%2F%2Fidenticons.github.com%2Ff366040f365941c372ba3b5a6fa887e7.png&r=x",
+      "gravatar_id": "40b4dd726dc8620f38edd32bff0f75bf",
+      "url": "https://api.github.com/users/otemnov",
+      "html_url": "https://github.com/otemnov",
+      "followers_url": "https://api.github.com/users/otemnov/followers",
+      "following_url": "https://api.github.com/users/otemnov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/otemnov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/otemnov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/otemnov/subscriptions",
+      "organizations_url": "https://api.github.com/users/otemnov/orgs",
+      "repos_url": "https://api.github.com/users/otemnov/repos",
+      "events_url": "https://api.github.com/users/otemnov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/otemnov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "otemnov",
+      "id": 799002,
+      "avatar_url": "https://gravatar.com/avatar/40b4dd726dc8620f38edd32bff0f75bf?d=https%3A%2F%2Fidenticons.github.com%2Ff366040f365941c372ba3b5a6fa887e7.png&r=x",
+      "gravatar_id": "40b4dd726dc8620f38edd32bff0f75bf",
+      "url": "https://api.github.com/users/otemnov",
+      "html_url": "https://github.com/otemnov",
+      "followers_url": "https://api.github.com/users/otemnov/followers",
+      "following_url": "https://api.github.com/users/otemnov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/otemnov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/otemnov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/otemnov/subscriptions",
+      "organizations_url": "https://api.github.com/users/otemnov/orgs",
+      "repos_url": "https://api.github.com/users/otemnov/repos",
+      "events_url": "https://api.github.com/users/otemnov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/otemnov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "9fa147d5518916b28c9353a978c3e6e92c95cc38",
+        "url": "https://api.github.com/repos/codelucas/newspaper/commits/9fa147d5518916b28c9353a978c3e6e92c95cc38",
+        "html_url": "https://github.com/codelucas/newspaper/commit/9fa147d5518916b28c9353a978c3e6e92c95cc38"
+      }
+    ]
+  },
+  {
+    "sha": "f0d5fae5b22efaa1a6b952637534d548ddec9aed",
+    "commit": {
+      "author": {
+        "name": "Lucas Ou-Yang",
+        "email": "lucasyangpersonal@gmail.com",
+        "date": "2014-01-27T00:39:56Z"
+      },
+      "committer": {
+        "name": "Lucas Ou-Yang",
+        "email": "lucasyangpersonal@gmail.com",
+        "date": "2014-01-27T00:39:56Z"
+      },
+      "message": "Merge pull request #28 from voidfiles/master\n\nExtract Meta Tags in structured way",
+      "tree": {
+        "sha": "c59b74c4c0b6c95424a482c9392466696ee8aa80",
+        "url": "https://api.github.com/repos/codelucas/newspaper/git/trees/c59b74c4c0b6c95424a482c9392466696ee8aa80"
+      },
+      "url": "https://api.github.com/repos/codelucas/newspaper/git/commits/f0d5fae5b22efaa1a6b952637534d548ddec9aed",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/codelucas/newspaper/commits/f0d5fae5b22efaa1a6b952637534d548ddec9aed",
+    "html_url": "https://github.com/codelucas/newspaper/commit/f0d5fae5b22efaa1a6b952637534d548ddec9aed",
+    "comments_url": "https://api.github.com/repos/codelucas/newspaper/commits/f0d5fae5b22efaa1a6b952637534d548ddec9aed/comments",
+    "author": {
+      "login": "codelucas",
+      "id": 2288709,
+      "avatar_url": "https://gravatar.com/avatar/2cb346768fc8a144fb6f98d7b38a93cc?d=https%3A%2F%2Fidenticons.github.com%2F8f43b78709d1e6bc0c5bd4ea8acdd363.png&r=x",
+      "gravatar_id": "2cb346768fc8a144fb6f98d7b38a93cc",
+      "url": "https://api.github.com/users/codelucas",
+      "html_url": "https://github.com/codelucas",
+      "followers_url": "https://api.github.com/users/codelucas/followers",
+      "following_url": "https://api.github.com/users/codelucas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/codelucas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/codelucas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/codelucas/subscriptions",
+      "organizations_url": "https://api.github.com/users/codelucas/orgs",
+      "repos_url": "https://api.github.com/users/codelucas/repos",
+      "events_url": "https://api.github.com/users/codelucas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/codelucas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "codelucas",
+      "id": 2288709,
+      "avatar_url": "https://gravatar.com/avatar/2cb346768fc8a144fb6f98d7b38a93cc?d=https%3A%2F%2Fidenticons.github.com%2F8f43b78709d1e6bc0c5bd4ea8acdd363.png&r=x",
+      "gravatar_id": "2cb346768fc8a144fb6f98d7b38a93cc",
+      "url": "https://api.github.com/users/codelucas",
+      "html_url": "https://github.com/codelucas",
+      "followers_url": "https://api.github.com/users/codelucas/followers",
+      "following_url": "https://api.github.com/users/codelucas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/codelucas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/codelucas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/codelucas/subscriptions",
+      "organizations_url": "https://api.github.com/users/codelucas/orgs",
+      "repos_url": "https://api.github.com/users/codelucas/repos",
+      "events_url": "https://api.github.com/users/codelucas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/codelucas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e62b3b89c591abbcaa998ff9579dd478988ce574",
+        "url": "https://api.github.com/repos/codelucas/newspaper/commits/e62b3b89c591abbcaa998ff9579dd478988ce574",
+        "html_url": "https://github.com/codelucas/newspaper/commit/e62b3b89c591abbcaa998ff9579dd478988ce574"
+      },
+      {
+        "sha": "0c117721fe8c92eb3863e6928be4b5ed4e6d29fe",
+        "url": "https://api.github.com/repos/codelucas/newspaper/commits/0c117721fe8c92eb3863e6928be4b5ed4e6d29fe",
+        "html_url": "https://github.com/codelucas/newspaper/commit/0c117721fe8c92eb3863e6928be4b5ed4e6d29fe"
+      }
+    ]
+  },
+  {
+    "sha": "0c117721fe8c92eb3863e6928be4b5ed4e6d29fe",
+    "commit": {
+      "author": {
+        "name": "Alex Kessinger",
+        "email": "alex@mixedmedialabs.com",
+        "date": "2014-01-27T00:28:34Z"
+      },
+      "committer": {
+        "name": "Alex Kessinger",
+        "email": "alex@mixedmedialabs.com",
+        "date": "2014-01-27T00:28:34Z"
+      },
+      "message": "Extract Meta Tags in structured way\n\nThere is a lot of meta data that poeple put in meta tags. Espcially\nwhen you realize that Open Graph, and Twitter Cards are very popular.\nTherefore I suggest that should be a way to extract the tags from\nan article.\n\nHere is an example:\n\n```sh\nimport newspaper\narticle = newspaper.build_article('http://www.buzzfeed.com/tabirakhter/epic-literary-love-tattoos')\narticle.download()\narticle.parse()\nprint pprint.pformat(dict(article.meta_data))\n\n{'article': {'publisher': 'https://www.facebook.com/BuzzFeed',\n             'section': 'DIY',\n             'tag': 'Tattoos'},\n 'og': {'description': 'All is fair in love and ink.',\n        'image': {'height': 625,\n                  'url': 'http://s3-ak.buzzfeed.com/static/2014-01/enhanced/webdr06/22/16/enhanced-buzz-8304-1390426280-19.jpg',\n                  'width': 625},\n        'site_name': 'BuzzFeed',\n        'title': '23 Epic Literary Love Tattoos',\n        'type': 'article',\n        'url': 'http://www.buzzfeed.com/tabirakhter/epic-literary-love-tattoos'},\n 'twitter': {'app': {'id': {'googleplay': 'com.buzzfeed.android',\n                            'ipad': 'id352969997',\n                            'iphone': 'id352969997'},\n                     'url': {'googleplay': 'http://www.buzzfeed.com/tabirakhter/epic-literary-love-tattoos'}},\n             'card': 'summary_large_image',\n             'creator': '@tabooradley',\n             'description': 'All is fair in love and ink.',\n             'image': 'http://s3-ak.buzzfeed.com/static/2014-01/campaign_images/webdr06/26/14/23-epic-literary-love-tattoos-1-1410-1390763440-3_big.jpg',\n             'site': '@buzzfeed',\n             'title': '23 Epic Literary Love Tattoos',\n             'url': 'http://www.buzzfeed.com/tabirakhter/epic-literary-love-tattoos'}}\n```",
+      "tree": {
+        "sha": "c59b74c4c0b6c95424a482c9392466696ee8aa80",
+        "url": "https://api.github.com/repos/codelucas/newspaper/git/trees/c59b74c4c0b6c95424a482c9392466696ee8aa80"
+      },
+      "url": "https://api.github.com/repos/codelucas/newspaper/git/commits/0c117721fe8c92eb3863e6928be4b5ed4e6d29fe",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/codelucas/newspaper/commits/0c117721fe8c92eb3863e6928be4b5ed4e6d29fe",
+    "html_url": "https://github.com/codelucas/newspaper/commit/0c117721fe8c92eb3863e6928be4b5ed4e6d29fe",
+    "comments_url": "https://api.github.com/repos/codelucas/newspaper/commits/0c117721fe8c92eb3863e6928be4b5ed4e6d29fe/comments",
+    "author": {
+      "login": "voidfiles",
+      "id": 1764,
+      "avatar_url": "https://gravatar.com/avatar/597d82049061ee68e28917c4dab162a1?d=https%3A%2F%2Fidenticons.github.com%2F94e4451ad23909020c28b26ca3a13cb8.png&r=x",
+      "gravatar_id": "597d82049061ee68e28917c4dab162a1",
+      "url": "https://api.github.com/users/voidfiles",
+      "html_url": "https://github.com/voidfiles",
+      "followers_url": "https://api.github.com/users/voidfiles/followers",
+      "following_url": "https://api.github.com/users/voidfiles/following{/other_user}",
+      "gists_url": "https://api.github.com/users/voidfiles/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/voidfiles/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/voidfiles/subscriptions",
+      "organizations_url": "https://api.github.com/users/voidfiles/orgs",
+      "repos_url": "https://api.github.com/users/voidfiles/repos",
+      "events_url": "https://api.github.com/users/voidfiles/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/voidfiles/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "voidfiles",
+      "id": 1764,
+      "avatar_url": "https://gravatar.com/avatar/597d82049061ee68e28917c4dab162a1?d=https%3A%2F%2Fidenticons.github.com%2F94e4451ad23909020c28b26ca3a13cb8.png&r=x",
+      "gravatar_id": "597d82049061ee68e28917c4dab162a1",
+      "url": "https://api.github.com/users/voidfiles",
+      "html_url": "https://github.com/voidfiles",
+      "followers_url": "https://api.github.com/users/voidfiles/followers",
+      "following_url": "https://api.github.com/users/voidfiles/following{/other_user}",
+      "gists_url": "https://api.github.com/users/voidfiles/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/voidfiles/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/voidfiles/subscriptions",
+      "organizations_url": "https://api.github.com/users/voidfiles/orgs",
+      "repos_url": "https://api.github.com/users/voidfiles/repos",
+      "events_url": "https://api.github.com/users/voidfiles/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/voidfiles/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e62b3b89c591abbcaa998ff9579dd478988ce574",
+        "url": "https://api.github.com/repos/codelucas/newspaper/commits/e62b3b89c591abbcaa998ff9579dd478988ce574",
+        "html_url": "https://github.com/codelucas/newspaper/commit/e62b3b89c591abbcaa998ff9579dd478988ce574"
+      }
+    ]
+  },
+  {
+    "sha": "e62b3b89c591abbcaa998ff9579dd478988ce574",
+    "commit": {
+      "author": {
+        "name": "Lucas Ou-Yang",
+        "email": "lucasyangpersonal@gmail.com",
+        "date": "2014-01-25T16:03:36Z"
+      },
+      "committer": {
+        "name": "Lucas Ou-Yang",
+        "email": "lucasyangpersonal@gmail.com",
+        "date": "2014-01-25T16:03:36Z"
+      },
+      "message": "Merge pull request #26 from WheresWardy/portuguese\n\nReplace instances of 'Portugease' with 'Portuguese'",
+      "tree": {
+        "sha": "c07e2a330c05f884b7f4f9048f9ec686a66d706f",
+        "url": "https://api.github.com/repos/codelucas/newspaper/git/trees/c07e2a330c05f884b7f4f9048f9ec686a66d706f"
+      },
+      "url": "https://api.github.com/repos/codelucas/newspaper/git/commits/e62b3b89c591abbcaa998ff9579dd478988ce574",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/codelucas/newspaper/commits/e62b3b89c591abbcaa998ff9579dd478988ce574",
+    "html_url": "https://github.com/codelucas/newspaper/commit/e62b3b89c591abbcaa998ff9579dd478988ce574",
+    "comments_url": "https://api.github.com/repos/codelucas/newspaper/commits/e62b3b89c591abbcaa998ff9579dd478988ce574/comments",
+    "author": {
+      "login": "codelucas",
+      "id": 2288709,
+      "avatar_url": "https://gravatar.com/avatar/2cb346768fc8a144fb6f98d7b38a93cc?d=https%3A%2F%2Fidenticons.github.com%2F8f43b78709d1e6bc0c5bd4ea8acdd363.png&r=x",
+      "gravatar_id": "2cb346768fc8a144fb6f98d7b38a93cc",
+      "url": "https://api.github.com/users/codelucas",
+      "html_url": "https://github.com/codelucas",
+      "followers_url": "https://api.github.com/users/codelucas/followers",
+      "following_url": "https://api.github.com/users/codelucas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/codelucas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/codelucas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/codelucas/subscriptions",
+      "organizations_url": "https://api.github.com/users/codelucas/orgs",
+      "repos_url": "https://api.github.com/users/codelucas/repos",
+      "events_url": "https://api.github.com/users/codelucas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/codelucas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "codelucas",
+      "id": 2288709,
+      "avatar_url": "https://gravatar.com/avatar/2cb346768fc8a144fb6f98d7b38a93cc?d=https%3A%2F%2Fidenticons.github.com%2F8f43b78709d1e6bc0c5bd4ea8acdd363.png&r=x",
+      "gravatar_id": "2cb346768fc8a144fb6f98d7b38a93cc",
+      "url": "https://api.github.com/users/codelucas",
+      "html_url": "https://github.com/codelucas",
+      "followers_url": "https://api.github.com/users/codelucas/followers",
+      "following_url": "https://api.github.com/users/codelucas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/codelucas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/codelucas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/codelucas/subscriptions",
+      "organizations_url": "https://api.github.com/users/codelucas/orgs",
+      "repos_url": "https://api.github.com/users/codelucas/repos",
+      "events_url": "https://api.github.com/users/codelucas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/codelucas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f5f7b64ca943a50abc77450257fa8c182e4acbd7",
+        "url": "https://api.github.com/repos/codelucas/newspaper/commits/f5f7b64ca943a50abc77450257fa8c182e4acbd7",
+        "html_url": "https://github.com/codelucas/newspaper/commit/f5f7b64ca943a50abc77450257fa8c182e4acbd7"
+      },
+      {
+        "sha": "d9bead061edc54d8334fcd22e961d512b7a0581f",
+        "url": "https://api.github.com/repos/codelucas/newspaper/commits/d9bead061edc54d8334fcd22e961d512b7a0581f",
+        "html_url": "https://github.com/codelucas/newspaper/commit/d9bead061edc54d8334fcd22e961d512b7a0581f"
+      }
+    ]
+  },
+  {
+    "sha": "d9bead061edc54d8334fcd22e961d512b7a0581f",
+    "commit": {
+      "author": {
+        "name": "WheresWardy",
+        "email": "mattward41@gmail.com",
+        "date": "2014-01-25T15:58:48Z"
+      },
+      "committer": {
+        "name": "WheresWardy",
+        "email": "mattward41@gmail.com",
+        "date": "2014-01-25T15:58:48Z"
+      },
+      "message": "Replace instances of 'Portugease' with 'Portuguese'",
+      "tree": {
+        "sha": "c07e2a330c05f884b7f4f9048f9ec686a66d706f",
+        "url": "https://api.github.com/repos/codelucas/newspaper/git/trees/c07e2a330c05f884b7f4f9048f9ec686a66d706f"
+      },
+      "url": "https://api.github.com/repos/codelucas/newspaper/git/commits/d9bead061edc54d8334fcd22e961d512b7a0581f",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/codelucas/newspaper/commits/d9bead061edc54d8334fcd22e961d512b7a0581f",
+    "html_url": "https://github.com/codelucas/newspaper/commit/d9bead061edc54d8334fcd22e961d512b7a0581f",
+    "comments_url": "https://api.github.com/repos/codelucas/newspaper/commits/d9bead061edc54d8334fcd22e961d512b7a0581f/comments",
+    "author": {
+      "login": "WheresWardy",
+      "id": 701628,
+      "avatar_url": "https://gravatar.com/avatar/c10cb43f64bc34a8018974278900dbc5?d=https%3A%2F%2Fidenticons.github.com%2F77ef9b1f646e990f1e6d947887edf977.png&r=x",
+      "gravatar_id": "c10cb43f64bc34a8018974278900dbc5",
+      "url": "https://api.github.com/users/WheresWardy",
+      "html_url": "https://github.com/WheresWardy",
+      "followers_url": "https://api.github.com/users/WheresWardy/followers",
+      "following_url": "https://api.github.com/users/WheresWardy/following{/other_user}",
+      "gists_url": "https://api.github.com/users/WheresWardy/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/WheresWardy/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/WheresWardy/subscriptions",
+      "organizations_url": "https://api.github.com/users/WheresWardy/orgs",
+      "repos_url": "https://api.github.com/users/WheresWardy/repos",
+      "events_url": "https://api.github.com/users/WheresWardy/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/WheresWardy/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "WheresWardy",
+      "id": 701628,
+      "avatar_url": "https://gravatar.com/avatar/c10cb43f64bc34a8018974278900dbc5?d=https%3A%2F%2Fidenticons.github.com%2F77ef9b1f646e990f1e6d947887edf977.png&r=x",
+      "gravatar_id": "c10cb43f64bc34a8018974278900dbc5",
+      "url": "https://api.github.com/users/WheresWardy",
+      "html_url": "https://github.com/WheresWardy",
+      "followers_url": "https://api.github.com/users/WheresWardy/followers",
+      "following_url": "https://api.github.com/users/WheresWardy/following{/other_user}",
+      "gists_url": "https://api.github.com/users/WheresWardy/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/WheresWardy/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/WheresWardy/subscriptions",
+      "organizations_url": "https://api.github.com/users/WheresWardy/orgs",
+      "repos_url": "https://api.github.com/users/WheresWardy/repos",
+      "events_url": "https://api.github.com/users/WheresWardy/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/WheresWardy/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f5f7b64ca943a50abc77450257fa8c182e4acbd7",
+        "url": "https://api.github.com/repos/codelucas/newspaper/commits/f5f7b64ca943a50abc77450257fa8c182e4acbd7",
+        "html_url": "https://github.com/codelucas/newspaper/commit/f5f7b64ca943a50abc77450257fa8c182e4acbd7"
+      }
+    ]
+  },
+  {
+    "sha": "f5f7b64ca943a50abc77450257fa8c182e4acbd7",
+    "commit": {
+      "author": {
+        "name": "Lucas Ou-Yang",
+        "email": "lucasyangpersonal@gmail.com",
+        "date": "2014-01-25T06:18:15Z"
+      },
+      "committer": {
+        "name": "Lucas Ou-Yang",
+        "email": "lucasyangpersonal@gmail.com",
+        "date": "2014-01-25T06:18:15Z"
+      },
+      "message": "Merge pull request #24 from adamstac/patch-1\n\nIt's The Changelog not The ChangeLog :)",
+      "tree": {
+        "sha": "a6c3c3b091aeb7ac261e0a432b49bb3b37599e84",
+        "url": "https://api.github.com/repos/codelucas/newspaper/git/trees/a6c3c3b091aeb7ac261e0a432b49bb3b37599e84"
+      },
+      "url": "https://api.github.com/repos/codelucas/newspaper/git/commits/f5f7b64ca943a50abc77450257fa8c182e4acbd7",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/codelucas/newspaper/commits/f5f7b64ca943a50abc77450257fa8c182e4acbd7",
+    "html_url": "https://github.com/codelucas/newspaper/commit/f5f7b64ca943a50abc77450257fa8c182e4acbd7",
+    "comments_url": "https://api.github.com/repos/codelucas/newspaper/commits/f5f7b64ca943a50abc77450257fa8c182e4acbd7/comments",
+    "author": {
+      "login": "codelucas",
+      "id": 2288709,
+      "avatar_url": "https://gravatar.com/avatar/2cb346768fc8a144fb6f98d7b38a93cc?d=https%3A%2F%2Fidenticons.github.com%2F8f43b78709d1e6bc0c5bd4ea8acdd363.png&r=x",
+      "gravatar_id": "2cb346768fc8a144fb6f98d7b38a93cc",
+      "url": "https://api.github.com/users/codelucas",
+      "html_url": "https://github.com/codelucas",
+      "followers_url": "https://api.github.com/users/codelucas/followers",
+      "following_url": "https://api.github.com/users/codelucas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/codelucas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/codelucas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/codelucas/subscriptions",
+      "organizations_url": "https://api.github.com/users/codelucas/orgs",
+      "repos_url": "https://api.github.com/users/codelucas/repos",
+      "events_url": "https://api.github.com/users/codelucas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/codelucas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "codelucas",
+      "id": 2288709,
+      "avatar_url": "https://gravatar.com/avatar/2cb346768fc8a144fb6f98d7b38a93cc?d=https%3A%2F%2Fidenticons.github.com%2F8f43b78709d1e6bc0c5bd4ea8acdd363.png&r=x",
+      "gravatar_id": "2cb346768fc8a144fb6f98d7b38a93cc",
+      "url": "https://api.github.com/users/codelucas",
+      "html_url": "https://github.com/codelucas",
+      "followers_url": "https://api.github.com/users/codelucas/followers",
+      "following_url": "https://api.github.com/users/codelucas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/codelucas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/codelucas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/codelucas/subscriptions",
+      "organizations_url": "https://api.github.com/users/codelucas/orgs",
+      "repos_url": "https://api.github.com/users/codelucas/repos",
+      "events_url": "https://api.github.com/users/codelucas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/codelucas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "77b67e719cd28420c391a0488a68213483d1850a",
+        "url": "https://api.github.com/repos/codelucas/newspaper/commits/77b67e719cd28420c391a0488a68213483d1850a",
+        "html_url": "https://github.com/codelucas/newspaper/commit/77b67e719cd28420c391a0488a68213483d1850a"
+      },
+      {
+        "sha": "2e7a3179cf9edbc971d2b5136906c20d868084a9",
+        "url": "https://api.github.com/repos/codelucas/newspaper/commits/2e7a3179cf9edbc971d2b5136906c20d868084a9",
+        "html_url": "https://github.com/codelucas/newspaper/commit/2e7a3179cf9edbc971d2b5136906c20d868084a9"
+      }
+    ]
+  }
+]

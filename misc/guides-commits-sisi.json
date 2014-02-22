@@ -1,0 +1,2215 @@
+[
+  {
+    "sha": "a644c758735b5f6c0138a0066d38a0b20f13ce14",
+    "commit": {
+      "author": {
+        "name": "Sisi Wei",
+        "email": "me@sisiwei.com",
+        "date": "2013-03-15T16:27:15Z"
+      },
+      "committer": {
+        "name": "Sisi Wei",
+        "email": "me@sisiwei.com",
+        "date": "2013-03-15T16:27:15Z"
+      },
+      "message": "Adding information to tree maps",
+      "tree": {
+        "sha": "a58757b13ff5e36fa9b757083695c35a537a7302",
+        "url": "https://api.github.com/repos/propublica/guides/git/trees/a58757b13ff5e36fa9b757083695c35a537a7302"
+      },
+      "url": "https://api.github.com/repos/propublica/guides/git/commits/a644c758735b5f6c0138a0066d38a0b20f13ce14",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/propublica/guides/commits/a644c758735b5f6c0138a0066d38a0b20f13ce14",
+    "html_url": "https://github.com/propublica/guides/commit/a644c758735b5f6c0138a0066d38a0b20f13ce14",
+    "comments_url": "https://api.github.com/repos/propublica/guides/commits/a644c758735b5f6c0138a0066d38a0b20f13ce14/comments",
+    "author": {
+      "login": "sisiwei",
+      "id": 1071619,
+      "avatar_url": "https://gravatar.com/avatar/831db18d1744a6ed2d22b45ae9f47869?d=https%3A%2F%2Fidenticons.github.com%2F70230f6cca273d77e8b26e133c9bed14.png&r=x",
+      "gravatar_id": "831db18d1744a6ed2d22b45ae9f47869",
+      "url": "https://api.github.com/users/sisiwei",
+      "html_url": "https://github.com/sisiwei",
+      "followers_url": "https://api.github.com/users/sisiwei/followers",
+      "following_url": "https://api.github.com/users/sisiwei/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sisiwei/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sisiwei/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sisiwei/subscriptions",
+      "organizations_url": "https://api.github.com/users/sisiwei/orgs",
+      "repos_url": "https://api.github.com/users/sisiwei/repos",
+      "events_url": "https://api.github.com/users/sisiwei/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sisiwei/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "sisiwei",
+      "id": 1071619,
+      "avatar_url": "https://gravatar.com/avatar/831db18d1744a6ed2d22b45ae9f47869?d=https%3A%2F%2Fidenticons.github.com%2F70230f6cca273d77e8b26e133c9bed14.png&r=x",
+      "gravatar_id": "831db18d1744a6ed2d22b45ae9f47869",
+      "url": "https://api.github.com/users/sisiwei",
+      "html_url": "https://github.com/sisiwei",
+      "followers_url": "https://api.github.com/users/sisiwei/followers",
+      "following_url": "https://api.github.com/users/sisiwei/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sisiwei/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sisiwei/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sisiwei/subscriptions",
+      "organizations_url": "https://api.github.com/users/sisiwei/orgs",
+      "repos_url": "https://api.github.com/users/sisiwei/repos",
+      "events_url": "https://api.github.com/users/sisiwei/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sisiwei/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "0b5686e4dc653676c131b7cfd0f747949e53f9f1",
+        "url": "https://api.github.com/repos/propublica/guides/commits/0b5686e4dc653676c131b7cfd0f747949e53f9f1",
+        "html_url": "https://github.com/propublica/guides/commit/0b5686e4dc653676c131b7cfd0f747949e53f9f1"
+      }
+    ]
+  },
+  {
+    "sha": "0b5686e4dc653676c131b7cfd0f747949e53f9f1",
+    "commit": {
+      "author": {
+        "name": "Scott Klein",
+        "email": "scott.klein@propublica.org",
+        "date": "2013-03-15T15:47:01Z"
+      },
+      "committer": {
+        "name": "Scott Klein",
+        "email": "scott.klein@propublica.org",
+        "date": "2013-03-15T15:47:01Z"
+      },
+      "message": "added treemaps",
+      "tree": {
+        "sha": "2286beeb2d6ce3227e6469153904e85d817e4636",
+        "url": "https://api.github.com/repos/propublica/guides/git/trees/2286beeb2d6ce3227e6469153904e85d817e4636"
+      },
+      "url": "https://api.github.com/repos/propublica/guides/git/commits/0b5686e4dc653676c131b7cfd0f747949e53f9f1",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/propublica/guides/commits/0b5686e4dc653676c131b7cfd0f747949e53f9f1",
+    "html_url": "https://github.com/propublica/guides/commit/0b5686e4dc653676c131b7cfd0f747949e53f9f1",
+    "comments_url": "https://api.github.com/repos/propublica/guides/commits/0b5686e4dc653676c131b7cfd0f747949e53f9f1/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "9a8e7b696169febd288966d0c90b70019e326f62",
+        "url": "https://api.github.com/repos/propublica/guides/commits/9a8e7b696169febd288966d0c90b70019e326f62",
+        "html_url": "https://github.com/propublica/guides/commit/9a8e7b696169febd288966d0c90b70019e326f62"
+      }
+    ]
+  },
+  {
+    "sha": "9a8e7b696169febd288966d0c90b70019e326f62",
+    "commit": {
+      "author": {
+        "name": "Scott Klein",
+        "email": "scott@kleinmatic.com",
+        "date": "2013-03-10T01:43:49Z"
+      },
+      "committer": {
+        "name": "Scott Klein",
+        "email": "scott@kleinmatic.com",
+        "date": "2013-03-10T01:43:49Z"
+      },
+      "message": "Blockquote instead of code block, via wka",
+      "tree": {
+        "sha": "63369f1f8bc94d079419c084019c4752cbc87f61",
+        "url": "https://api.github.com/repos/propublica/guides/git/trees/63369f1f8bc94d079419c084019c4752cbc87f61"
+      },
+      "url": "https://api.github.com/repos/propublica/guides/git/commits/9a8e7b696169febd288966d0c90b70019e326f62",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/propublica/guides/commits/9a8e7b696169febd288966d0c90b70019e326f62",
+    "html_url": "https://github.com/propublica/guides/commit/9a8e7b696169febd288966d0c90b70019e326f62",
+    "comments_url": "https://api.github.com/repos/propublica/guides/commits/9a8e7b696169febd288966d0c90b70019e326f62/comments",
+    "author": {
+      "login": "kleinmatic",
+      "id": 92971,
+      "avatar_url": "https://gravatar.com/avatar/407a6dac2367b6befa6a5a14e3fcd0fb?d=https%3A%2F%2Fidenticons.github.com%2F062e4597b955b3c09d8a060383cf90c0.png&r=x",
+      "gravatar_id": "407a6dac2367b6befa6a5a14e3fcd0fb",
+      "url": "https://api.github.com/users/kleinmatic",
+      "html_url": "https://github.com/kleinmatic",
+      "followers_url": "https://api.github.com/users/kleinmatic/followers",
+      "following_url": "https://api.github.com/users/kleinmatic/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kleinmatic/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kleinmatic/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kleinmatic/subscriptions",
+      "organizations_url": "https://api.github.com/users/kleinmatic/orgs",
+      "repos_url": "https://api.github.com/users/kleinmatic/repos",
+      "events_url": "https://api.github.com/users/kleinmatic/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kleinmatic/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "kleinmatic",
+      "id": 92971,
+      "avatar_url": "https://gravatar.com/avatar/407a6dac2367b6befa6a5a14e3fcd0fb?d=https%3A%2F%2Fidenticons.github.com%2F062e4597b955b3c09d8a060383cf90c0.png&r=x",
+      "gravatar_id": "407a6dac2367b6befa6a5a14e3fcd0fb",
+      "url": "https://api.github.com/users/kleinmatic",
+      "html_url": "https://github.com/kleinmatic",
+      "followers_url": "https://api.github.com/users/kleinmatic/followers",
+      "following_url": "https://api.github.com/users/kleinmatic/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kleinmatic/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kleinmatic/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kleinmatic/subscriptions",
+      "organizations_url": "https://api.github.com/users/kleinmatic/orgs",
+      "repos_url": "https://api.github.com/users/kleinmatic/repos",
+      "events_url": "https://api.github.com/users/kleinmatic/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kleinmatic/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "355c4180f084984ba21629fe74321bfde204f204",
+        "url": "https://api.github.com/repos/propublica/guides/commits/355c4180f084984ba21629fe74321bfde204f204",
+        "html_url": "https://github.com/propublica/guides/commit/355c4180f084984ba21629fe74321bfde204f204"
+      }
+    ]
+  },
+  {
+    "sha": "355c4180f084984ba21629fe74321bfde204f204",
+    "commit": {
+      "author": {
+        "name": "Scott Klein",
+        "email": "scott@kleinmatic.com",
+        "date": "2013-03-10T00:28:18Z"
+      },
+      "committer": {
+        "name": "Scott Klein",
+        "email": "scott@kleinmatic.com",
+        "date": "2013-03-10T00:28:18Z"
+      },
+      "message": "Typo fix, h/t wka",
+      "tree": {
+        "sha": "5c4db6d6a841ef0b82b4a6dd6720de607ee1b6e0",
+        "url": "https://api.github.com/repos/propublica/guides/git/trees/5c4db6d6a841ef0b82b4a6dd6720de607ee1b6e0"
+      },
+      "url": "https://api.github.com/repos/propublica/guides/git/commits/355c4180f084984ba21629fe74321bfde204f204",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/propublica/guides/commits/355c4180f084984ba21629fe74321bfde204f204",
+    "html_url": "https://github.com/propublica/guides/commit/355c4180f084984ba21629fe74321bfde204f204",
+    "comments_url": "https://api.github.com/repos/propublica/guides/commits/355c4180f084984ba21629fe74321bfde204f204/comments",
+    "author": {
+      "login": "kleinmatic",
+      "id": 92971,
+      "avatar_url": "https://gravatar.com/avatar/407a6dac2367b6befa6a5a14e3fcd0fb?d=https%3A%2F%2Fidenticons.github.com%2F062e4597b955b3c09d8a060383cf90c0.png&r=x",
+      "gravatar_id": "407a6dac2367b6befa6a5a14e3fcd0fb",
+      "url": "https://api.github.com/users/kleinmatic",
+      "html_url": "https://github.com/kleinmatic",
+      "followers_url": "https://api.github.com/users/kleinmatic/followers",
+      "following_url": "https://api.github.com/users/kleinmatic/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kleinmatic/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kleinmatic/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kleinmatic/subscriptions",
+      "organizations_url": "https://api.github.com/users/kleinmatic/orgs",
+      "repos_url": "https://api.github.com/users/kleinmatic/repos",
+      "events_url": "https://api.github.com/users/kleinmatic/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kleinmatic/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "kleinmatic",
+      "id": 92971,
+      "avatar_url": "https://gravatar.com/avatar/407a6dac2367b6befa6a5a14e3fcd0fb?d=https%3A%2F%2Fidenticons.github.com%2F062e4597b955b3c09d8a060383cf90c0.png&r=x",
+      "gravatar_id": "407a6dac2367b6befa6a5a14e3fcd0fb",
+      "url": "https://api.github.com/users/kleinmatic",
+      "html_url": "https://github.com/kleinmatic",
+      "followers_url": "https://api.github.com/users/kleinmatic/followers",
+      "following_url": "https://api.github.com/users/kleinmatic/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kleinmatic/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kleinmatic/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kleinmatic/subscriptions",
+      "organizations_url": "https://api.github.com/users/kleinmatic/orgs",
+      "repos_url": "https://api.github.com/users/kleinmatic/repos",
+      "events_url": "https://api.github.com/users/kleinmatic/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kleinmatic/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "852f65aaf7b90728bd9c3785130dcd986a9033c9",
+        "url": "https://api.github.com/repos/propublica/guides/commits/852f65aaf7b90728bd9c3785130dcd986a9033c9",
+        "html_url": "https://github.com/propublica/guides/commit/852f65aaf7b90728bd9c3785130dcd986a9033c9"
+      }
+    ]
+  },
+  {
+    "sha": "852f65aaf7b90728bd9c3785130dcd986a9033c9",
+    "commit": {
+      "author": {
+        "name": "Scott Klein",
+        "email": "scott.klein@propublica.org",
+        "date": "2013-03-08T14:55:33Z"
+      },
+      "committer": {
+        "name": "Scott Klein",
+        "email": "scott.klein@propublica.org",
+        "date": "2013-03-08T14:55:33Z"
+      },
+      "message": "capitalize breaks",
+      "tree": {
+        "sha": "81b729e08892550dfb7eff1392557255a8b5b0cc",
+        "url": "https://api.github.com/repos/propublica/guides/git/trees/81b729e08892550dfb7eff1392557255a8b5b0cc"
+      },
+      "url": "https://api.github.com/repos/propublica/guides/git/commits/852f65aaf7b90728bd9c3785130dcd986a9033c9",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/propublica/guides/commits/852f65aaf7b90728bd9c3785130dcd986a9033c9",
+    "html_url": "https://github.com/propublica/guides/commit/852f65aaf7b90728bd9c3785130dcd986a9033c9",
+    "comments_url": "https://api.github.com/repos/propublica/guides/commits/852f65aaf7b90728bd9c3785130dcd986a9033c9/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "8a81a82f5cc8448f4f431a7ed73ebf2f9bd95624",
+        "url": "https://api.github.com/repos/propublica/guides/commits/8a81a82f5cc8448f4f431a7ed73ebf2f9bd95624",
+        "html_url": "https://github.com/propublica/guides/commit/8a81a82f5cc8448f4f431a7ed73ebf2f9bd95624"
+      }
+    ]
+  },
+  {
+    "sha": "8a81a82f5cc8448f4f431a7ed73ebf2f9bd95624",
+    "commit": {
+      "author": {
+        "name": "Scott Klein",
+        "email": "scott@kleinmatic.com",
+        "date": "2013-03-08T14:47:59Z"
+      },
+      "committer": {
+        "name": "Scott Klein",
+        "email": "scott@kleinmatic.com",
+        "date": "2013-03-08T14:47:59Z"
+      },
+      "message": "Merge pull request #5 from mhkeller/newsbeast-guide\n\nAdded 'Color breaks' section",
+      "tree": {
+        "sha": "70147bb6522ba398bad698267c49d45090d89f26",
+        "url": "https://api.github.com/repos/propublica/guides/git/trees/70147bb6522ba398bad698267c49d45090d89f26"
+      },
+      "url": "https://api.github.com/repos/propublica/guides/git/commits/8a81a82f5cc8448f4f431a7ed73ebf2f9bd95624",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/propublica/guides/commits/8a81a82f5cc8448f4f431a7ed73ebf2f9bd95624",
+    "html_url": "https://github.com/propublica/guides/commit/8a81a82f5cc8448f4f431a7ed73ebf2f9bd95624",
+    "comments_url": "https://api.github.com/repos/propublica/guides/commits/8a81a82f5cc8448f4f431a7ed73ebf2f9bd95624/comments",
+    "author": {
+      "login": "kleinmatic",
+      "id": 92971,
+      "avatar_url": "https://gravatar.com/avatar/407a6dac2367b6befa6a5a14e3fcd0fb?d=https%3A%2F%2Fidenticons.github.com%2F062e4597b955b3c09d8a060383cf90c0.png&r=x",
+      "gravatar_id": "407a6dac2367b6befa6a5a14e3fcd0fb",
+      "url": "https://api.github.com/users/kleinmatic",
+      "html_url": "https://github.com/kleinmatic",
+      "followers_url": "https://api.github.com/users/kleinmatic/followers",
+      "following_url": "https://api.github.com/users/kleinmatic/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kleinmatic/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kleinmatic/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kleinmatic/subscriptions",
+      "organizations_url": "https://api.github.com/users/kleinmatic/orgs",
+      "repos_url": "https://api.github.com/users/kleinmatic/repos",
+      "events_url": "https://api.github.com/users/kleinmatic/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kleinmatic/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "kleinmatic",
+      "id": 92971,
+      "avatar_url": "https://gravatar.com/avatar/407a6dac2367b6befa6a5a14e3fcd0fb?d=https%3A%2F%2Fidenticons.github.com%2F062e4597b955b3c09d8a060383cf90c0.png&r=x",
+      "gravatar_id": "407a6dac2367b6befa6a5a14e3fcd0fb",
+      "url": "https://api.github.com/users/kleinmatic",
+      "html_url": "https://github.com/kleinmatic",
+      "followers_url": "https://api.github.com/users/kleinmatic/followers",
+      "following_url": "https://api.github.com/users/kleinmatic/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kleinmatic/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kleinmatic/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kleinmatic/subscriptions",
+      "organizations_url": "https://api.github.com/users/kleinmatic/orgs",
+      "repos_url": "https://api.github.com/users/kleinmatic/repos",
+      "events_url": "https://api.github.com/users/kleinmatic/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kleinmatic/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "fafd103e62a138ca18c5d36e3d0b41e1d6138d2b",
+        "url": "https://api.github.com/repos/propublica/guides/commits/fafd103e62a138ca18c5d36e3d0b41e1d6138d2b",
+        "html_url": "https://github.com/propublica/guides/commit/fafd103e62a138ca18c5d36e3d0b41e1d6138d2b"
+      },
+      {
+        "sha": "86b3bc24165394d80c3ae4e18196db2abd6fcfe2",
+        "url": "https://api.github.com/repos/propublica/guides/commits/86b3bc24165394d80c3ae4e18196db2abd6fcfe2",
+        "html_url": "https://github.com/propublica/guides/commit/86b3bc24165394d80c3ae4e18196db2abd6fcfe2"
+      }
+    ]
+  },
+  {
+    "sha": "86b3bc24165394d80c3ae4e18196db2abd6fcfe2",
+    "commit": {
+      "author": {
+        "name": "Michael Keller",
+        "email": "michael.keller@gmail.com",
+        "date": "2013-03-08T04:39:02Z"
+      },
+      "committer": {
+        "name": "Michael Keller",
+        "email": "michael.keller@gmail.com",
+        "date": "2013-03-08T04:39:02Z"
+      },
+      "message": "Added PP edits, jenks, head/tail break link",
+      "tree": {
+        "sha": "5371be9fb77157b15b5c6818535db9b5b81d2711",
+        "url": "https://api.github.com/repos/propublica/guides/git/trees/5371be9fb77157b15b5c6818535db9b5b81d2711"
+      },
+      "url": "https://api.github.com/repos/propublica/guides/git/commits/86b3bc24165394d80c3ae4e18196db2abd6fcfe2",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/propublica/guides/commits/86b3bc24165394d80c3ae4e18196db2abd6fcfe2",
+    "html_url": "https://github.com/propublica/guides/commit/86b3bc24165394d80c3ae4e18196db2abd6fcfe2",
+    "comments_url": "https://api.github.com/repos/propublica/guides/commits/86b3bc24165394d80c3ae4e18196db2abd6fcfe2/comments",
+    "author": {
+      "login": "mhkeller",
+      "id": 498744,
+      "avatar_url": "https://gravatar.com/avatar/615d82e9c4fd1dcc4bd27683ee40c6bc?d=https%3A%2F%2Fidenticons.github.com%2F6612e2c4c0a74dabdaf2fdf366cad4bc.png&r=x",
+      "gravatar_id": "615d82e9c4fd1dcc4bd27683ee40c6bc",
+      "url": "https://api.github.com/users/mhkeller",
+      "html_url": "https://github.com/mhkeller",
+      "followers_url": "https://api.github.com/users/mhkeller/followers",
+      "following_url": "https://api.github.com/users/mhkeller/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mhkeller/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mhkeller/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mhkeller/subscriptions",
+      "organizations_url": "https://api.github.com/users/mhkeller/orgs",
+      "repos_url": "https://api.github.com/users/mhkeller/repos",
+      "events_url": "https://api.github.com/users/mhkeller/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mhkeller/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mhkeller",
+      "id": 498744,
+      "avatar_url": "https://gravatar.com/avatar/615d82e9c4fd1dcc4bd27683ee40c6bc?d=https%3A%2F%2Fidenticons.github.com%2F6612e2c4c0a74dabdaf2fdf366cad4bc.png&r=x",
+      "gravatar_id": "615d82e9c4fd1dcc4bd27683ee40c6bc",
+      "url": "https://api.github.com/users/mhkeller",
+      "html_url": "https://github.com/mhkeller",
+      "followers_url": "https://api.github.com/users/mhkeller/followers",
+      "following_url": "https://api.github.com/users/mhkeller/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mhkeller/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mhkeller/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mhkeller/subscriptions",
+      "organizations_url": "https://api.github.com/users/mhkeller/orgs",
+      "repos_url": "https://api.github.com/users/mhkeller/repos",
+      "events_url": "https://api.github.com/users/mhkeller/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mhkeller/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4f40cdbda377aa1c5243534e3815daac77e2733b",
+        "url": "https://api.github.com/repos/propublica/guides/commits/4f40cdbda377aa1c5243534e3815daac77e2733b",
+        "html_url": "https://github.com/propublica/guides/commit/4f40cdbda377aa1c5243534e3815daac77e2733b"
+      }
+    ]
+  },
+  {
+    "sha": "fafd103e62a138ca18c5d36e3d0b41e1d6138d2b",
+    "commit": {
+      "author": {
+        "name": "Scott Klein",
+        "email": "scott.klein@propublica.org",
+        "date": "2013-03-08T03:50:40Z"
+      },
+      "committer": {
+        "name": "Scott Klein",
+        "email": "scott.klein@propublica.org",
+        "date": "2013-03-08T03:50:40Z"
+      },
+      "message": "fleshed out dashes",
+      "tree": {
+        "sha": "43f0540561cdd3a1c4d694b11dceecf055ac4b7f",
+        "url": "https://api.github.com/repos/propublica/guides/git/trees/43f0540561cdd3a1c4d694b11dceecf055ac4b7f"
+      },
+      "url": "https://api.github.com/repos/propublica/guides/git/commits/fafd103e62a138ca18c5d36e3d0b41e1d6138d2b",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/propublica/guides/commits/fafd103e62a138ca18c5d36e3d0b41e1d6138d2b",
+    "html_url": "https://github.com/propublica/guides/commit/fafd103e62a138ca18c5d36e3d0b41e1d6138d2b",
+    "comments_url": "https://api.github.com/repos/propublica/guides/commits/fafd103e62a138ca18c5d36e3d0b41e1d6138d2b/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "41b5464cd665595eceab474f126214ece10f3000",
+        "url": "https://api.github.com/repos/propublica/guides/commits/41b5464cd665595eceab474f126214ece10f3000",
+        "html_url": "https://github.com/propublica/guides/commit/41b5464cd665595eceab474f126214ece10f3000"
+      }
+    ]
+  },
+  {
+    "sha": "4f40cdbda377aa1c5243534e3815daac77e2733b",
+    "commit": {
+      "author": {
+        "name": "mhkeller",
+        "email": "michael.keller@gmail.com",
+        "date": "2013-03-07T21:05:49Z"
+      },
+      "committer": {
+        "name": "mhkeller",
+        "email": "michael.keller@gmail.com",
+        "date": "2013-03-07T21:05:49Z"
+      },
+      "message": "Color break tweak",
+      "tree": {
+        "sha": "c086bb245445ed1059d966e4a74520f40b4ee3ae",
+        "url": "https://api.github.com/repos/propublica/guides/git/trees/c086bb245445ed1059d966e4a74520f40b4ee3ae"
+      },
+      "url": "https://api.github.com/repos/propublica/guides/git/commits/4f40cdbda377aa1c5243534e3815daac77e2733b",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/propublica/guides/commits/4f40cdbda377aa1c5243534e3815daac77e2733b",
+    "html_url": "https://github.com/propublica/guides/commit/4f40cdbda377aa1c5243534e3815daac77e2733b",
+    "comments_url": "https://api.github.com/repos/propublica/guides/commits/4f40cdbda377aa1c5243534e3815daac77e2733b/comments",
+    "author": {
+      "login": "mhkeller",
+      "id": 498744,
+      "avatar_url": "https://gravatar.com/avatar/615d82e9c4fd1dcc4bd27683ee40c6bc?d=https%3A%2F%2Fidenticons.github.com%2F6612e2c4c0a74dabdaf2fdf366cad4bc.png&r=x",
+      "gravatar_id": "615d82e9c4fd1dcc4bd27683ee40c6bc",
+      "url": "https://api.github.com/users/mhkeller",
+      "html_url": "https://github.com/mhkeller",
+      "followers_url": "https://api.github.com/users/mhkeller/followers",
+      "following_url": "https://api.github.com/users/mhkeller/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mhkeller/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mhkeller/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mhkeller/subscriptions",
+      "organizations_url": "https://api.github.com/users/mhkeller/orgs",
+      "repos_url": "https://api.github.com/users/mhkeller/repos",
+      "events_url": "https://api.github.com/users/mhkeller/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mhkeller/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mhkeller",
+      "id": 498744,
+      "avatar_url": "https://gravatar.com/avatar/615d82e9c4fd1dcc4bd27683ee40c6bc?d=https%3A%2F%2Fidenticons.github.com%2F6612e2c4c0a74dabdaf2fdf366cad4bc.png&r=x",
+      "gravatar_id": "615d82e9c4fd1dcc4bd27683ee40c6bc",
+      "url": "https://api.github.com/users/mhkeller",
+      "html_url": "https://github.com/mhkeller",
+      "followers_url": "https://api.github.com/users/mhkeller/followers",
+      "following_url": "https://api.github.com/users/mhkeller/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mhkeller/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mhkeller/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mhkeller/subscriptions",
+      "organizations_url": "https://api.github.com/users/mhkeller/orgs",
+      "repos_url": "https://api.github.com/users/mhkeller/repos",
+      "events_url": "https://api.github.com/users/mhkeller/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mhkeller/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "116760eaffc5b0cacca56072910556931a25bb17",
+        "url": "https://api.github.com/repos/propublica/guides/commits/116760eaffc5b0cacca56072910556931a25bb17",
+        "html_url": "https://github.com/propublica/guides/commit/116760eaffc5b0cacca56072910556931a25bb17"
+      }
+    ]
+  },
+  {
+    "sha": "116760eaffc5b0cacca56072910556931a25bb17",
+    "commit": {
+      "author": {
+        "name": "Michael Keller",
+        "email": "michael.keller@gmail.com",
+        "date": "2013-03-07T15:31:28Z"
+      },
+      "committer": {
+        "name": "Michael Keller",
+        "email": "michael.keller@gmail.com",
+        "date": "2013-03-07T15:31:28Z"
+      },
+      "message": "Added color breaks",
+      "tree": {
+        "sha": "046b2b00ad07d973b2e2a728ac4a8549294a649a",
+        "url": "https://api.github.com/repos/propublica/guides/git/trees/046b2b00ad07d973b2e2a728ac4a8549294a649a"
+      },
+      "url": "https://api.github.com/repos/propublica/guides/git/commits/116760eaffc5b0cacca56072910556931a25bb17",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/propublica/guides/commits/116760eaffc5b0cacca56072910556931a25bb17",
+    "html_url": "https://github.com/propublica/guides/commit/116760eaffc5b0cacca56072910556931a25bb17",
+    "comments_url": "https://api.github.com/repos/propublica/guides/commits/116760eaffc5b0cacca56072910556931a25bb17/comments",
+    "author": {
+      "login": "mhkeller",
+      "id": 498744,
+      "avatar_url": "https://gravatar.com/avatar/615d82e9c4fd1dcc4bd27683ee40c6bc?d=https%3A%2F%2Fidenticons.github.com%2F6612e2c4c0a74dabdaf2fdf366cad4bc.png&r=x",
+      "gravatar_id": "615d82e9c4fd1dcc4bd27683ee40c6bc",
+      "url": "https://api.github.com/users/mhkeller",
+      "html_url": "https://github.com/mhkeller",
+      "followers_url": "https://api.github.com/users/mhkeller/followers",
+      "following_url": "https://api.github.com/users/mhkeller/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mhkeller/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mhkeller/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mhkeller/subscriptions",
+      "organizations_url": "https://api.github.com/users/mhkeller/orgs",
+      "repos_url": "https://api.github.com/users/mhkeller/repos",
+      "events_url": "https://api.github.com/users/mhkeller/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mhkeller/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mhkeller",
+      "id": 498744,
+      "avatar_url": "https://gravatar.com/avatar/615d82e9c4fd1dcc4bd27683ee40c6bc?d=https%3A%2F%2Fidenticons.github.com%2F6612e2c4c0a74dabdaf2fdf366cad4bc.png&r=x",
+      "gravatar_id": "615d82e9c4fd1dcc4bd27683ee40c6bc",
+      "url": "https://api.github.com/users/mhkeller",
+      "html_url": "https://github.com/mhkeller",
+      "followers_url": "https://api.github.com/users/mhkeller/followers",
+      "following_url": "https://api.github.com/users/mhkeller/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mhkeller/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mhkeller/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mhkeller/subscriptions",
+      "organizations_url": "https://api.github.com/users/mhkeller/orgs",
+      "repos_url": "https://api.github.com/users/mhkeller/repos",
+      "events_url": "https://api.github.com/users/mhkeller/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mhkeller/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "41b5464cd665595eceab474f126214ece10f3000",
+        "url": "https://api.github.com/repos/propublica/guides/commits/41b5464cd665595eceab474f126214ece10f3000",
+        "html_url": "https://github.com/propublica/guides/commit/41b5464cd665595eceab474f126214ece10f3000"
+      }
+    ]
+  },
+  {
+    "sha": "41b5464cd665595eceab474f126214ece10f3000",
+    "commit": {
+      "author": {
+        "name": "Scott Klein",
+        "email": "scott.klein@propublica.org",
+        "date": "2013-03-07T14:52:41Z"
+      },
+      "committer": {
+        "name": "Scott Klein",
+        "email": "scott.klein@propublica.org",
+        "date": "2013-03-07T14:52:41Z"
+      },
+      "message": "added lead-in reference",
+      "tree": {
+        "sha": "a7e6185b8d403242d0e8fce15b34716764652040",
+        "url": "https://api.github.com/repos/propublica/guides/git/trees/a7e6185b8d403242d0e8fce15b34716764652040"
+      },
+      "url": "https://api.github.com/repos/propublica/guides/git/commits/41b5464cd665595eceab474f126214ece10f3000",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/propublica/guides/commits/41b5464cd665595eceab474f126214ece10f3000",
+    "html_url": "https://github.com/propublica/guides/commit/41b5464cd665595eceab474f126214ece10f3000",
+    "comments_url": "https://api.github.com/repos/propublica/guides/commits/41b5464cd665595eceab474f126214ece10f3000/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "c1a886d4b37813040e9953ac7be8e62fa90d43d8",
+        "url": "https://api.github.com/repos/propublica/guides/commits/c1a886d4b37813040e9953ac7be8e62fa90d43d8",
+        "html_url": "https://github.com/propublica/guides/commit/c1a886d4b37813040e9953ac7be8e62fa90d43d8"
+      }
+    ]
+  },
+  {
+    "sha": "c1a886d4b37813040e9953ac7be8e62fa90d43d8",
+    "commit": {
+      "author": {
+        "name": "Scott Klein",
+        "email": "scott@kleinmatic.com",
+        "date": "2013-03-07T14:51:17Z"
+      },
+      "committer": {
+        "name": "Scott Klein",
+        "email": "scott@kleinmatic.com",
+        "date": "2013-03-07T14:51:17Z"
+      },
+      "message": "bad anchor",
+      "tree": {
+        "sha": "18b478876f0813dfa8d53ccc1377dbdc7eda7339",
+        "url": "https://api.github.com/repos/propublica/guides/git/trees/18b478876f0813dfa8d53ccc1377dbdc7eda7339"
+      },
+      "url": "https://api.github.com/repos/propublica/guides/git/commits/c1a886d4b37813040e9953ac7be8e62fa90d43d8",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/propublica/guides/commits/c1a886d4b37813040e9953ac7be8e62fa90d43d8",
+    "html_url": "https://github.com/propublica/guides/commit/c1a886d4b37813040e9953ac7be8e62fa90d43d8",
+    "comments_url": "https://api.github.com/repos/propublica/guides/commits/c1a886d4b37813040e9953ac7be8e62fa90d43d8/comments",
+    "author": {
+      "login": "kleinmatic",
+      "id": 92971,
+      "avatar_url": "https://gravatar.com/avatar/407a6dac2367b6befa6a5a14e3fcd0fb?d=https%3A%2F%2Fidenticons.github.com%2F062e4597b955b3c09d8a060383cf90c0.png&r=x",
+      "gravatar_id": "407a6dac2367b6befa6a5a14e3fcd0fb",
+      "url": "https://api.github.com/users/kleinmatic",
+      "html_url": "https://github.com/kleinmatic",
+      "followers_url": "https://api.github.com/users/kleinmatic/followers",
+      "following_url": "https://api.github.com/users/kleinmatic/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kleinmatic/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kleinmatic/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kleinmatic/subscriptions",
+      "organizations_url": "https://api.github.com/users/kleinmatic/orgs",
+      "repos_url": "https://api.github.com/users/kleinmatic/repos",
+      "events_url": "https://api.github.com/users/kleinmatic/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kleinmatic/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "kleinmatic",
+      "id": 92971,
+      "avatar_url": "https://gravatar.com/avatar/407a6dac2367b6befa6a5a14e3fcd0fb?d=https%3A%2F%2Fidenticons.github.com%2F062e4597b955b3c09d8a060383cf90c0.png&r=x",
+      "gravatar_id": "407a6dac2367b6befa6a5a14e3fcd0fb",
+      "url": "https://api.github.com/users/kleinmatic",
+      "html_url": "https://github.com/kleinmatic",
+      "followers_url": "https://api.github.com/users/kleinmatic/followers",
+      "following_url": "https://api.github.com/users/kleinmatic/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kleinmatic/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kleinmatic/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kleinmatic/subscriptions",
+      "organizations_url": "https://api.github.com/users/kleinmatic/orgs",
+      "repos_url": "https://api.github.com/users/kleinmatic/repos",
+      "events_url": "https://api.github.com/users/kleinmatic/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kleinmatic/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f93b13966e1220efea193bc197bb2a2b6eccc36c",
+        "url": "https://api.github.com/repos/propublica/guides/commits/f93b13966e1220efea193bc197bb2a2b6eccc36c",
+        "html_url": "https://github.com/propublica/guides/commit/f93b13966e1220efea193bc197bb2a2b6eccc36c"
+      }
+    ]
+  },
+  {
+    "sha": "f93b13966e1220efea193bc197bb2a2b6eccc36c",
+    "commit": {
+      "author": {
+        "name": "Scott Klein",
+        "email": "scott@kleinmatic.com",
+        "date": "2013-03-07T14:50:36Z"
+      },
+      "committer": {
+        "name": "Scott Klein",
+        "email": "scott@kleinmatic.com",
+        "date": "2013-03-07T14:50:36Z"
+      },
+      "message": "fixed guff circular reference.",
+      "tree": {
+        "sha": "b3f9f9713570308ed41ec8e6d9565419ea4f3e0a",
+        "url": "https://api.github.com/repos/propublica/guides/git/trees/b3f9f9713570308ed41ec8e6d9565419ea4f3e0a"
+      },
+      "url": "https://api.github.com/repos/propublica/guides/git/commits/f93b13966e1220efea193bc197bb2a2b6eccc36c",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/propublica/guides/commits/f93b13966e1220efea193bc197bb2a2b6eccc36c",
+    "html_url": "https://github.com/propublica/guides/commit/f93b13966e1220efea193bc197bb2a2b6eccc36c",
+    "comments_url": "https://api.github.com/repos/propublica/guides/commits/f93b13966e1220efea193bc197bb2a2b6eccc36c/comments",
+    "author": {
+      "login": "kleinmatic",
+      "id": 92971,
+      "avatar_url": "https://gravatar.com/avatar/407a6dac2367b6befa6a5a14e3fcd0fb?d=https%3A%2F%2Fidenticons.github.com%2F062e4597b955b3c09d8a060383cf90c0.png&r=x",
+      "gravatar_id": "407a6dac2367b6befa6a5a14e3fcd0fb",
+      "url": "https://api.github.com/users/kleinmatic",
+      "html_url": "https://github.com/kleinmatic",
+      "followers_url": "https://api.github.com/users/kleinmatic/followers",
+      "following_url": "https://api.github.com/users/kleinmatic/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kleinmatic/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kleinmatic/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kleinmatic/subscriptions",
+      "organizations_url": "https://api.github.com/users/kleinmatic/orgs",
+      "repos_url": "https://api.github.com/users/kleinmatic/repos",
+      "events_url": "https://api.github.com/users/kleinmatic/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kleinmatic/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "kleinmatic",
+      "id": 92971,
+      "avatar_url": "https://gravatar.com/avatar/407a6dac2367b6befa6a5a14e3fcd0fb?d=https%3A%2F%2Fidenticons.github.com%2F062e4597b955b3c09d8a060383cf90c0.png&r=x",
+      "gravatar_id": "407a6dac2367b6befa6a5a14e3fcd0fb",
+      "url": "https://api.github.com/users/kleinmatic",
+      "html_url": "https://github.com/kleinmatic",
+      "followers_url": "https://api.github.com/users/kleinmatic/followers",
+      "following_url": "https://api.github.com/users/kleinmatic/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kleinmatic/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kleinmatic/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kleinmatic/subscriptions",
+      "organizations_url": "https://api.github.com/users/kleinmatic/orgs",
+      "repos_url": "https://api.github.com/users/kleinmatic/repos",
+      "events_url": "https://api.github.com/users/kleinmatic/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kleinmatic/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "47eabfcec87726693b696bd4b150eaf0370af1e6",
+        "url": "https://api.github.com/repos/propublica/guides/commits/47eabfcec87726693b696bd4b150eaf0370af1e6",
+        "html_url": "https://github.com/propublica/guides/commit/47eabfcec87726693b696bd4b150eaf0370af1e6"
+      }
+    ]
+  },
+  {
+    "sha": "47eabfcec87726693b696bd4b150eaf0370af1e6",
+    "commit": {
+      "author": {
+        "name": "Scott Klein",
+        "email": "scott@kleinmatic.com",
+        "date": "2013-03-06T14:40:02Z"
+      },
+      "committer": {
+        "name": "Scott Klein",
+        "email": "scott@kleinmatic.com",
+        "date": "2013-03-06T14:40:02Z"
+      },
+      "message": "Update news-apps.md",
+      "tree": {
+        "sha": "6a78f37240322c16e271db7d086703e14dbb1ad2",
+        "url": "https://api.github.com/repos/propublica/guides/git/trees/6a78f37240322c16e271db7d086703e14dbb1ad2"
+      },
+      "url": "https://api.github.com/repos/propublica/guides/git/commits/47eabfcec87726693b696bd4b150eaf0370af1e6",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/propublica/guides/commits/47eabfcec87726693b696bd4b150eaf0370af1e6",
+    "html_url": "https://github.com/propublica/guides/commit/47eabfcec87726693b696bd4b150eaf0370af1e6",
+    "comments_url": "https://api.github.com/repos/propublica/guides/commits/47eabfcec87726693b696bd4b150eaf0370af1e6/comments",
+    "author": {
+      "login": "kleinmatic",
+      "id": 92971,
+      "avatar_url": "https://gravatar.com/avatar/407a6dac2367b6befa6a5a14e3fcd0fb?d=https%3A%2F%2Fidenticons.github.com%2F062e4597b955b3c09d8a060383cf90c0.png&r=x",
+      "gravatar_id": "407a6dac2367b6befa6a5a14e3fcd0fb",
+      "url": "https://api.github.com/users/kleinmatic",
+      "html_url": "https://github.com/kleinmatic",
+      "followers_url": "https://api.github.com/users/kleinmatic/followers",
+      "following_url": "https://api.github.com/users/kleinmatic/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kleinmatic/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kleinmatic/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kleinmatic/subscriptions",
+      "organizations_url": "https://api.github.com/users/kleinmatic/orgs",
+      "repos_url": "https://api.github.com/users/kleinmatic/repos",
+      "events_url": "https://api.github.com/users/kleinmatic/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kleinmatic/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "kleinmatic",
+      "id": 92971,
+      "avatar_url": "https://gravatar.com/avatar/407a6dac2367b6befa6a5a14e3fcd0fb?d=https%3A%2F%2Fidenticons.github.com%2F062e4597b955b3c09d8a060383cf90c0.png&r=x",
+      "gravatar_id": "407a6dac2367b6befa6a5a14e3fcd0fb",
+      "url": "https://api.github.com/users/kleinmatic",
+      "html_url": "https://github.com/kleinmatic",
+      "followers_url": "https://api.github.com/users/kleinmatic/followers",
+      "following_url": "https://api.github.com/users/kleinmatic/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kleinmatic/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kleinmatic/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kleinmatic/subscriptions",
+      "organizations_url": "https://api.github.com/users/kleinmatic/orgs",
+      "repos_url": "https://api.github.com/users/kleinmatic/repos",
+      "events_url": "https://api.github.com/users/kleinmatic/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kleinmatic/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "95ba4da751eaabc81f10755d989d39dc98dd8db8",
+        "url": "https://api.github.com/repos/propublica/guides/commits/95ba4da751eaabc81f10755d989d39dc98dd8db8",
+        "html_url": "https://github.com/propublica/guides/commit/95ba4da751eaabc81f10755d989d39dc98dd8db8"
+      }
+    ]
+  },
+  {
+    "sha": "95ba4da751eaabc81f10755d989d39dc98dd8db8",
+    "commit": {
+      "author": {
+        "name": "Scott Klein",
+        "email": "scott@kleinmatic.com",
+        "date": "2013-03-04T23:16:17Z"
+      },
+      "committer": {
+        "name": "Scott Klein",
+        "email": "scott@kleinmatic.com",
+        "date": "2013-03-04T23:16:17Z"
+      },
+      "message": "typo fix, care of vigorousnorth",
+      "tree": {
+        "sha": "a185d22cd9722719c965b1df85b15424bcf25872",
+        "url": "https://api.github.com/repos/propublica/guides/git/trees/a185d22cd9722719c965b1df85b15424bcf25872"
+      },
+      "url": "https://api.github.com/repos/propublica/guides/git/commits/95ba4da751eaabc81f10755d989d39dc98dd8db8",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/propublica/guides/commits/95ba4da751eaabc81f10755d989d39dc98dd8db8",
+    "html_url": "https://github.com/propublica/guides/commit/95ba4da751eaabc81f10755d989d39dc98dd8db8",
+    "comments_url": "https://api.github.com/repos/propublica/guides/commits/95ba4da751eaabc81f10755d989d39dc98dd8db8/comments",
+    "author": {
+      "login": "kleinmatic",
+      "id": 92971,
+      "avatar_url": "https://gravatar.com/avatar/407a6dac2367b6befa6a5a14e3fcd0fb?d=https%3A%2F%2Fidenticons.github.com%2F062e4597b955b3c09d8a060383cf90c0.png&r=x",
+      "gravatar_id": "407a6dac2367b6befa6a5a14e3fcd0fb",
+      "url": "https://api.github.com/users/kleinmatic",
+      "html_url": "https://github.com/kleinmatic",
+      "followers_url": "https://api.github.com/users/kleinmatic/followers",
+      "following_url": "https://api.github.com/users/kleinmatic/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kleinmatic/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kleinmatic/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kleinmatic/subscriptions",
+      "organizations_url": "https://api.github.com/users/kleinmatic/orgs",
+      "repos_url": "https://api.github.com/users/kleinmatic/repos",
+      "events_url": "https://api.github.com/users/kleinmatic/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kleinmatic/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "kleinmatic",
+      "id": 92971,
+      "avatar_url": "https://gravatar.com/avatar/407a6dac2367b6befa6a5a14e3fcd0fb?d=https%3A%2F%2Fidenticons.github.com%2F062e4597b955b3c09d8a060383cf90c0.png&r=x",
+      "gravatar_id": "407a6dac2367b6befa6a5a14e3fcd0fb",
+      "url": "https://api.github.com/users/kleinmatic",
+      "html_url": "https://github.com/kleinmatic",
+      "followers_url": "https://api.github.com/users/kleinmatic/followers",
+      "following_url": "https://api.github.com/users/kleinmatic/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kleinmatic/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kleinmatic/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kleinmatic/subscriptions",
+      "organizations_url": "https://api.github.com/users/kleinmatic/orgs",
+      "repos_url": "https://api.github.com/users/kleinmatic/repos",
+      "events_url": "https://api.github.com/users/kleinmatic/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kleinmatic/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a8d0397edba7fb7d42d6d006d66f81417329e4b5",
+        "url": "https://api.github.com/repos/propublica/guides/commits/a8d0397edba7fb7d42d6d006d66f81417329e4b5",
+        "html_url": "https://github.com/propublica/guides/commit/a8d0397edba7fb7d42d6d006d66f81417329e4b5"
+      }
+    ]
+  },
+  {
+    "sha": "a8d0397edba7fb7d42d6d006d66f81417329e4b5",
+    "commit": {
+      "author": {
+        "name": "Jeff Larson",
+        "email": "thejefflarson@gmail.com",
+        "date": "2013-03-04T07:13:40Z"
+      },
+      "committer": {
+        "name": "Jeff Larson",
+        "email": "thejefflarson@gmail.com",
+        "date": "2013-03-04T07:13:40Z"
+      },
+      "message": "Sarah Cohen works for the Times",
+      "tree": {
+        "sha": "cc3b5868fad867acf5e3118f2e49b0e9dbadd14d",
+        "url": "https://api.github.com/repos/propublica/guides/git/trees/cc3b5868fad867acf5e3118f2e49b0e9dbadd14d"
+      },
+      "url": "https://api.github.com/repos/propublica/guides/git/commits/a8d0397edba7fb7d42d6d006d66f81417329e4b5",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/propublica/guides/commits/a8d0397edba7fb7d42d6d006d66f81417329e4b5",
+    "html_url": "https://github.com/propublica/guides/commit/a8d0397edba7fb7d42d6d006d66f81417329e4b5",
+    "comments_url": "https://api.github.com/repos/propublica/guides/commits/a8d0397edba7fb7d42d6d006d66f81417329e4b5/comments",
+    "author": {
+      "login": "thejefflarson",
+      "id": 55365,
+      "avatar_url": "https://gravatar.com/avatar/ad799d71d3074d1e2e5fe37e6c73d624?d=https%3A%2F%2Fidenticons.github.com%2F5edc987d7d6b3bb2ca34eba15995814d.png&r=x",
+      "gravatar_id": "ad799d71d3074d1e2e5fe37e6c73d624",
+      "url": "https://api.github.com/users/thejefflarson",
+      "html_url": "https://github.com/thejefflarson",
+      "followers_url": "https://api.github.com/users/thejefflarson/followers",
+      "following_url": "https://api.github.com/users/thejefflarson/following{/other_user}",
+      "gists_url": "https://api.github.com/users/thejefflarson/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/thejefflarson/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/thejefflarson/subscriptions",
+      "organizations_url": "https://api.github.com/users/thejefflarson/orgs",
+      "repos_url": "https://api.github.com/users/thejefflarson/repos",
+      "events_url": "https://api.github.com/users/thejefflarson/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/thejefflarson/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "thejefflarson",
+      "id": 55365,
+      "avatar_url": "https://gravatar.com/avatar/ad799d71d3074d1e2e5fe37e6c73d624?d=https%3A%2F%2Fidenticons.github.com%2F5edc987d7d6b3bb2ca34eba15995814d.png&r=x",
+      "gravatar_id": "ad799d71d3074d1e2e5fe37e6c73d624",
+      "url": "https://api.github.com/users/thejefflarson",
+      "html_url": "https://github.com/thejefflarson",
+      "followers_url": "https://api.github.com/users/thejefflarson/followers",
+      "following_url": "https://api.github.com/users/thejefflarson/following{/other_user}",
+      "gists_url": "https://api.github.com/users/thejefflarson/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/thejefflarson/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/thejefflarson/subscriptions",
+      "organizations_url": "https://api.github.com/users/thejefflarson/orgs",
+      "repos_url": "https://api.github.com/users/thejefflarson/repos",
+      "events_url": "https://api.github.com/users/thejefflarson/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/thejefflarson/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "88380c05ab12b843563603eae5b657eb7e2093ae",
+        "url": "https://api.github.com/repos/propublica/guides/commits/88380c05ab12b843563603eae5b657eb7e2093ae",
+        "html_url": "https://github.com/propublica/guides/commit/88380c05ab12b843563603eae5b657eb7e2093ae"
+      }
+    ]
+  },
+  {
+    "sha": "88380c05ab12b843563603eae5b657eb7e2093ae",
+    "commit": {
+      "author": {
+        "name": "Scott Klein",
+        "email": "scott@kleinmatic.com",
+        "date": "2013-03-04T02:45:49Z"
+      },
+      "committer": {
+        "name": "Scott Klein",
+        "email": "scott@kleinmatic.com",
+        "date": "2013-03-04T02:45:49Z"
+      },
+      "message": "Merge pull request #3 from tswicegood/patch-1\n\nFix a typo",
+      "tree": {
+        "sha": "f52dee37f30a59e821498f7a52a45b13dab70680",
+        "url": "https://api.github.com/repos/propublica/guides/git/trees/f52dee37f30a59e821498f7a52a45b13dab70680"
+      },
+      "url": "https://api.github.com/repos/propublica/guides/git/commits/88380c05ab12b843563603eae5b657eb7e2093ae",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/propublica/guides/commits/88380c05ab12b843563603eae5b657eb7e2093ae",
+    "html_url": "https://github.com/propublica/guides/commit/88380c05ab12b843563603eae5b657eb7e2093ae",
+    "comments_url": "https://api.github.com/repos/propublica/guides/commits/88380c05ab12b843563603eae5b657eb7e2093ae/comments",
+    "author": {
+      "login": "kleinmatic",
+      "id": 92971,
+      "avatar_url": "https://gravatar.com/avatar/407a6dac2367b6befa6a5a14e3fcd0fb?d=https%3A%2F%2Fidenticons.github.com%2F062e4597b955b3c09d8a060383cf90c0.png&r=x",
+      "gravatar_id": "407a6dac2367b6befa6a5a14e3fcd0fb",
+      "url": "https://api.github.com/users/kleinmatic",
+      "html_url": "https://github.com/kleinmatic",
+      "followers_url": "https://api.github.com/users/kleinmatic/followers",
+      "following_url": "https://api.github.com/users/kleinmatic/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kleinmatic/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kleinmatic/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kleinmatic/subscriptions",
+      "organizations_url": "https://api.github.com/users/kleinmatic/orgs",
+      "repos_url": "https://api.github.com/users/kleinmatic/repos",
+      "events_url": "https://api.github.com/users/kleinmatic/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kleinmatic/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "kleinmatic",
+      "id": 92971,
+      "avatar_url": "https://gravatar.com/avatar/407a6dac2367b6befa6a5a14e3fcd0fb?d=https%3A%2F%2Fidenticons.github.com%2F062e4597b955b3c09d8a060383cf90c0.png&r=x",
+      "gravatar_id": "407a6dac2367b6befa6a5a14e3fcd0fb",
+      "url": "https://api.github.com/users/kleinmatic",
+      "html_url": "https://github.com/kleinmatic",
+      "followers_url": "https://api.github.com/users/kleinmatic/followers",
+      "following_url": "https://api.github.com/users/kleinmatic/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kleinmatic/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kleinmatic/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kleinmatic/subscriptions",
+      "organizations_url": "https://api.github.com/users/kleinmatic/orgs",
+      "repos_url": "https://api.github.com/users/kleinmatic/repos",
+      "events_url": "https://api.github.com/users/kleinmatic/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kleinmatic/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c183d26b8c0fe78d7a6ef72a61b859383675633c",
+        "url": "https://api.github.com/repos/propublica/guides/commits/c183d26b8c0fe78d7a6ef72a61b859383675633c",
+        "html_url": "https://github.com/propublica/guides/commit/c183d26b8c0fe78d7a6ef72a61b859383675633c"
+      },
+      {
+        "sha": "485fcc44a7185f5a3ae2c5463aa32f4b52cb7caf",
+        "url": "https://api.github.com/repos/propublica/guides/commits/485fcc44a7185f5a3ae2c5463aa32f4b52cb7caf",
+        "html_url": "https://github.com/propublica/guides/commit/485fcc44a7185f5a3ae2c5463aa32f4b52cb7caf"
+      }
+    ]
+  },
+  {
+    "sha": "485fcc44a7185f5a3ae2c5463aa32f4b52cb7caf",
+    "commit": {
+      "author": {
+        "name": "Travis Swicegood",
+        "email": "travis@domain51.com",
+        "date": "2013-03-04T01:33:07Z"
+      },
+      "committer": {
+        "name": "Travis Swicegood",
+        "email": "travis@domain51.com",
+        "date": "2013-03-04T01:33:07Z"
+      },
+      "message": "Fix a typo",
+      "tree": {
+        "sha": "f52dee37f30a59e821498f7a52a45b13dab70680",
+        "url": "https://api.github.com/repos/propublica/guides/git/trees/f52dee37f30a59e821498f7a52a45b13dab70680"
+      },
+      "url": "https://api.github.com/repos/propublica/guides/git/commits/485fcc44a7185f5a3ae2c5463aa32f4b52cb7caf",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/propublica/guides/commits/485fcc44a7185f5a3ae2c5463aa32f4b52cb7caf",
+    "html_url": "https://github.com/propublica/guides/commit/485fcc44a7185f5a3ae2c5463aa32f4b52cb7caf",
+    "comments_url": "https://api.github.com/repos/propublica/guides/commits/485fcc44a7185f5a3ae2c5463aa32f4b52cb7caf/comments",
+    "author": {
+      "login": "tswicegood",
+      "id": 4328,
+      "avatar_url": "https://gravatar.com/avatar/9e37f9dc53378c04bab413d352994b79?d=https%3A%2F%2Fidenticons.github.com%2F1343777b8ead1cef5a79b78a1a48d805.png&r=x",
+      "gravatar_id": "9e37f9dc53378c04bab413d352994b79",
+      "url": "https://api.github.com/users/tswicegood",
+      "html_url": "https://github.com/tswicegood",
+      "followers_url": "https://api.github.com/users/tswicegood/followers",
+      "following_url": "https://api.github.com/users/tswicegood/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tswicegood/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tswicegood/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tswicegood/subscriptions",
+      "organizations_url": "https://api.github.com/users/tswicegood/orgs",
+      "repos_url": "https://api.github.com/users/tswicegood/repos",
+      "events_url": "https://api.github.com/users/tswicegood/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tswicegood/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "tswicegood",
+      "id": 4328,
+      "avatar_url": "https://gravatar.com/avatar/9e37f9dc53378c04bab413d352994b79?d=https%3A%2F%2Fidenticons.github.com%2F1343777b8ead1cef5a79b78a1a48d805.png&r=x",
+      "gravatar_id": "9e37f9dc53378c04bab413d352994b79",
+      "url": "https://api.github.com/users/tswicegood",
+      "html_url": "https://github.com/tswicegood",
+      "followers_url": "https://api.github.com/users/tswicegood/followers",
+      "following_url": "https://api.github.com/users/tswicegood/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tswicegood/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tswicegood/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tswicegood/subscriptions",
+      "organizations_url": "https://api.github.com/users/tswicegood/orgs",
+      "repos_url": "https://api.github.com/users/tswicegood/repos",
+      "events_url": "https://api.github.com/users/tswicegood/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tswicegood/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c183d26b8c0fe78d7a6ef72a61b859383675633c",
+        "url": "https://api.github.com/repos/propublica/guides/commits/c183d26b8c0fe78d7a6ef72a61b859383675633c",
+        "html_url": "https://github.com/propublica/guides/commit/c183d26b8c0fe78d7a6ef72a61b859383675633c"
+      }
+    ]
+  },
+  {
+    "sha": "c183d26b8c0fe78d7a6ef72a61b859383675633c",
+    "commit": {
+      "author": {
+        "name": "Scott Klein",
+        "email": "scott@kleinmatic.com",
+        "date": "2013-02-28T22:33:46Z"
+      },
+      "committer": {
+        "name": "Scott Klein",
+        "email": "scott@kleinmatic.com",
+        "date": "2013-02-28T22:33:46Z"
+      },
+      "message": "small change to first item",
+      "tree": {
+        "sha": "b6480d862ad228dd10dc4953e377622a182ddd45",
+        "url": "https://api.github.com/repos/propublica/guides/git/trees/b6480d862ad228dd10dc4953e377622a182ddd45"
+      },
+      "url": "https://api.github.com/repos/propublica/guides/git/commits/c183d26b8c0fe78d7a6ef72a61b859383675633c",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/propublica/guides/commits/c183d26b8c0fe78d7a6ef72a61b859383675633c",
+    "html_url": "https://github.com/propublica/guides/commit/c183d26b8c0fe78d7a6ef72a61b859383675633c",
+    "comments_url": "https://api.github.com/repos/propublica/guides/commits/c183d26b8c0fe78d7a6ef72a61b859383675633c/comments",
+    "author": {
+      "login": "kleinmatic",
+      "id": 92971,
+      "avatar_url": "https://gravatar.com/avatar/407a6dac2367b6befa6a5a14e3fcd0fb?d=https%3A%2F%2Fidenticons.github.com%2F062e4597b955b3c09d8a060383cf90c0.png&r=x",
+      "gravatar_id": "407a6dac2367b6befa6a5a14e3fcd0fb",
+      "url": "https://api.github.com/users/kleinmatic",
+      "html_url": "https://github.com/kleinmatic",
+      "followers_url": "https://api.github.com/users/kleinmatic/followers",
+      "following_url": "https://api.github.com/users/kleinmatic/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kleinmatic/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kleinmatic/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kleinmatic/subscriptions",
+      "organizations_url": "https://api.github.com/users/kleinmatic/orgs",
+      "repos_url": "https://api.github.com/users/kleinmatic/repos",
+      "events_url": "https://api.github.com/users/kleinmatic/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kleinmatic/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "kleinmatic",
+      "id": 92971,
+      "avatar_url": "https://gravatar.com/avatar/407a6dac2367b6befa6a5a14e3fcd0fb?d=https%3A%2F%2Fidenticons.github.com%2F062e4597b955b3c09d8a060383cf90c0.png&r=x",
+      "gravatar_id": "407a6dac2367b6befa6a5a14e3fcd0fb",
+      "url": "https://api.github.com/users/kleinmatic",
+      "html_url": "https://github.com/kleinmatic",
+      "followers_url": "https://api.github.com/users/kleinmatic/followers",
+      "following_url": "https://api.github.com/users/kleinmatic/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kleinmatic/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kleinmatic/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kleinmatic/subscriptions",
+      "organizations_url": "https://api.github.com/users/kleinmatic/orgs",
+      "repos_url": "https://api.github.com/users/kleinmatic/repos",
+      "events_url": "https://api.github.com/users/kleinmatic/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kleinmatic/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d3e261111f202377c0e0b4d4ba70775e2ea19822",
+        "url": "https://api.github.com/repos/propublica/guides/commits/d3e261111f202377c0e0b4d4ba70775e2ea19822",
+        "html_url": "https://github.com/propublica/guides/commit/d3e261111f202377c0e0b4d4ba70775e2ea19822"
+      }
+    ]
+  },
+  {
+    "sha": "d3e261111f202377c0e0b4d4ba70775e2ea19822",
+    "commit": {
+      "author": {
+        "name": "Scott Klein",
+        "email": "scott.klein@propublica.org",
+        "date": "2013-02-28T13:41:07Z"
+      },
+      "committer": {
+        "name": "Scott Klein",
+        "email": "scott.klein@propublica.org",
+        "date": "2013-02-28T13:41:07Z"
+      },
+      "message": "added backup note",
+      "tree": {
+        "sha": "ecbc0540a25d6be889fca3d5ebc53196a7e8d8ed",
+        "url": "https://api.github.com/repos/propublica/guides/git/trees/ecbc0540a25d6be889fca3d5ebc53196a7e8d8ed"
+      },
+      "url": "https://api.github.com/repos/propublica/guides/git/commits/d3e261111f202377c0e0b4d4ba70775e2ea19822",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/propublica/guides/commits/d3e261111f202377c0e0b4d4ba70775e2ea19822",
+    "html_url": "https://github.com/propublica/guides/commit/d3e261111f202377c0e0b4d4ba70775e2ea19822",
+    "comments_url": "https://api.github.com/repos/propublica/guides/commits/d3e261111f202377c0e0b4d4ba70775e2ea19822/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "ca16a96d6cb7c6377b4fb2886b3e29b803d03d9d",
+        "url": "https://api.github.com/repos/propublica/guides/commits/ca16a96d6cb7c6377b4fb2886b3e29b803d03d9d",
+        "html_url": "https://github.com/propublica/guides/commit/ca16a96d6cb7c6377b4fb2886b3e29b803d03d9d"
+      }
+    ]
+  },
+  {
+    "sha": "ca16a96d6cb7c6377b4fb2886b3e29b803d03d9d",
+    "commit": {
+      "author": {
+        "name": "Scott Klein",
+        "email": "scott.klein@propublica.org",
+        "date": "2013-02-27T19:10:06Z"
+      },
+      "committer": {
+        "name": "Scott Klein",
+        "email": "scott.klein@propublica.org",
+        "date": "2013-02-27T19:10:06Z"
+      },
+      "message": "added rule for dashes",
+      "tree": {
+        "sha": "5f166167d53a29b39b2b827d172a8d13f7680c63",
+        "url": "https://api.github.com/repos/propublica/guides/git/trees/5f166167d53a29b39b2b827d172a8d13f7680c63"
+      },
+      "url": "https://api.github.com/repos/propublica/guides/git/commits/ca16a96d6cb7c6377b4fb2886b3e29b803d03d9d",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/propublica/guides/commits/ca16a96d6cb7c6377b4fb2886b3e29b803d03d9d",
+    "html_url": "https://github.com/propublica/guides/commit/ca16a96d6cb7c6377b4fb2886b3e29b803d03d9d",
+    "comments_url": "https://api.github.com/repos/propublica/guides/commits/ca16a96d6cb7c6377b4fb2886b3e29b803d03d9d/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "3f3acbd70e2d10f27d6de90aec4abd06d144c336",
+        "url": "https://api.github.com/repos/propublica/guides/commits/3f3acbd70e2d10f27d6de90aec4abd06d144c336",
+        "html_url": "https://github.com/propublica/guides/commit/3f3acbd70e2d10f27d6de90aec4abd06d144c336"
+      }
+    ]
+  },
+  {
+    "sha": "3f3acbd70e2d10f27d6de90aec4abd06d144c336",
+    "commit": {
+      "author": {
+        "name": "Scott Klein",
+        "email": "scott@kleinmatic.com",
+        "date": "2013-02-27T18:56:39Z"
+      },
+      "committer": {
+        "name": "Scott Klein",
+        "email": "scott@kleinmatic.com",
+        "date": "2013-02-27T18:56:39Z"
+      },
+      "message": "Update data-bulletproofing.md",
+      "tree": {
+        "sha": "8e59a174a5993e6fe061770370a417b076c75e28",
+        "url": "https://api.github.com/repos/propublica/guides/git/trees/8e59a174a5993e6fe061770370a417b076c75e28"
+      },
+      "url": "https://api.github.com/repos/propublica/guides/git/commits/3f3acbd70e2d10f27d6de90aec4abd06d144c336",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/propublica/guides/commits/3f3acbd70e2d10f27d6de90aec4abd06d144c336",
+    "html_url": "https://github.com/propublica/guides/commit/3f3acbd70e2d10f27d6de90aec4abd06d144c336",
+    "comments_url": "https://api.github.com/repos/propublica/guides/commits/3f3acbd70e2d10f27d6de90aec4abd06d144c336/comments",
+    "author": {
+      "login": "kleinmatic",
+      "id": 92971,
+      "avatar_url": "https://gravatar.com/avatar/407a6dac2367b6befa6a5a14e3fcd0fb?d=https%3A%2F%2Fidenticons.github.com%2F062e4597b955b3c09d8a060383cf90c0.png&r=x",
+      "gravatar_id": "407a6dac2367b6befa6a5a14e3fcd0fb",
+      "url": "https://api.github.com/users/kleinmatic",
+      "html_url": "https://github.com/kleinmatic",
+      "followers_url": "https://api.github.com/users/kleinmatic/followers",
+      "following_url": "https://api.github.com/users/kleinmatic/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kleinmatic/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kleinmatic/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kleinmatic/subscriptions",
+      "organizations_url": "https://api.github.com/users/kleinmatic/orgs",
+      "repos_url": "https://api.github.com/users/kleinmatic/repos",
+      "events_url": "https://api.github.com/users/kleinmatic/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kleinmatic/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "kleinmatic",
+      "id": 92971,
+      "avatar_url": "https://gravatar.com/avatar/407a6dac2367b6befa6a5a14e3fcd0fb?d=https%3A%2F%2Fidenticons.github.com%2F062e4597b955b3c09d8a060383cf90c0.png&r=x",
+      "gravatar_id": "407a6dac2367b6befa6a5a14e3fcd0fb",
+      "url": "https://api.github.com/users/kleinmatic",
+      "html_url": "https://github.com/kleinmatic",
+      "followers_url": "https://api.github.com/users/kleinmatic/followers",
+      "following_url": "https://api.github.com/users/kleinmatic/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kleinmatic/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kleinmatic/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kleinmatic/subscriptions",
+      "organizations_url": "https://api.github.com/users/kleinmatic/orgs",
+      "repos_url": "https://api.github.com/users/kleinmatic/repos",
+      "events_url": "https://api.github.com/users/kleinmatic/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kleinmatic/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "2e186a04323f8dd456043f0240fc2baf43017479",
+        "url": "https://api.github.com/repos/propublica/guides/commits/2e186a04323f8dd456043f0240fc2baf43017479",
+        "html_url": "https://github.com/propublica/guides/commit/2e186a04323f8dd456043f0240fc2baf43017479"
+      }
+    ]
+  },
+  {
+    "sha": "2e186a04323f8dd456043f0240fc2baf43017479",
+    "commit": {
+      "author": {
+        "name": "Scott Klein",
+        "email": "scott@kleinmatic.com",
+        "date": "2013-02-27T18:54:21Z"
+      },
+      "committer": {
+        "name": "Scott Klein",
+        "email": "scott@kleinmatic.com",
+        "date": "2013-02-27T18:54:21Z"
+      },
+      "message": "Merge pull request #2 from propublica/newexcellimit\n\nadd new Excel row limit of 1,048,576 (i.e. 2^20) rows",
+      "tree": {
+        "sha": "0a9525e983a90e1e27c229768c302dcaffc04441",
+        "url": "https://api.github.com/repos/propublica/guides/git/trees/0a9525e983a90e1e27c229768c302dcaffc04441"
+      },
+      "url": "https://api.github.com/repos/propublica/guides/git/commits/2e186a04323f8dd456043f0240fc2baf43017479",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/propublica/guides/commits/2e186a04323f8dd456043f0240fc2baf43017479",
+    "html_url": "https://github.com/propublica/guides/commit/2e186a04323f8dd456043f0240fc2baf43017479",
+    "comments_url": "https://api.github.com/repos/propublica/guides/commits/2e186a04323f8dd456043f0240fc2baf43017479/comments",
+    "author": {
+      "login": "kleinmatic",
+      "id": 92971,
+      "avatar_url": "https://gravatar.com/avatar/407a6dac2367b6befa6a5a14e3fcd0fb?d=https%3A%2F%2Fidenticons.github.com%2F062e4597b955b3c09d8a060383cf90c0.png&r=x",
+      "gravatar_id": "407a6dac2367b6befa6a5a14e3fcd0fb",
+      "url": "https://api.github.com/users/kleinmatic",
+      "html_url": "https://github.com/kleinmatic",
+      "followers_url": "https://api.github.com/users/kleinmatic/followers",
+      "following_url": "https://api.github.com/users/kleinmatic/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kleinmatic/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kleinmatic/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kleinmatic/subscriptions",
+      "organizations_url": "https://api.github.com/users/kleinmatic/orgs",
+      "repos_url": "https://api.github.com/users/kleinmatic/repos",
+      "events_url": "https://api.github.com/users/kleinmatic/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kleinmatic/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "kleinmatic",
+      "id": 92971,
+      "avatar_url": "https://gravatar.com/avatar/407a6dac2367b6befa6a5a14e3fcd0fb?d=https%3A%2F%2Fidenticons.github.com%2F062e4597b955b3c09d8a060383cf90c0.png&r=x",
+      "gravatar_id": "407a6dac2367b6befa6a5a14e3fcd0fb",
+      "url": "https://api.github.com/users/kleinmatic",
+      "html_url": "https://github.com/kleinmatic",
+      "followers_url": "https://api.github.com/users/kleinmatic/followers",
+      "following_url": "https://api.github.com/users/kleinmatic/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kleinmatic/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kleinmatic/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kleinmatic/subscriptions",
+      "organizations_url": "https://api.github.com/users/kleinmatic/orgs",
+      "repos_url": "https://api.github.com/users/kleinmatic/repos",
+      "events_url": "https://api.github.com/users/kleinmatic/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kleinmatic/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4b748a71b9cae5eeb8759779a8d2a36b26298c2a",
+        "url": "https://api.github.com/repos/propublica/guides/commits/4b748a71b9cae5eeb8759779a8d2a36b26298c2a",
+        "html_url": "https://github.com/propublica/guides/commit/4b748a71b9cae5eeb8759779a8d2a36b26298c2a"
+      },
+      {
+        "sha": "74fb969170398d900bdd3a0a2ffb5e00a5aa4c25",
+        "url": "https://api.github.com/repos/propublica/guides/commits/74fb969170398d900bdd3a0a2ffb5e00a5aa4c25",
+        "html_url": "https://github.com/propublica/guides/commit/74fb969170398d900bdd3a0a2ffb5e00a5aa4c25"
+      }
+    ]
+  },
+  {
+    "sha": "74fb969170398d900bdd3a0a2ffb5e00a5aa4c25",
+    "commit": {
+      "author": {
+        "name": "Jeremy B. Merrill",
+        "email": "jeremy.merrill@propublica.org",
+        "date": "2013-02-27T18:51:25Z"
+      },
+      "committer": {
+        "name": "Jeremy B. Merrill",
+        "email": "jeremy.merrill@propublica.org",
+        "date": "2013-02-27T18:51:25Z"
+      },
+      "message": "generalize to say that powers of 2 ought to be concerning",
+      "tree": {
+        "sha": "0a9525e983a90e1e27c229768c302dcaffc04441",
+        "url": "https://api.github.com/repos/propublica/guides/git/trees/0a9525e983a90e1e27c229768c302dcaffc04441"
+      },
+      "url": "https://api.github.com/repos/propublica/guides/git/commits/74fb969170398d900bdd3a0a2ffb5e00a5aa4c25",
+      "comment_count": 1
+    },
+    "url": "https://api.github.com/repos/propublica/guides/commits/74fb969170398d900bdd3a0a2ffb5e00a5aa4c25",
+    "html_url": "https://github.com/propublica/guides/commit/74fb969170398d900bdd3a0a2ffb5e00a5aa4c25",
+    "comments_url": "https://api.github.com/repos/propublica/guides/commits/74fb969170398d900bdd3a0a2ffb5e00a5aa4c25/comments",
+    "author": {
+      "login": "jeremybmerrill",
+      "id": 548250,
+      "avatar_url": "https://gravatar.com/avatar/c3332e75c0749c788988299f3481497f?d=https%3A%2F%2Fidenticons.github.com%2Fead43abd293234635403e1c6112ce991.png&r=x",
+      "gravatar_id": "c3332e75c0749c788988299f3481497f",
+      "url": "https://api.github.com/users/jeremybmerrill",
+      "html_url": "https://github.com/jeremybmerrill",
+      "followers_url": "https://api.github.com/users/jeremybmerrill/followers",
+      "following_url": "https://api.github.com/users/jeremybmerrill/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jeremybmerrill/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jeremybmerrill/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jeremybmerrill/subscriptions",
+      "organizations_url": "https://api.github.com/users/jeremybmerrill/orgs",
+      "repos_url": "https://api.github.com/users/jeremybmerrill/repos",
+      "events_url": "https://api.github.com/users/jeremybmerrill/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jeremybmerrill/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jeremybmerrill",
+      "id": 548250,
+      "avatar_url": "https://gravatar.com/avatar/c3332e75c0749c788988299f3481497f?d=https%3A%2F%2Fidenticons.github.com%2Fead43abd293234635403e1c6112ce991.png&r=x",
+      "gravatar_id": "c3332e75c0749c788988299f3481497f",
+      "url": "https://api.github.com/users/jeremybmerrill",
+      "html_url": "https://github.com/jeremybmerrill",
+      "followers_url": "https://api.github.com/users/jeremybmerrill/followers",
+      "following_url": "https://api.github.com/users/jeremybmerrill/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jeremybmerrill/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jeremybmerrill/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jeremybmerrill/subscriptions",
+      "organizations_url": "https://api.github.com/users/jeremybmerrill/orgs",
+      "repos_url": "https://api.github.com/users/jeremybmerrill/repos",
+      "events_url": "https://api.github.com/users/jeremybmerrill/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jeremybmerrill/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e90e5f474fb263e30706830c83e84f9c6a7da25f",
+        "url": "https://api.github.com/repos/propublica/guides/commits/e90e5f474fb263e30706830c83e84f9c6a7da25f",
+        "html_url": "https://github.com/propublica/guides/commit/e90e5f474fb263e30706830c83e84f9c6a7da25f"
+      }
+    ]
+  },
+  {
+    "sha": "e90e5f474fb263e30706830c83e84f9c6a7da25f",
+    "commit": {
+      "author": {
+        "name": "Jeremy B. Merrill",
+        "email": "jeremy.merrill@propublica.org",
+        "date": "2013-02-27T16:41:19Z"
+      },
+      "committer": {
+        "name": "Jeremy B. Merrill",
+        "email": "jeremy.merrill@propublica.org",
+        "date": "2013-02-27T16:41:19Z"
+      },
+      "message": "add new Excel row limit of 1,048,576 (i.e. 2^20) rows to data-bulletproofing guide in addition to 2^16 that's already there for previous Excel version",
+      "tree": {
+        "sha": "69f487e1b5d5025cb28515b96bb1ab43eddc617c",
+        "url": "https://api.github.com/repos/propublica/guides/git/trees/69f487e1b5d5025cb28515b96bb1ab43eddc617c"
+      },
+      "url": "https://api.github.com/repos/propublica/guides/git/commits/e90e5f474fb263e30706830c83e84f9c6a7da25f",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/propublica/guides/commits/e90e5f474fb263e30706830c83e84f9c6a7da25f",
+    "html_url": "https://github.com/propublica/guides/commit/e90e5f474fb263e30706830c83e84f9c6a7da25f",
+    "comments_url": "https://api.github.com/repos/propublica/guides/commits/e90e5f474fb263e30706830c83e84f9c6a7da25f/comments",
+    "author": {
+      "login": "jeremybmerrill",
+      "id": 548250,
+      "avatar_url": "https://gravatar.com/avatar/c3332e75c0749c788988299f3481497f?d=https%3A%2F%2Fidenticons.github.com%2Fead43abd293234635403e1c6112ce991.png&r=x",
+      "gravatar_id": "c3332e75c0749c788988299f3481497f",
+      "url": "https://api.github.com/users/jeremybmerrill",
+      "html_url": "https://github.com/jeremybmerrill",
+      "followers_url": "https://api.github.com/users/jeremybmerrill/followers",
+      "following_url": "https://api.github.com/users/jeremybmerrill/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jeremybmerrill/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jeremybmerrill/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jeremybmerrill/subscriptions",
+      "organizations_url": "https://api.github.com/users/jeremybmerrill/orgs",
+      "repos_url": "https://api.github.com/users/jeremybmerrill/repos",
+      "events_url": "https://api.github.com/users/jeremybmerrill/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jeremybmerrill/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jeremybmerrill",
+      "id": 548250,
+      "avatar_url": "https://gravatar.com/avatar/c3332e75c0749c788988299f3481497f?d=https%3A%2F%2Fidenticons.github.com%2Fead43abd293234635403e1c6112ce991.png&r=x",
+      "gravatar_id": "c3332e75c0749c788988299f3481497f",
+      "url": "https://api.github.com/users/jeremybmerrill",
+      "html_url": "https://github.com/jeremybmerrill",
+      "followers_url": "https://api.github.com/users/jeremybmerrill/followers",
+      "following_url": "https://api.github.com/users/jeremybmerrill/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jeremybmerrill/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jeremybmerrill/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jeremybmerrill/subscriptions",
+      "organizations_url": "https://api.github.com/users/jeremybmerrill/orgs",
+      "repos_url": "https://api.github.com/users/jeremybmerrill/repos",
+      "events_url": "https://api.github.com/users/jeremybmerrill/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jeremybmerrill/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4b748a71b9cae5eeb8759779a8d2a36b26298c2a",
+        "url": "https://api.github.com/repos/propublica/guides/commits/4b748a71b9cae5eeb8759779a8d2a36b26298c2a",
+        "html_url": "https://github.com/propublica/guides/commit/4b748a71b9cae5eeb8759779a8d2a36b26298c2a"
+      }
+    ]
+  },
+  {
+    "sha": "4b748a71b9cae5eeb8759779a8d2a36b26298c2a",
+    "commit": {
+      "author": {
+        "name": "Jeff Larson",
+        "email": "thejefflarson@gmail.com",
+        "date": "2013-02-27T00:35:52Z"
+      },
+      "committer": {
+        "name": "Jeff Larson",
+        "email": "thejefflarson@gmail.com",
+        "date": "2013-02-27T00:35:52Z"
+      },
+      "message": "Add in events link.",
+      "tree": {
+        "sha": "e90a8ce50496d9a3e1544c5b76e82ce862b35fc9",
+        "url": "https://api.github.com/repos/propublica/guides/git/trees/e90a8ce50496d9a3e1544c5b76e82ce862b35fc9"
+      },
+      "url": "https://api.github.com/repos/propublica/guides/git/commits/4b748a71b9cae5eeb8759779a8d2a36b26298c2a",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/propublica/guides/commits/4b748a71b9cae5eeb8759779a8d2a36b26298c2a",
+    "html_url": "https://github.com/propublica/guides/commit/4b748a71b9cae5eeb8759779a8d2a36b26298c2a",
+    "comments_url": "https://api.github.com/repos/propublica/guides/commits/4b748a71b9cae5eeb8759779a8d2a36b26298c2a/comments",
+    "author": {
+      "login": "thejefflarson",
+      "id": 55365,
+      "avatar_url": "https://gravatar.com/avatar/ad799d71d3074d1e2e5fe37e6c73d624?d=https%3A%2F%2Fidenticons.github.com%2F5edc987d7d6b3bb2ca34eba15995814d.png&r=x",
+      "gravatar_id": "ad799d71d3074d1e2e5fe37e6c73d624",
+      "url": "https://api.github.com/users/thejefflarson",
+      "html_url": "https://github.com/thejefflarson",
+      "followers_url": "https://api.github.com/users/thejefflarson/followers",
+      "following_url": "https://api.github.com/users/thejefflarson/following{/other_user}",
+      "gists_url": "https://api.github.com/users/thejefflarson/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/thejefflarson/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/thejefflarson/subscriptions",
+      "organizations_url": "https://api.github.com/users/thejefflarson/orgs",
+      "repos_url": "https://api.github.com/users/thejefflarson/repos",
+      "events_url": "https://api.github.com/users/thejefflarson/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/thejefflarson/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "thejefflarson",
+      "id": 55365,
+      "avatar_url": "https://gravatar.com/avatar/ad799d71d3074d1e2e5fe37e6c73d624?d=https%3A%2F%2Fidenticons.github.com%2F5edc987d7d6b3bb2ca34eba15995814d.png&r=x",
+      "gravatar_id": "ad799d71d3074d1e2e5fe37e6c73d624",
+      "url": "https://api.github.com/users/thejefflarson",
+      "html_url": "https://github.com/thejefflarson",
+      "followers_url": "https://api.github.com/users/thejefflarson/followers",
+      "following_url": "https://api.github.com/users/thejefflarson/following{/other_user}",
+      "gists_url": "https://api.github.com/users/thejefflarson/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/thejefflarson/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/thejefflarson/subscriptions",
+      "organizations_url": "https://api.github.com/users/thejefflarson/orgs",
+      "repos_url": "https://api.github.com/users/thejefflarson/repos",
+      "events_url": "https://api.github.com/users/thejefflarson/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/thejefflarson/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f36d476966e8c15f0df5e998b100012a8efa143d",
+        "url": "https://api.github.com/repos/propublica/guides/commits/f36d476966e8c15f0df5e998b100012a8efa143d",
+        "html_url": "https://github.com/propublica/guides/commit/f36d476966e8c15f0df5e998b100012a8efa143d"
+      }
+    ]
+  },
+  {
+    "sha": "f36d476966e8c15f0df5e998b100012a8efa143d",
+    "commit": {
+      "author": {
+        "name": "Scott Klein",
+        "email": "scott@kleinmatic.com",
+        "date": "2013-02-26T23:51:46Z"
+      },
+      "committer": {
+        "name": "Scott Klein",
+        "email": "scott@kleinmatic.com",
+        "date": "2013-02-26T23:51:46Z"
+      },
+      "message": "added naming convention bullet",
+      "tree": {
+        "sha": "082ada756482b82747f40c0dc1c1a3c08b560ef3",
+        "url": "https://api.github.com/repos/propublica/guides/git/trees/082ada756482b82747f40c0dc1c1a3c08b560ef3"
+      },
+      "url": "https://api.github.com/repos/propublica/guides/git/commits/f36d476966e8c15f0df5e998b100012a8efa143d",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/propublica/guides/commits/f36d476966e8c15f0df5e998b100012a8efa143d",
+    "html_url": "https://github.com/propublica/guides/commit/f36d476966e8c15f0df5e998b100012a8efa143d",
+    "comments_url": "https://api.github.com/repos/propublica/guides/commits/f36d476966e8c15f0df5e998b100012a8efa143d/comments",
+    "author": {
+      "login": "kleinmatic",
+      "id": 92971,
+      "avatar_url": "https://gravatar.com/avatar/407a6dac2367b6befa6a5a14e3fcd0fb?d=https%3A%2F%2Fidenticons.github.com%2F062e4597b955b3c09d8a060383cf90c0.png&r=x",
+      "gravatar_id": "407a6dac2367b6befa6a5a14e3fcd0fb",
+      "url": "https://api.github.com/users/kleinmatic",
+      "html_url": "https://github.com/kleinmatic",
+      "followers_url": "https://api.github.com/users/kleinmatic/followers",
+      "following_url": "https://api.github.com/users/kleinmatic/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kleinmatic/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kleinmatic/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kleinmatic/subscriptions",
+      "organizations_url": "https://api.github.com/users/kleinmatic/orgs",
+      "repos_url": "https://api.github.com/users/kleinmatic/repos",
+      "events_url": "https://api.github.com/users/kleinmatic/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kleinmatic/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "kleinmatic",
+      "id": 92971,
+      "avatar_url": "https://gravatar.com/avatar/407a6dac2367b6befa6a5a14e3fcd0fb?d=https%3A%2F%2Fidenticons.github.com%2F062e4597b955b3c09d8a060383cf90c0.png&r=x",
+      "gravatar_id": "407a6dac2367b6befa6a5a14e3fcd0fb",
+      "url": "https://api.github.com/users/kleinmatic",
+      "html_url": "https://github.com/kleinmatic",
+      "followers_url": "https://api.github.com/users/kleinmatic/followers",
+      "following_url": "https://api.github.com/users/kleinmatic/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kleinmatic/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kleinmatic/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kleinmatic/subscriptions",
+      "organizations_url": "https://api.github.com/users/kleinmatic/orgs",
+      "repos_url": "https://api.github.com/users/kleinmatic/repos",
+      "events_url": "https://api.github.com/users/kleinmatic/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kleinmatic/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "5200adec7f221ebe1fcd396a3ed5c9c8f77dbfba",
+        "url": "https://api.github.com/repos/propublica/guides/commits/5200adec7f221ebe1fcd396a3ed5c9c8f77dbfba",
+        "html_url": "https://github.com/propublica/guides/commit/5200adec7f221ebe1fcd396a3ed5c9c8f77dbfba"
+      }
+    ]
+  },
+  {
+    "sha": "5200adec7f221ebe1fcd396a3ed5c9c8f77dbfba",
+    "commit": {
+      "author": {
+        "name": "Scott Klein",
+        "email": "scott@kleinmatic.com",
+        "date": "2013-02-26T23:49:34Z"
+      },
+      "committer": {
+        "name": "Scott Klein",
+        "email": "scott@kleinmatic.com",
+        "date": "2013-02-26T23:49:34Z"
+      },
+      "message": "link fix",
+      "tree": {
+        "sha": "b4cecc0527cb2919a9bafb911ec6effe9c7e1eaf",
+        "url": "https://api.github.com/repos/propublica/guides/git/trees/b4cecc0527cb2919a9bafb911ec6effe9c7e1eaf"
+      },
+      "url": "https://api.github.com/repos/propublica/guides/git/commits/5200adec7f221ebe1fcd396a3ed5c9c8f77dbfba",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/propublica/guides/commits/5200adec7f221ebe1fcd396a3ed5c9c8f77dbfba",
+    "html_url": "https://github.com/propublica/guides/commit/5200adec7f221ebe1fcd396a3ed5c9c8f77dbfba",
+    "comments_url": "https://api.github.com/repos/propublica/guides/commits/5200adec7f221ebe1fcd396a3ed5c9c8f77dbfba/comments",
+    "author": {
+      "login": "kleinmatic",
+      "id": 92971,
+      "avatar_url": "https://gravatar.com/avatar/407a6dac2367b6befa6a5a14e3fcd0fb?d=https%3A%2F%2Fidenticons.github.com%2F062e4597b955b3c09d8a060383cf90c0.png&r=x",
+      "gravatar_id": "407a6dac2367b6befa6a5a14e3fcd0fb",
+      "url": "https://api.github.com/users/kleinmatic",
+      "html_url": "https://github.com/kleinmatic",
+      "followers_url": "https://api.github.com/users/kleinmatic/followers",
+      "following_url": "https://api.github.com/users/kleinmatic/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kleinmatic/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kleinmatic/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kleinmatic/subscriptions",
+      "organizations_url": "https://api.github.com/users/kleinmatic/orgs",
+      "repos_url": "https://api.github.com/users/kleinmatic/repos",
+      "events_url": "https://api.github.com/users/kleinmatic/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kleinmatic/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "kleinmatic",
+      "id": 92971,
+      "avatar_url": "https://gravatar.com/avatar/407a6dac2367b6befa6a5a14e3fcd0fb?d=https%3A%2F%2Fidenticons.github.com%2F062e4597b955b3c09d8a060383cf90c0.png&r=x",
+      "gravatar_id": "407a6dac2367b6befa6a5a14e3fcd0fb",
+      "url": "https://api.github.com/users/kleinmatic",
+      "html_url": "https://github.com/kleinmatic",
+      "followers_url": "https://api.github.com/users/kleinmatic/followers",
+      "following_url": "https://api.github.com/users/kleinmatic/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kleinmatic/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kleinmatic/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kleinmatic/subscriptions",
+      "organizations_url": "https://api.github.com/users/kleinmatic/orgs",
+      "repos_url": "https://api.github.com/users/kleinmatic/repos",
+      "events_url": "https://api.github.com/users/kleinmatic/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kleinmatic/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "de330caab523232a084fc3758699074e3b1db877",
+        "url": "https://api.github.com/repos/propublica/guides/commits/de330caab523232a084fc3758699074e3b1db877",
+        "html_url": "https://github.com/propublica/guides/commit/de330caab523232a084fc3758699074e3b1db877"
+      }
+    ]
+  },
+  {
+    "sha": "de330caab523232a084fc3758699074e3b1db877",
+    "commit": {
+      "author": {
+        "name": "Scott Klein",
+        "email": "scott.klein@propublica.org",
+        "date": "2013-02-26T23:37:03Z"
+      },
+      "committer": {
+        "name": "Scott Klein",
+        "email": "scott.klein@propublica.org",
+        "date": "2013-02-26T23:37:03Z"
+      },
+      "message": "bulletproof your maps",
+      "tree": {
+        "sha": "c9bd2ba07ff223cab3a47378f4010b13dc4e0123",
+        "url": "https://api.github.com/repos/propublica/guides/git/trees/c9bd2ba07ff223cab3a47378f4010b13dc4e0123"
+      },
+      "url": "https://api.github.com/repos/propublica/guides/git/commits/de330caab523232a084fc3758699074e3b1db877",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/propublica/guides/commits/de330caab523232a084fc3758699074e3b1db877",
+    "html_url": "https://github.com/propublica/guides/commit/de330caab523232a084fc3758699074e3b1db877",
+    "comments_url": "https://api.github.com/repos/propublica/guides/commits/de330caab523232a084fc3758699074e3b1db877/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "708dafcf18a890fe937ac0323d0dfb4dbf96ebf8",
+        "url": "https://api.github.com/repos/propublica/guides/commits/708dafcf18a890fe937ac0323d0dfb4dbf96ebf8",
+        "html_url": "https://github.com/propublica/guides/commit/708dafcf18a890fe937ac0323d0dfb4dbf96ebf8"
+      }
+    ]
+  },
+  {
+    "sha": "708dafcf18a890fe937ac0323d0dfb4dbf96ebf8",
+    "commit": {
+      "author": {
+        "name": "Scott Klein",
+        "email": "scott@kleinmatic.com",
+        "date": "2013-02-26T21:32:41Z"
+      },
+      "committer": {
+        "name": "Scott Klein",
+        "email": "scott@kleinmatic.com",
+        "date": "2013-02-26T21:32:41Z"
+      },
+      "message": "why",
+      "tree": {
+        "sha": "f4d8eab9131650a72e6a1c8a24cdb679b9ecc78d",
+        "url": "https://api.github.com/repos/propublica/guides/git/trees/f4d8eab9131650a72e6a1c8a24cdb679b9ecc78d"
+      },
+      "url": "https://api.github.com/repos/propublica/guides/git/commits/708dafcf18a890fe937ac0323d0dfb4dbf96ebf8",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/propublica/guides/commits/708dafcf18a890fe937ac0323d0dfb4dbf96ebf8",
+    "html_url": "https://github.com/propublica/guides/commit/708dafcf18a890fe937ac0323d0dfb4dbf96ebf8",
+    "comments_url": "https://api.github.com/repos/propublica/guides/commits/708dafcf18a890fe937ac0323d0dfb4dbf96ebf8/comments",
+    "author": {
+      "login": "kleinmatic",
+      "id": 92971,
+      "avatar_url": "https://gravatar.com/avatar/407a6dac2367b6befa6a5a14e3fcd0fb?d=https%3A%2F%2Fidenticons.github.com%2F062e4597b955b3c09d8a060383cf90c0.png&r=x",
+      "gravatar_id": "407a6dac2367b6befa6a5a14e3fcd0fb",
+      "url": "https://api.github.com/users/kleinmatic",
+      "html_url": "https://github.com/kleinmatic",
+      "followers_url": "https://api.github.com/users/kleinmatic/followers",
+      "following_url": "https://api.github.com/users/kleinmatic/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kleinmatic/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kleinmatic/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kleinmatic/subscriptions",
+      "organizations_url": "https://api.github.com/users/kleinmatic/orgs",
+      "repos_url": "https://api.github.com/users/kleinmatic/repos",
+      "events_url": "https://api.github.com/users/kleinmatic/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kleinmatic/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "kleinmatic",
+      "id": 92971,
+      "avatar_url": "https://gravatar.com/avatar/407a6dac2367b6befa6a5a14e3fcd0fb?d=https%3A%2F%2Fidenticons.github.com%2F062e4597b955b3c09d8a060383cf90c0.png&r=x",
+      "gravatar_id": "407a6dac2367b6befa6a5a14e3fcd0fb",
+      "url": "https://api.github.com/users/kleinmatic",
+      "html_url": "https://github.com/kleinmatic",
+      "followers_url": "https://api.github.com/users/kleinmatic/followers",
+      "following_url": "https://api.github.com/users/kleinmatic/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kleinmatic/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kleinmatic/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kleinmatic/subscriptions",
+      "organizations_url": "https://api.github.com/users/kleinmatic/orgs",
+      "repos_url": "https://api.github.com/users/kleinmatic/repos",
+      "events_url": "https://api.github.com/users/kleinmatic/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kleinmatic/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ea69afe2e6392aacb41859f2736668c66dee90b9",
+        "url": "https://api.github.com/repos/propublica/guides/commits/ea69afe2e6392aacb41859f2736668c66dee90b9",
+        "html_url": "https://github.com/propublica/guides/commit/ea69afe2e6392aacb41859f2736668c66dee90b9"
+      }
+    ]
+  },
+  {
+    "sha": "ea69afe2e6392aacb41859f2736668c66dee90b9",
+    "commit": {
+      "author": {
+        "name": "Scott Klein",
+        "email": "scott@kleinmatic.com",
+        "date": "2013-02-26T21:31:05Z"
+      },
+      "committer": {
+        "name": "Scott Klein",
+        "email": "scott@kleinmatic.com",
+        "date": "2013-02-26T21:31:05Z"
+      },
+      "message": "added N/A",
+      "tree": {
+        "sha": "f6ccdd4e61aafc260c8395e2c48c97096ca2b431",
+        "url": "https://api.github.com/repos/propublica/guides/git/trees/f6ccdd4e61aafc260c8395e2c48c97096ca2b431"
+      },
+      "url": "https://api.github.com/repos/propublica/guides/git/commits/ea69afe2e6392aacb41859f2736668c66dee90b9",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/propublica/guides/commits/ea69afe2e6392aacb41859f2736668c66dee90b9",
+    "html_url": "https://github.com/propublica/guides/commit/ea69afe2e6392aacb41859f2736668c66dee90b9",
+    "comments_url": "https://api.github.com/repos/propublica/guides/commits/ea69afe2e6392aacb41859f2736668c66dee90b9/comments",
+    "author": {
+      "login": "kleinmatic",
+      "id": 92971,
+      "avatar_url": "https://gravatar.com/avatar/407a6dac2367b6befa6a5a14e3fcd0fb?d=https%3A%2F%2Fidenticons.github.com%2F062e4597b955b3c09d8a060383cf90c0.png&r=x",
+      "gravatar_id": "407a6dac2367b6befa6a5a14e3fcd0fb",
+      "url": "https://api.github.com/users/kleinmatic",
+      "html_url": "https://github.com/kleinmatic",
+      "followers_url": "https://api.github.com/users/kleinmatic/followers",
+      "following_url": "https://api.github.com/users/kleinmatic/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kleinmatic/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kleinmatic/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kleinmatic/subscriptions",
+      "organizations_url": "https://api.github.com/users/kleinmatic/orgs",
+      "repos_url": "https://api.github.com/users/kleinmatic/repos",
+      "events_url": "https://api.github.com/users/kleinmatic/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kleinmatic/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "kleinmatic",
+      "id": 92971,
+      "avatar_url": "https://gravatar.com/avatar/407a6dac2367b6befa6a5a14e3fcd0fb?d=https%3A%2F%2Fidenticons.github.com%2F062e4597b955b3c09d8a060383cf90c0.png&r=x",
+      "gravatar_id": "407a6dac2367b6befa6a5a14e3fcd0fb",
+      "url": "https://api.github.com/users/kleinmatic",
+      "html_url": "https://github.com/kleinmatic",
+      "followers_url": "https://api.github.com/users/kleinmatic/followers",
+      "following_url": "https://api.github.com/users/kleinmatic/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kleinmatic/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kleinmatic/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kleinmatic/subscriptions",
+      "organizations_url": "https://api.github.com/users/kleinmatic/orgs",
+      "repos_url": "https://api.github.com/users/kleinmatic/repos",
+      "events_url": "https://api.github.com/users/kleinmatic/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kleinmatic/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "441e664888e2b9147da37917ebe37a105783cdb8",
+        "url": "https://api.github.com/repos/propublica/guides/commits/441e664888e2b9147da37917ebe37a105783cdb8",
+        "html_url": "https://github.com/propublica/guides/commit/441e664888e2b9147da37917ebe37a105783cdb8"
+      }
+    ]
+  },
+  {
+    "sha": "441e664888e2b9147da37917ebe37a105783cdb8",
+    "commit": {
+      "author": {
+        "name": "Scott Klein",
+        "email": "scott@kleinmatic.com",
+        "date": "2013-02-26T01:00:53Z"
+      },
+      "committer": {
+        "name": "Scott Klein",
+        "email": "scott@kleinmatic.com",
+        "date": "2013-02-26T01:00:53Z"
+      },
+      "message": "Update coding-manifesto.md",
+      "tree": {
+        "sha": "d0c2065174ad72562ba9eeb7afe99639f17dc442",
+        "url": "https://api.github.com/repos/propublica/guides/git/trees/d0c2065174ad72562ba9eeb7afe99639f17dc442"
+      },
+      "url": "https://api.github.com/repos/propublica/guides/git/commits/441e664888e2b9147da37917ebe37a105783cdb8",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/propublica/guides/commits/441e664888e2b9147da37917ebe37a105783cdb8",
+    "html_url": "https://github.com/propublica/guides/commit/441e664888e2b9147da37917ebe37a105783cdb8",
+    "comments_url": "https://api.github.com/repos/propublica/guides/commits/441e664888e2b9147da37917ebe37a105783cdb8/comments",
+    "author": {
+      "login": "kleinmatic",
+      "id": 92971,
+      "avatar_url": "https://gravatar.com/avatar/407a6dac2367b6befa6a5a14e3fcd0fb?d=https%3A%2F%2Fidenticons.github.com%2F062e4597b955b3c09d8a060383cf90c0.png&r=x",
+      "gravatar_id": "407a6dac2367b6befa6a5a14e3fcd0fb",
+      "url": "https://api.github.com/users/kleinmatic",
+      "html_url": "https://github.com/kleinmatic",
+      "followers_url": "https://api.github.com/users/kleinmatic/followers",
+      "following_url": "https://api.github.com/users/kleinmatic/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kleinmatic/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kleinmatic/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kleinmatic/subscriptions",
+      "organizations_url": "https://api.github.com/users/kleinmatic/orgs",
+      "repos_url": "https://api.github.com/users/kleinmatic/repos",
+      "events_url": "https://api.github.com/users/kleinmatic/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kleinmatic/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "kleinmatic",
+      "id": 92971,
+      "avatar_url": "https://gravatar.com/avatar/407a6dac2367b6befa6a5a14e3fcd0fb?d=https%3A%2F%2Fidenticons.github.com%2F062e4597b955b3c09d8a060383cf90c0.png&r=x",
+      "gravatar_id": "407a6dac2367b6befa6a5a14e3fcd0fb",
+      "url": "https://api.github.com/users/kleinmatic",
+      "html_url": "https://github.com/kleinmatic",
+      "followers_url": "https://api.github.com/users/kleinmatic/followers",
+      "following_url": "https://api.github.com/users/kleinmatic/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kleinmatic/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kleinmatic/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kleinmatic/subscriptions",
+      "organizations_url": "https://api.github.com/users/kleinmatic/orgs",
+      "repos_url": "https://api.github.com/users/kleinmatic/repos",
+      "events_url": "https://api.github.com/users/kleinmatic/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kleinmatic/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "2f42ee4fb9176168096741d1373e78d1c1348dce",
+        "url": "https://api.github.com/repos/propublica/guides/commits/2f42ee4fb9176168096741d1373e78d1c1348dce",
+        "html_url": "https://github.com/propublica/guides/commit/2f42ee4fb9176168096741d1373e78d1c1348dce"
+      }
+    ]
+  },
+  {
+    "sha": "2f42ee4fb9176168096741d1373e78d1c1348dce",
+    "commit": {
+      "author": {
+        "name": "Scott Klein",
+        "email": "scott@kleinmatic.com",
+        "date": "2013-02-26T00:52:47Z"
+      },
+      "committer": {
+        "name": "Scott Klein",
+        "email": "scott@kleinmatic.com",
+        "date": "2013-02-26T00:52:47Z"
+      },
+      "message": "Update coding-manifesto.md",
+      "tree": {
+        "sha": "0517e57c5c1f8ddb1552c278b8009c8f5494d0bc",
+        "url": "https://api.github.com/repos/propublica/guides/git/trees/0517e57c5c1f8ddb1552c278b8009c8f5494d0bc"
+      },
+      "url": "https://api.github.com/repos/propublica/guides/git/commits/2f42ee4fb9176168096741d1373e78d1c1348dce",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/propublica/guides/commits/2f42ee4fb9176168096741d1373e78d1c1348dce",
+    "html_url": "https://github.com/propublica/guides/commit/2f42ee4fb9176168096741d1373e78d1c1348dce",
+    "comments_url": "https://api.github.com/repos/propublica/guides/commits/2f42ee4fb9176168096741d1373e78d1c1348dce/comments",
+    "author": {
+      "login": "kleinmatic",
+      "id": 92971,
+      "avatar_url": "https://gravatar.com/avatar/407a6dac2367b6befa6a5a14e3fcd0fb?d=https%3A%2F%2Fidenticons.github.com%2F062e4597b955b3c09d8a060383cf90c0.png&r=x",
+      "gravatar_id": "407a6dac2367b6befa6a5a14e3fcd0fb",
+      "url": "https://api.github.com/users/kleinmatic",
+      "html_url": "https://github.com/kleinmatic",
+      "followers_url": "https://api.github.com/users/kleinmatic/followers",
+      "following_url": "https://api.github.com/users/kleinmatic/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kleinmatic/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kleinmatic/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kleinmatic/subscriptions",
+      "organizations_url": "https://api.github.com/users/kleinmatic/orgs",
+      "repos_url": "https://api.github.com/users/kleinmatic/repos",
+      "events_url": "https://api.github.com/users/kleinmatic/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kleinmatic/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "kleinmatic",
+      "id": 92971,
+      "avatar_url": "https://gravatar.com/avatar/407a6dac2367b6befa6a5a14e3fcd0fb?d=https%3A%2F%2Fidenticons.github.com%2F062e4597b955b3c09d8a060383cf90c0.png&r=x",
+      "gravatar_id": "407a6dac2367b6befa6a5a14e3fcd0fb",
+      "url": "https://api.github.com/users/kleinmatic",
+      "html_url": "https://github.com/kleinmatic",
+      "followers_url": "https://api.github.com/users/kleinmatic/followers",
+      "following_url": "https://api.github.com/users/kleinmatic/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kleinmatic/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kleinmatic/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kleinmatic/subscriptions",
+      "organizations_url": "https://api.github.com/users/kleinmatic/orgs",
+      "repos_url": "https://api.github.com/users/kleinmatic/repos",
+      "events_url": "https://api.github.com/users/kleinmatic/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kleinmatic/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "1b3a89b2243472e8cf12ca5aea379b7c3e7ade28",
+        "url": "https://api.github.com/repos/propublica/guides/commits/1b3a89b2243472e8cf12ca5aea379b7c3e7ade28",
+        "html_url": "https://github.com/propublica/guides/commit/1b3a89b2243472e8cf12ca5aea379b7c3e7ade28"
+      }
+    ]
+  },
+  {
+    "sha": "1b3a89b2243472e8cf12ca5aea379b7c3e7ade28",
+    "commit": {
+      "author": {
+        "name": "Scott Klein",
+        "email": "scott@kleinmatic.com",
+        "date": "2013-02-26T00:50:09Z"
+      },
+      "committer": {
+        "name": "Scott Klein",
+        "email": "scott@kleinmatic.com",
+        "date": "2013-02-26T00:50:09Z"
+      },
+      "message": "Update coding-manifesto.md",
+      "tree": {
+        "sha": "a1ea20f891c2b4bfbefeb11df6d33a4feb9242cf",
+        "url": "https://api.github.com/repos/propublica/guides/git/trees/a1ea20f891c2b4bfbefeb11df6d33a4feb9242cf"
+      },
+      "url": "https://api.github.com/repos/propublica/guides/git/commits/1b3a89b2243472e8cf12ca5aea379b7c3e7ade28",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/propublica/guides/commits/1b3a89b2243472e8cf12ca5aea379b7c3e7ade28",
+    "html_url": "https://github.com/propublica/guides/commit/1b3a89b2243472e8cf12ca5aea379b7c3e7ade28",
+    "comments_url": "https://api.github.com/repos/propublica/guides/commits/1b3a89b2243472e8cf12ca5aea379b7c3e7ade28/comments",
+    "author": {
+      "login": "kleinmatic",
+      "id": 92971,
+      "avatar_url": "https://gravatar.com/avatar/407a6dac2367b6befa6a5a14e3fcd0fb?d=https%3A%2F%2Fidenticons.github.com%2F062e4597b955b3c09d8a060383cf90c0.png&r=x",
+      "gravatar_id": "407a6dac2367b6befa6a5a14e3fcd0fb",
+      "url": "https://api.github.com/users/kleinmatic",
+      "html_url": "https://github.com/kleinmatic",
+      "followers_url": "https://api.github.com/users/kleinmatic/followers",
+      "following_url": "https://api.github.com/users/kleinmatic/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kleinmatic/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kleinmatic/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kleinmatic/subscriptions",
+      "organizations_url": "https://api.github.com/users/kleinmatic/orgs",
+      "repos_url": "https://api.github.com/users/kleinmatic/repos",
+      "events_url": "https://api.github.com/users/kleinmatic/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kleinmatic/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "kleinmatic",
+      "id": 92971,
+      "avatar_url": "https://gravatar.com/avatar/407a6dac2367b6befa6a5a14e3fcd0fb?d=https%3A%2F%2Fidenticons.github.com%2F062e4597b955b3c09d8a060383cf90c0.png&r=x",
+      "gravatar_id": "407a6dac2367b6befa6a5a14e3fcd0fb",
+      "url": "https://api.github.com/users/kleinmatic",
+      "html_url": "https://github.com/kleinmatic",
+      "followers_url": "https://api.github.com/users/kleinmatic/followers",
+      "following_url": "https://api.github.com/users/kleinmatic/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kleinmatic/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kleinmatic/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kleinmatic/subscriptions",
+      "organizations_url": "https://api.github.com/users/kleinmatic/orgs",
+      "repos_url": "https://api.github.com/users/kleinmatic/repos",
+      "events_url": "https://api.github.com/users/kleinmatic/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kleinmatic/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "b0c593c38c3c471d4f950d77736bc4787f4fb86f",
+        "url": "https://api.github.com/repos/propublica/guides/commits/b0c593c38c3c471d4f950d77736bc4787f4fb86f",
+        "html_url": "https://github.com/propublica/guides/commit/b0c593c38c3c471d4f950d77736bc4787f4fb86f"
+      }
+    ]
+  },
+  {
+    "sha": "b0c593c38c3c471d4f950d77736bc4787f4fb86f",
+    "commit": {
+      "author": {
+        "name": "Scott Klein",
+        "email": "scott@kleinmatic.com",
+        "date": "2013-02-26T00:48:31Z"
+      },
+      "committer": {
+        "name": "Scott Klein",
+        "email": "scott@kleinmatic.com",
+        "date": "2013-02-26T00:48:31Z"
+      },
+      "message": "Update coding-manifesto.md",
+      "tree": {
+        "sha": "f87dd744c2b43a8360fc9794bf77d125f1696349",
+        "url": "https://api.github.com/repos/propublica/guides/git/trees/f87dd744c2b43a8360fc9794bf77d125f1696349"
+      },
+      "url": "https://api.github.com/repos/propublica/guides/git/commits/b0c593c38c3c471d4f950d77736bc4787f4fb86f",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/propublica/guides/commits/b0c593c38c3c471d4f950d77736bc4787f4fb86f",
+    "html_url": "https://github.com/propublica/guides/commit/b0c593c38c3c471d4f950d77736bc4787f4fb86f",
+    "comments_url": "https://api.github.com/repos/propublica/guides/commits/b0c593c38c3c471d4f950d77736bc4787f4fb86f/comments",
+    "author": {
+      "login": "kleinmatic",
+      "id": 92971,
+      "avatar_url": "https://gravatar.com/avatar/407a6dac2367b6befa6a5a14e3fcd0fb?d=https%3A%2F%2Fidenticons.github.com%2F062e4597b955b3c09d8a060383cf90c0.png&r=x",
+      "gravatar_id": "407a6dac2367b6befa6a5a14e3fcd0fb",
+      "url": "https://api.github.com/users/kleinmatic",
+      "html_url": "https://github.com/kleinmatic",
+      "followers_url": "https://api.github.com/users/kleinmatic/followers",
+      "following_url": "https://api.github.com/users/kleinmatic/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kleinmatic/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kleinmatic/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kleinmatic/subscriptions",
+      "organizations_url": "https://api.github.com/users/kleinmatic/orgs",
+      "repos_url": "https://api.github.com/users/kleinmatic/repos",
+      "events_url": "https://api.github.com/users/kleinmatic/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kleinmatic/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "kleinmatic",
+      "id": 92971,
+      "avatar_url": "https://gravatar.com/avatar/407a6dac2367b6befa6a5a14e3fcd0fb?d=https%3A%2F%2Fidenticons.github.com%2F062e4597b955b3c09d8a060383cf90c0.png&r=x",
+      "gravatar_id": "407a6dac2367b6befa6a5a14e3fcd0fb",
+      "url": "https://api.github.com/users/kleinmatic",
+      "html_url": "https://github.com/kleinmatic",
+      "followers_url": "https://api.github.com/users/kleinmatic/followers",
+      "following_url": "https://api.github.com/users/kleinmatic/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kleinmatic/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kleinmatic/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kleinmatic/subscriptions",
+      "organizations_url": "https://api.github.com/users/kleinmatic/orgs",
+      "repos_url": "https://api.github.com/users/kleinmatic/repos",
+      "events_url": "https://api.github.com/users/kleinmatic/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kleinmatic/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "7e30e100ec1ad409cf63f56e04bdc276bc842b92",
+        "url": "https://api.github.com/repos/propublica/guides/commits/7e30e100ec1ad409cf63f56e04bdc276bc842b92",
+        "html_url": "https://github.com/propublica/guides/commit/7e30e100ec1ad409cf63f56e04bdc276bc842b92"
+      }
+    ]
+  }
+]
