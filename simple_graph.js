@@ -31,8 +31,8 @@
     graph.nodes.map(function(e, j) {
       if (Math.random() > 0.99 && i != j) {
         graph.links.push({
-          source: i,
-          target: j
+          'source': i,
+          'target': j
         });
       }
     });
@@ -40,8 +40,8 @@
 
   // generate the force layout
   var force = d3.layout.force()
-    .nodes(graph.nodes)
-    .links(graph.links)
+    //.nodes(graph.nodes)
+    //.links(graph.links)
     .size([width, height])
     .charge(-50)
     .linkDistance(10)
