@@ -24,24 +24,25 @@ d3.json('misc/guides-commits-master.json', function(jsonMaster)
     d3.json('misc/guides-commits-sisi.json', function(jsonSisi) 
     {
       for (var i = 0; i < jsonMaster.length; i++) {
-        //graph.nodes.push(jsonMaster[i].commit);
-        graph.nodes.push(jsonMaster[i].sha);
+        graph.nodes.push(jsonMaster[i].commit);
+        //graph.nodes.push(jsonMaster[i].sha);
       }
 
       for (var i = 0; i < jsonExcel.length; i++) {
-        //graph.nodes.push(jsonExcel[i].commit);
-        graph.nodes.push(jsonExcel[i].sha);
+        graph.nodes.push(jsonExcel[i].commit);
+        //graph.nodes.push(jsonExcel[i].sha);
       }
 
       for (var i = 0; i < jsonSisi.length; i++) {
-        //graph.nodes.push(jsonSisi[i].commit);
-        graph.nodes.push(jsonSisi[i].sha);
+        graph.nodes.push(jsonSisi[i].commit);
+        //graph.nodes.push(jsonSisi[i].sha);
       }
 
       for (var i = 0; i < jsonMaster.length; i++) {
         for (var j = 0; j < jsonMaster[i].parents.length; j++) {
+          //console.log(jsonMaster[i].parents[j].sha);
           graph.links.push({
-            'source': jsonMaster[i].sha,
+            'source': jsonMaster[i].commit,
             'target': jsonMaster[i].parents[j].sha
           })
         } // end for j
@@ -50,7 +51,7 @@ d3.json('misc/guides-commits-master.json', function(jsonMaster)
       for (var i = 0; i < jsonExcel.length; i++) {
         for (var j = 0; j < jsonExcel[i].parents.length; j++) {
           graph.links.push({
-            'source': jsonExcel[i].sha,
+            'source': jsonExcel[i].commit,
             'target': jsonExcel[i].parents[j].sha
           })
         } // end for j
@@ -59,7 +60,7 @@ d3.json('misc/guides-commits-master.json', function(jsonMaster)
       for (var i = 0; i < jsonSisi.length; i++) {
         for (var j = 0; j < jsonSisi[i].parents.length; j++) {
           graph.links.push({
-            'source': jsonSisi[i].sha,
+            'source': jsonSisi[i].commit,
             'target': jsonSisi[i].parents[j].sha
           })
         } // end for j
@@ -71,7 +72,8 @@ d3.json('misc/guides-commits-master.json', function(jsonMaster)
 
     var force = d3.layout.force()
       .size([width, height])
-      //.start();
+      .on('tick', tick)
+      .start();
       
     var tick = function(d) {
       graphUpdate(0);
@@ -98,11 +100,28 @@ d3.json('misc/guides-commits-master.json', function(jsonMaster)
           });
     }
 
-    forceLayout();
+    var link = svg.selectAll('.link')
+      .data(graph.links)
+      .enter()
+        .append('line')
+        .attr('class', 'link');
+
+    var node = svg.selectAll('.node')
+      .data(graph.nodes)
+      .enter()
+        .append('g')
+        .attr('class', 'node');
+
+    node
+      .append('circle')
+      .attr('r', 5)
+      
+    //forceLayout();
     
 
 
 
+      console.log(jsonMaster);
 
 
 
