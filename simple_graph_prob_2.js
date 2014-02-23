@@ -48,6 +48,14 @@ d3.json('misc/guides-commits-master.json', function(jsonMaster)
         })
       })
 
+      var minDate = d3.min(graph.nodes, function(d, i) {
+        return d.commit.author.date;
+      });
+
+      var maxDate = d3.max(graph.nodes, function(d, i) {
+        return d.commit.author.date;
+      });
+
       // Generate the force layout
       var force = d3.layout.force()
           .size([width, height])
@@ -87,6 +95,8 @@ d3.json('misc/guides-commits-master.json', function(jsonMaster)
       
         graph.nodes.forEach(function(d, i) {
           d.y = height/2;
+          d.x = xScale(d.x);
+          console.log(d.x, xScale(d.x));
         })
       
         graph_update(500);
@@ -184,60 +194,15 @@ d3.json('misc/guides-commits-master.json', function(jsonMaster)
       
       force_layout();
       
+      var xScale = d3.scale.ordinal()
+        .domain(d3.range(graph.nodes.length))
+        .rangeRoundBands([0, width])
       
-      
-      
-      
-      
-      //      var force = d3.layout.force()
-      //        .size([width, height])
-      //        .on('tick', tick)
-      //        .start();
-      //      
-      //      var tick = function(d) {
-      //        graphUpdate(0);
-      //      }
-      //  
-      //      var forceLayout = function() {
-      //        force
-      //          .nodes(graph.nodes)
-      //          .links(graph.links)
-      //          .start();
-      //      }
-      //
-      //      var graphUpdate = function(delay) {
-      //    
-      //      link.transition().duration(delay)
-      //          .attr("x1", function(d) { return d.target.x; })
-      //          .attr("y1", function(d) { return d.target.y; })
-      //          .attr("x2", function(d) { return d.source.x; })
-      //          .attr("y2", function(d) { return d.source.y; });
-      //    
-      //      node.transition().duration(delay)
-      //          .attr("transform", function(d) { 
-      //            return "translate(" + d.x + "," + d.y + ")"; 
-      //          });
-      //      }
-      //
-      //      var link = svg.selectAll('.link')
-      //        .data(graph.links)
-      //        .enter()
-      //          .append('line')
-      //          .attr('class', 'link');
-      //
-      //      var node = svg.selectAll('.node')
-      //        .data(graph.nodes)
-      //        .enter()
-      //          .append('g')
-      //          .attr('class', 'node');
-      //
-      //      node
-      //        .append('circle')
-      //        .attr('r', 5)
-      //        
-      //      forceLayout();
+      //var maxXPos = d3.max(graph.nodes, function(d, i) {
+        //return d.x;
+      //});
 
-
+      
     }); // end jsonSis
   }); // end jsonExcel
 }); // end jsonMaster
