@@ -14,9 +14,8 @@ var graph =
   links:[]
 };
 
-var nb_nodes = 100;
-var nb_cat = 10;
-var branchMaster, branchExcel, branchSisi;
+//var nb_nodes = 100;
+//var nb_cat = 10;
 
 d3.json('misc/guides-commits-master.json', function(jsonMaster) 
 {
@@ -24,10 +23,6 @@ d3.json('misc/guides-commits-master.json', function(jsonMaster)
   {
     d3.json('misc/guides-commits-sisi.json', function(jsonSisi) 
     {
-      branchMaster = jsonMaster; // debug
-      branchExcel = jsonExcel;
-      branchSisi = jsonSisi;
-
       for (var i = 0; i < jsonMaster.length; i++) {
         graph.nodes.push(jsonMaster[i]);
       }
@@ -66,12 +61,10 @@ d3.json('misc/guides-commits-master.json', function(jsonMaster)
           .on("end", function(d) {})
       
       function tick(d) {
-      
-        graph_update(0);
+        graphUpdate(0);
       }
       
-      function random_layout() {
-        
+      function randomLayout() {
         force.stop();
       
         graph.nodes.forEach(function(d, i) {
@@ -79,30 +72,41 @@ d3.json('misc/guides-commits-master.json', function(jsonMaster)
           d.y = height/4 + 2*height*Math.random()/4;
         })
         
-        graph_update(500);
+        graphUpdate(500);
       }
       
-      function force_layout() {
+      function forceLayout() {
       
        force.nodes(graph.nodes)
             .links(graph.links)
             .start();
       }
       
-      function line_layout() {
-      
+      function timeLayout() {
+        force.stop()
+  
+        graph.nodes.forEach(function(d, i) {
+          //console.log(new Date(d.commit.author.date));
+          d.y = height / 2;
+          d.x = timeScale(new Date(d.commit.author.date));
+        });
+
+        graphUpdate(500);
+
+      }
+
+      function lineLayout() {
         force.stop();
       
         graph.nodes.forEach(function(d, i) {
           d.y = height/2;
           d.x = xScale(d.x);
-          console.log(d.x, xScale(d.x));
         })
       
-        graph_update(500);
+        graphUpdate(500);
       }
       
-      function line_cat_layout() {
+      function lineCatLayout() {
       
         force.stop();
       
@@ -110,10 +114,10 @@ d3.json('misc/guides-commits-master.json', function(jsonMaster)
           d.y = height/2 + d.cat*20;
         })
       
-        graph_update(500);
+        graphUpdate(500);
       }
       
-      function radial_layout() {
+      function radialLayout() {
       
         force.stop();
       
@@ -136,18 +140,18 @@ d3.json('misc/guides-commits-master.json', function(jsonMaster)
           return d.data;
         })
       
-        graph_update(500);
+        graphUpdate(500);
       }
       
-      function category_color() {
+      function categoryColor() {
         d3.selectAll("circle").transition().duration(500).style("fill", function(d) { return fill(d.cat); });
       }
       
-      function category_size() {
+      function categorySize() {
         d3.selectAll("circle").transition().duration(500).attr("r", function(d) { return Math.sqrt((d.cat+1)*10); });
       }
       
-      function graph_update(delay) {
+      function graphUpdate(delay) {
       
         link.transition().duration(delay)
             .attr("x1", function(d) { return d.target.x; })
@@ -161,46 +165,55 @@ d3.json('misc/guides-commits-master.json', function(jsonMaster)
             });
       }
       
-      d3.select("input[value=\"force\"]").on("click", force_layout);
-      d3.select("input[value=\"random\"]").on("click", random_layout);
-      d3.select("input[value=\"line\"]").on("click", line_layout);
-      d3.select("input[value=\"line_cat\"]").on("click", line_cat_layout);
-      d3.select("input[value=\"radial\"]").on("click", radial_layout);
+      d3.select("input[value=\"force\"]").on("click", forceLayout);
+      d3.select("input[value=\"random\"]").on("click", randomLayout);
+      d3.select("input[value=\"line\"]").on("click", lineLayout);
+      d3.select("input[value=\"line_cat\"]").on("click", lineCatLayout);
+      d3.select("input[value=\"time\"]").on("click", timeLayout);
+      d3.select("input[value=\"radial\"]").on("click", radialLayout);
       
       d3.select("input[value=\"nocolor\"]").on("click", function() {
-        d3.selectAll("circle").transition().duration(500).style("fill", "#66CC66");
+        d3.selectAll("circle")
+          .transition()
+          .duration(500)
+            .style("fill", "#66CC66");
       })
       
-      d3.select("input[value=\"color_cat\"]").on("click", category_color);
+      d3.select("input[value=\"color_cat\"]").on("click", categoryColor);
       
       d3.select("input[value=\"nosize\"]").on("click", function() {
-        d3.selectAll("circle").transition().duration(500).attr("r", 5);
+        d3.selectAll("circle")
+          .transition()
+          .duration(500)
+            .attr("r", 5);
       })
       
-      d3.select("input[value=\"size_cat\"]").on("click", category_size);
+      d3.select("input[value=\"size_cat\"]").on("click", categorySize);
       
       var link = svg.selectAll(".link")
-                    .data(graph.links)
-                  .enter().append("line")
-                    .attr("class", "link")
+        .data(graph.links)
+        .enter()
+          .append("line")
+          .attr("class", "link")
       
       var node = svg.selectAll(".node")
-                    .data(graph.nodes)
-                  .enter()
-                    .append("g").attr("class", "node");
+        .data(graph.nodes)
+        .enter()
+          .append("g")
+          .attr("class", "node");
       
       node.append("circle")
           .attr("r", 5)
       
-      force_layout();
+      forceLayout();
       
       var xScale = d3.scale.ordinal()
         .domain(d3.range(graph.nodes.length))
-        .rangeRoundBands([0, width])
+        .rangeRoundBands([0, width]);
       
-      //var maxXPos = d3.max(graph.nodes, function(d, i) {
-        //return d.x;
-      //});
+      var timeScale = d3.time.scale()
+        .domain([new Date(minDate), new Date(maxDate)])
+        .range([0, width])
 
       
     }); // end jsonSis
