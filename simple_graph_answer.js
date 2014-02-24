@@ -1,6 +1,8 @@
 var width = 900;
 var height = 700;
 
+var colorScale = d3.scale.category10();
+
 var svg = d3.select("body")
   .append("svg")
   .attr("width", width)
@@ -23,17 +25,21 @@ d3.json('misc/guides-commits-master.json', function(jsonMaster)
   {
     d3.json('misc/guides-commits-sisi.json', function(jsonSisi) 
     {
-      for (var i = 0; i < jsonMaster.length; i++) {
-        graph.nodes.push(jsonMaster[i]);
-      }
 
-      for (var i = 0; i < jsonExcel.length; i++) {
-        graph.nodes.push(jsonExcel[i]);
-      }
+      jsonMaster.forEach(function(d) {
+        d.cat = 'master';
+        graph.nodes.push(d);
+      });
 
-      for (var i = 0; i < jsonSisi.length; i++) {
-        graph.nodes.push(jsonSisi[i]);
-      }
+      jsonExcel.forEach(function(d) {
+        d.cat = 'excel';
+        graph.nodes.push(d);
+      });
+
+      jsonSisi.forEach(function(d) {
+        d.cat = 'sisi';
+        graph.nodes.push(d);
+      });
 
       graph.nodes.map(function(d, i) {
         graph.nodes.map(function(e, j) {
@@ -77,11 +83,32 @@ d3.json('misc/guides-commits-master.json', function(jsonMaster)
       
       function forceLayout() {
       
-       force.nodes(graph.nodes)
-            .links(graph.links)
-            .start();
+         force
+          .nodes(graph.nodes)
+          .links(graph.links)
+          .linkDistance([50]) 
+          .start();
+
+//         svg.append('defs')
+//           .selectAll('marker')
+//           .data(['end'])
+//           .enter()
+//             .append('marker')
+//               .attr('id', String)
+//               .attr('refX', 15)
+//               .attr('refX', -1.5)
+//               .attr('markerWidth', 6)
+//               .attr('markerHeight', 6)
+//               .attr('orient', 'auto')
+//               .append('path')
+//                 .attr('d', 'M0,-5L10,0L0,5')
+//
+//        var path = svg.append('g').selectAll('path')          
+//          .data(force.links())
+//          .enter()
+//          .append('path')
       }
-      
+        
       function timeLayout() {
         force.stop()
   
@@ -92,7 +119,6 @@ d3.json('misc/guides-commits-master.json', function(jsonMaster)
         });
 
         graphUpdate(500);
-
       }
 
       function lineLayout() {
@@ -102,12 +128,11 @@ d3.json('misc/guides-commits-master.json', function(jsonMaster)
           d.y = height/2;
           d.x = xScale(d.x);
         })
-      
+
         graphUpdate(500);
       }
       
       function lineCatLayout() {
-      
         force.stop();
       
         graph.nodes.forEach(function(d, i) {
@@ -128,7 +153,8 @@ d3.json('misc/guides-commits-master.json', function(jsonMaster)
       
         var pie = d3.layout.pie()
         .sort(function(a, b) { return a.cat - b.cat;})
-                .value(function(d, i) { return 1; }); // equal share for each point
+        // equal share for each point
+        .value(function(d, i) { return 1; }); 
       
         graph.nodes = pie(graph.nodes).map(function(d, i) {
           d.innerRadius = 0;
@@ -144,25 +170,38 @@ d3.json('misc/guides-commits-master.json', function(jsonMaster)
       }
       
       function categoryColor() {
-        d3.selectAll("circle").transition().duration(500).style("fill", function(d) { return fill(d.cat); });
+        d3.selectAll("circle")
+          .transition()
+          .duration(500)
+            .style("fill", function(d) { return fill(d.cat); });
       }
       
       function categorySize() {
-        d3.selectAll("circle").transition().duration(500).attr("r", function(d) { return Math.sqrt((d.cat+1)*10); });
+        d3.selectAll("circle")
+          .transition()
+          .duration(500)
+            .attr("r", function(d) { 
+              return Math.sqrt((d.cat+1)*10); 
+            });
       }
       
       function graphUpdate(delay) {
       
-        link.transition().duration(delay)
+        link
+          .transition()
+          .duration(delay)
             .attr("x1", function(d) { return d.target.x; })
             .attr("y1", function(d) { return d.target.y; })
             .attr("x2", function(d) { return d.source.x; })
             .attr("y2", function(d) { return d.source.y; });
       
-        node.transition().duration(delay)
+        node
+          .transition()
+          .duration(delay)
             .attr("transform", function(d) { 
-              return "translate("+d.x+","+d.y+")"; 
+              return "translate(" + d.x + "," + d.y + ")"; 
             });
+    
       }
       
       d3.select("input[value=\"force\"]").on("click", forceLayout);
@@ -195,15 +234,32 @@ d3.json('misc/guides-commits-master.json', function(jsonMaster)
         .enter()
           .append("line")
           .attr("class", "link")
+          .style('stroke', '#ccc')
+          .style('stroke-width', 3)
       
       var node = svg.selectAll(".node")
         .data(graph.nodes)
         .enter()
           .append("g")
-          .attr("class", "node");
+          .attr("class", "node")
+
+      node.append('text')
+        .attr('x', 10)
+        .attr('y', 5)
+        .attr('dx', 10)
+        .attr('dy', 5)
+        //.attr('fill', 'darkorange')
+        //.attr('fill', 'darkorange')
+        .text(function(d) {
+          return d.cat;
+        })
+        
       
       node.append("circle")
           .attr("r", 5)
+          .attr('fill', function(d) {
+            return colorScale(d.cat);
+          })
       
       forceLayout();
       
@@ -215,6 +271,7 @@ d3.json('misc/guides-commits-master.json', function(jsonMaster)
         .domain([new Date(minDate), new Date(maxDate)])
         .range([0, width])
 
+        
       
     }); // end jsonSis
   }); // end jsonExcel
