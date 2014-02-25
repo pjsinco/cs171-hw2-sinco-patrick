@@ -60,7 +60,7 @@ d3.json('misc/guides-commits-master.json', function(jsonMaster)
       // Generate the force layout
       var force = d3.layout.force()
           .size([width, height])
-          .charge(-50)
+          .charge(-100)
           .linkDistance(10)
           .on("tick", tick)
           .on("start", function(d) {})
@@ -83,30 +83,22 @@ d3.json('misc/guides-commits-master.json', function(jsonMaster)
       
       function forceLayout() {
       
-         force
+        force
           .nodes(graph.nodes)
           .links(graph.links)
           .linkDistance([50]) 
           .start();
 
-//         svg.append('defs')
-//           .selectAll('marker')
-//           .data(['end'])
-//           .enter()
-//             .append('marker')
-//               .attr('id', String)
-//               .attr('refX', 15)
-//               .attr('refX', -1.5)
-//               .attr('markerWidth', 6)
-//               .attr('markerHeight', 6)
-//               .attr('orient', 'auto')
-//               .append('path')
-//                 .attr('d', 'M0,-5L10,0L0,5')
-//
-//        var path = svg.append('g').selectAll('path')          
-//          .data(force.links())
-//          .enter()
-//          .append('path')
+        node.append('text')
+          .attr('x', 10)
+          .attr('y', 5)
+          .attr('dx', 10)
+          .attr('dy', 5)
+          //.attr('fill', 'darkorange')
+          //.attr('fill', 'darkorange')
+          .text(function(d) {
+            return d.cat;
+          })
       }
         
       function timeLayout() {
@@ -234,8 +226,10 @@ d3.json('misc/guides-commits-master.json', function(jsonMaster)
         .enter()
           .append("line")
           .attr("class", "link")
+          .attr('marker-end', 'url(#end)')
           .style('stroke', '#ccc')
           .style('stroke-width', 3)
+          
       
       var node = svg.selectAll(".node")
         .data(graph.nodes)
@@ -243,16 +237,6 @@ d3.json('misc/guides-commits-master.json', function(jsonMaster)
           .append("g")
           .attr("class", "node")
 
-      node.append('text')
-        .attr('x', 10)
-        .attr('y', 5)
-        .attr('dx', 10)
-        .attr('dy', 5)
-        //.attr('fill', 'darkorange')
-        //.attr('fill', 'darkorange')
-        .text(function(d) {
-          return d.cat;
-        })
         
       
       node.append("circle")
@@ -260,6 +244,27 @@ d3.json('misc/guides-commits-master.json', function(jsonMaster)
           .attr('fill', function(d) {
             return colorScale(d.cat);
           })
+
+
+      svg.append('svg:defs').selectAll('marker')
+        .data(['end'])
+        .enter().append('svg:marker')
+          .attr('id', String)
+          .attr('viewBox', '0, -5, 10 10')
+          .attr('refX', 15)
+          .attr('refY', -1.5)
+          .attr('markerWidth', 3)
+          .attr('markerHeight', 3)
+          .attr('orient', 'auto')
+          .append('svg:path')
+            .attr("d", "M0,-5L10,0L0,5");
+
+      var path = svg.append('svg:g').selectAll('path')
+        .data(graph.links)
+        .enter().append('svg:path')
+          
+
+
       
       forceLayout();
       
