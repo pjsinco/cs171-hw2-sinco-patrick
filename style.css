@@ -9,6 +9,6 @@ svg .node {
   stroke-width: 1px;
 }
 
-svg .node:hover {
-  fill: red;
-}
+/*svg .node:hover {*/
+  /*fill: red;*/
+/*}*/

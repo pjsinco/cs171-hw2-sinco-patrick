@@ -276,6 +276,32 @@ d3.json('misc/guides-commits-master.json', function(jsonMaster)
         .domain([new Date(minDate), new Date(maxDate)])
         .range([0, width])
 
+      d3.selectAll('.node')
+        .on('mouseover', function(d, i) {
+
+          //var xPos = parseFloat(d3.select(this).attr('x')
+          //console.log(d3.select(this)[0].attr('x'));
+           console.log(d);
+    
+          svg.append('text')
+            .attr('id', 'tooltip')
+            .attr('x', d.x)
+            .attr('y', d.y)
+            .attr('text-anchor', 'middle')
+            .attr('font-family', 'sans-serif')
+            .attr('font-size', '11px')
+            .attr('font-weight', 'bold')
+            .attr('fill', '#ccc')
+            .text(d.commit.author.name)
+      
+        }) // end mouseover
+
+      d3.selectAll('.node')
+        .on('mouseout', function(d, i) {
+          svg.selectAll('#tooltip')
+            .text('');
+        })
+
         
       
     }); // end jsonSis
