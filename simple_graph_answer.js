@@ -1,4 +1,4 @@
-var width = 900;
+var width = 1000;
 var height = 700;
 var padding = 20;
 
@@ -65,16 +65,11 @@ d3.json('misc/guides-commits-master.json', function(jsonMaster)
         })
       })
 
-
-      
-
-
-
-      var minDate = d3.min(graph.nodes, function(d, i) {
+      var minDate = d3.min(graph.nodes, function(d) {
         return d.commit.author.date;
       });
 
-      var maxDate = d3.max(graph.nodes, function(d, i) {
+      var maxDate = d3.max(graph.nodes, function(d) {
         return d.commit.author.date;
       });
 
@@ -103,6 +98,9 @@ d3.json('misc/guides-commits-master.json', function(jsonMaster)
       }
       
       function forceLayout() {
+        svg.selectAll('text')
+          .remove();
+        
         svg.selectAll('.axis')
           .remove();
       
@@ -112,20 +110,23 @@ d3.json('misc/guides-commits-master.json', function(jsonMaster)
           .linkDistance([50]) 
           .start();
 
+      }
+        
+      function timeLayout() {
+        force.stop()
+
+        svg.attr('width', width * 5);
+
         node.append('text')
-          .attr('x', 10)
-          .attr('y', 5)
-          .attr('dx', 10)
+          .attr('x', 0)
+          .attr('y', 15)
+          .attr('dx', 0)
           .attr('dy', 5)
           //.attr('fill', 'darkorange')
           //.attr('fill', 'darkorange')
           .text(function(d) {
             return d.cat;
           })
-      }
-        
-      function timeLayout() {
-        force.stop()
 
         svg.append('g')
           .attr('class', 'axis')
@@ -133,11 +134,8 @@ d3.json('misc/guides-commits-master.json', function(jsonMaster)
           .call(yAxis);
   
         graph.nodes.forEach(function(d, i) {
-          //console.log(new Date(d.commit.author.date));
-          //d.y = height / 2;
-          
           d.y = yScale(d.commit.author.name) + (padding * 2);
-          d.x = timeScale(new Date(d.commit.author.date)) - (padding * 7);
+          d.x = timeScale(new Date(d.commit.author.date));
         });
     
         graphUpdate(500);
@@ -145,6 +143,19 @@ d3.json('misc/guides-commits-master.json', function(jsonMaster)
 
       function lineLayout() {
         force.stop();
+    
+        svg.attr('width', width * 5);
+
+        node.append('text')
+          .attr('x', 0)
+          .attr('y', 15)
+          .attr('dx', 0)
+          .attr('dy', 5)
+          //.attr('fill', 'darkorange')
+          //.attr('fill', 'darkorange')
+          .text(function(d) {
+            return d.cat;
+          })
 
         svg.append('g')
           .attr('class', 'axis')
@@ -256,6 +267,38 @@ d3.json('misc/guides-commits-master.json', function(jsonMaster)
       
       d3.select("input[value=\"size_cat\"]").on("click", categorySize);
       
+//      var line = d3.svg.line()
+//        .x(function(point) {
+//          return point.lx;
+//        })
+//        .y(function(point) {
+//          return point.ly;
+//        });
+//
+//      var lineData = function(d) {
+//        var points = [
+//          {
+//            lx: d.source.x,
+//            ly: d.source.y
+//          },
+//          {
+//            lx: d.target.x,
+//            ly: d.target.y
+//          },
+//        ];
+//      }
+//
+//      var link = svg.selectAll("path")
+//        .data(graph.links)
+//        .enter().append("path")
+//          .attr('d', lineData)
+//          .attr("class", "link")
+//          .attr('marker-end', 'url(#end)')
+//          .style('stroke', '#ccc')
+//          .style('stroke-width', '3px')
+//          .style('shape-rendering', 'auto')
+//          .style('shape-rendering', 'auto')
+
       var link = svg.selectAll(".link")
         .data(graph.links)
         .enter()
@@ -302,7 +345,7 @@ d3.json('misc/guides-commits-master.json', function(jsonMaster)
 
       var xScale = d3.scale.ordinal()
         .domain(d3.range(graph.nodes.length))
-        .rangeRoundBands([(padding * 7), width - (padding * 7)]);
+        .rangeRoundBands([(padding * 7), width * 5]);
 
       var yScale = d3.scale.ordinal()
         .domain(committers) 
@@ -314,7 +357,7 @@ d3.json('misc/guides-commits-master.json', function(jsonMaster)
         
       var timeScale = d3.time.scale()
         .domain([new Date(minDate), new Date(maxDate)])
-        .range([(padding * 7), width - (padding * 7)])
+        .range([(padding * 8), width * 5])
 
       d3.selectAll('.node')
         .on('mouseover', function(d, i) {
@@ -323,30 +366,30 @@ d3.json('misc/guides-commits-master.json', function(jsonMaster)
           //console.log(d3.select(this)[0].attr('x'));
            console.log(d);
     
-          svg.append('rect')
-            .attr('class', 'tooltip')
-            .attr('x', d.x)
-            .attr('y', d.y)
-            .attr('width', function() {
-              var w = d.commit.author.name.length + 
-                d.commit.message.length * 10;
-              return w;
-            })
-            .attr('height', 30)
-            .attr('fill', '#f5f5f5')
+//          svg.append('rect')
+//            .attr('class', 'tooltip')
+//            .attr('x', d.x)
+//            .attr('y', d.y)
+//            .attr('width', function() {
+//              var w = d.commit.author.name.length + 
+//                d.commit.message.length * 10;
+//              return w;
+//            })
+//            .attr('height', 30)
+//            .attr('fill', '#f5f5f5')
 
           svg.append('text')
             .attr('class', 'tooltip')
-            .attr('x', (d.x + 20)) 
-            .attr('y', (d.y + 20))
+            .attr('x', (d.x + 10)) 
+            .attr('y', (d.y - 12))
             .attr('text-anchor', 'left')
             .attr('font-family', 'sans-serif')
             .attr('font-size', '12px')
             .attr('font-weight', 'bold')
-            .attr('fill', '#999999')
+            .attr('fill', 'black')
             .style('z-index', 100)
             .text(function() {
-              return d.commit.author.name + ': ' + d.commit.message;
+              return d.commit.message;
             })
       
         }) // end mouseover
