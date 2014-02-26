@@ -10,7 +10,19 @@ var svg = d3.select("body")
   .attr("height", height);
 
 var fill = d3.scale.category10();
-var committers = []; // keep track of commit authors
+//var committers = []; // keep track of commit authors
+var committers = [
+  'Scott Klein', 
+  'Jeremy B. Merrill',
+  'Jeff Larson',
+  'Jon Schleuss',
+  'Julian Burgess',
+  'Sisi Wei',
+  'Michael Keller',
+  'mhkeller',
+  'Travis Swicegood',
+  'Jeremy B. Merrill'
+];
 var graph = 
 {
   nodes:[], 
@@ -30,19 +42,19 @@ d3.json('misc/guides-commits-master.json', function(jsonMaster)
       jsonMaster.forEach(function(d) {
         d.cat = 'master';
         graph.nodes.push(d);
-        committers.push(d.commit.author.name);
+        //committers.push(d.commit.author.name);
       });
 
       jsonExcel.forEach(function(d) {
         d.cat = 'excel';
         graph.nodes.push(d);
-        committers.push(d.commit.author.name)
+        //committers.push(d.commit.author.name)
       });
 
       jsonSisi.forEach(function(d) {
         d.cat = 'sisi';
         graph.nodes.push(d);
-        committers.push(d.commit.author.name)
+        //committers.push(d.commit.author.name)
       });
 
       graph.nodes.map(function(d, i) {
@@ -91,6 +103,8 @@ d3.json('misc/guides-commits-master.json', function(jsonMaster)
       }
       
       function forceLayout() {
+        svg.selectAll('.axis')
+          .remove();
       
         force
           .nodes(graph.nodes)
@@ -112,24 +126,34 @@ d3.json('misc/guides-commits-master.json', function(jsonMaster)
         
       function timeLayout() {
         force.stop()
+
+        svg.append('g')
+          .attr('class', 'axis')
+          .attr('transform', 'translate(' + (padding * 7) + ', 0)')
+          .call(yAxis);
   
         graph.nodes.forEach(function(d, i) {
           //console.log(new Date(d.commit.author.date));
-          d.y = height / 2;
-          d.x = timeScale(new Date(d.commit.author.date)) - 20;
+          //d.y = height / 2;
+          
+          d.y = yScale(d.commit.author.name) + (padding * 2);
+          d.x = timeScale(new Date(d.commit.author.date)) - (padding * 7);
         });
-
+    
         graphUpdate(500);
       }
 
       function lineLayout() {
         force.stop();
+
+        svg.append('g')
+          .attr('class', 'axis')
+          .attr('transform', 'translate(' + (padding * 7) + ', 0)')
+          .call(yAxis);
       
         graph.nodes.forEach(function(d, i) {
-          //d.y = height/2;
-          d.y = yScale(d.y);
-          d.x = xScale(i);
-          //d.x = xScale(d.x);
+          d.y = yScale(d.commit.author.name) + (padding * 2);
+          d.x = xScale(d.x);
         })
 
         graphUpdate(500);
@@ -278,17 +302,19 @@ d3.json('misc/guides-commits-master.json', function(jsonMaster)
 
       var xScale = d3.scale.ordinal()
         .domain(d3.range(graph.nodes.length))
-        .rangeRoundBands([0, width]);
+        .rangeRoundBands([(padding * 7), width - (padding * 7)]);
 
       var yScale = d3.scale.ordinal()
-        .domain(function() {
-          
-        })
+        .domain(committers) 
         .rangeRoundBands([height, 0]);
       
+      var yAxis = d3.svg.axis()
+        .scale(yScale)
+        .orient('left')
+        
       var timeScale = d3.time.scale()
         .domain([new Date(minDate), new Date(maxDate)])
-        .range([0, width])
+        .range([(padding * 7), width - (padding * 7)])
 
       d3.selectAll('.node')
         .on('mouseover', function(d, i) {
