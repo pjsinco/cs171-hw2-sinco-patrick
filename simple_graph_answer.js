@@ -1,5 +1,6 @@
 var width = 900;
 var height = 700;
+var padding = 20;
 
 var colorScale = d3.scale.category10();
 
@@ -107,7 +108,7 @@ d3.json('misc/guides-commits-master.json', function(jsonMaster)
         graph.nodes.forEach(function(d, i) {
           //console.log(new Date(d.commit.author.date));
           d.y = height / 2;
-          d.x = timeScale(new Date(d.commit.author.date));
+          d.x = timeScale(new Date(d.commit.author.date)) - 20;
         });
 
         graphUpdate(500);
@@ -283,23 +284,38 @@ d3.json('misc/guides-commits-master.json', function(jsonMaster)
           //console.log(d3.select(this)[0].attr('x'));
            console.log(d);
     
-          svg.append('text')
-            .attr('id', 'tooltip')
+          svg.append('rect')
+            .attr('class', 'tooltip')
             .attr('x', d.x)
             .attr('y', d.y)
-            .attr('text-anchor', 'middle')
+            .attr('width', function() {
+              var w = d.commit.author.name.length + 
+                d.commit.message.length * 10;
+              return w;
+            })
+            .attr('height', 30)
+            .attr('fill', '#f5f5f5')
+
+          svg.append('text')
+            .attr('class', 'tooltip')
+            .attr('x', (d.x + 20)) 
+            .attr('y', (d.y + 20))
+            .attr('text-anchor', 'left')
             .attr('font-family', 'sans-serif')
-            .attr('font-size', '11px')
+            .attr('font-size', '12px')
             .attr('font-weight', 'bold')
-            .attr('fill', '#ccc')
-            .text(d.commit.author.name)
+            .attr('fill', '#999999')
+            .style('z-index', 100)
+            .text(function() {
+              return d.commit.author.name + ': ' + d.commit.message;
+            })
       
         }) // end mouseover
 
       d3.selectAll('.node')
         .on('mouseout', function(d, i) {
-          svg.selectAll('#tooltip')
-            .text('');
+          svg.selectAll('.tooltip')
+            .remove();
         })
 
         
