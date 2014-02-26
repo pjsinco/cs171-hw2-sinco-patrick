@@ -126,8 +126,8 @@ d3.json('misc/guides-commits-master.json', function(jsonMaster)
         force.stop();
       
         graph.nodes.forEach(function(d, i) {
-          //d.y = height/2;
-          d.y = yScale(d.y);
+          d.y = height/2;
+          //d.y = yScale(d.y);
           d.x = xScale(i);
           //d.x = xScale(d.x);
         })
