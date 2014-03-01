@@ -10,7 +10,6 @@ var svg = d3.select("body")
   .attr("height", height);
 
 var fill = d3.scale.category10();
-//var committers = []; // keep track of commit authors
 var committers = [
   'Scott Klein', 
   'Jeremy B. Merrill',
@@ -29,9 +28,6 @@ var graph =
   links:[]
 };
 
-//var nb_nodes = 100;
-//var nb_cat = 10;
-
 d3.json('misc/guides-commits-master.json', function(jsonMaster) 
 {
   d3.json('misc/guides-commits-newexcellimit.json', function(jsonExcel) 
@@ -42,19 +38,16 @@ d3.json('misc/guides-commits-master.json', function(jsonMaster)
       jsonMaster.forEach(function(d) {
         d.cat = 'master';
         graph.nodes.push(d);
-        //committers.push(d.commit.author.name);
       });
 
       jsonExcel.forEach(function(d) {
         d.cat = 'excel';
         graph.nodes.push(d);
-        //committers.push(d.commit.author.name)
       });
 
       jsonSisi.forEach(function(d) {
         d.cat = 'sisi';
         graph.nodes.push(d);
-        //committers.push(d.commit.author.name)
       });
 
       graph.nodes.map(function(d, i) {
