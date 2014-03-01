@@ -1,7 +1,20 @@
-console.log('blue');
+var width = 900;
+var height = 600;
 
 //var checksums = []; // all sha values
 var contributors = [];
+
+var commits = 
+{
+  nodes: []
+}
+
+var svg = d3.select('body')
+  .append('svg')
+  .attr('height', height)
+  .attr('width', width)
+
+var colorScale = d3.scale.category10();
 
 d3.json('../misc/guides-commits-master.json', function(jsonMaster) 
 {
@@ -11,32 +24,36 @@ d3.json('../misc/guides-commits-master.json', function(jsonMaster)
     {
       d3.json('guides-contributors.json', function(dataContrib) {
 
-        //jsonMaster.forEach(function(d) {
-          //checksums.push(d.sha);
-        //});
+        // add all master branch commits to commits.nodes
+        jsonMaster.forEach(function(d) {
+          d.cat = 'master';
+          commits.nodes.push(d);
+        });
 
-        //jsonExcel.forEach(function(d) {
-          //checksums.push(d.sha);
-        //});
+        // add all newexcellimit branch commits to commits.nodes
+        jsonMaster.forEach(function(d) {
+          d.cat = 'newexcellimit';
+          commits.nodes.push(d);
+        });
 
-        //jsonSisi.forEach(function(d) {
-          //checksums.push(d.sha);
-        //});
-
-        //contribs.map(function(d, i) {
-          //console.log(i);
-        //});
+        // add all sisi branch commits to commits.nodes
+        jsonMaster.forEach(function(d) {
+          d.cat = 'sisi';
+          commits.nodes.push(d);
+        });
         
+        // add all contributors and stats to contributors array
         dataContrib.forEach(function(d) {
           var additions = 0;
           var deletions = 0;
     
-          // total additions, deletions for each user
+          // sum up additions, deletions for each user
           d.weeks.forEach(function(d) {
             additions += parseInt(d.a);
             deletions += parseInt(d.d);
           });
 
+          // add stats for each contributor to array 
           contributors.push(
             {
               'login': d.author.login, 
@@ -47,8 +64,61 @@ d3.json('../misc/guides-commits-master.json', function(jsonMaster)
           );
         }); // end dataContrib.forEach()
 
+        var force = d3.layout.force()
+          .nodes(contributors)
+          .size([width, height])
+          //.on('tick', tick)
+          .start();
 
+        var nodes = svg.selectAll('circle')
+          .data(contributors)
+          .enter()
+            .append('circle')
+            .attr('class', 'node')
+            .attr('r', function(d) {
+              return (d.commits * 2) + 50;
+              //console.log(d);
+            })
+            //.attr('fill', 'darkorange')
+            //.attr('fill', function(d, i) {
+              //console.log(d);
+            //})
+            .attr('fill', function(d) {
+              return colorScale(d.commits);
+            })
 
+        //var tick = function(d) {
+        force.on('tick', function() {
+          //console.log('tickcalled');
+          //graphUpdate(0);
+          nodes
+            .attr('cx', function(d) {
+              return d.x;
+            })
+            .attr('cy', function(d) {
+              return d.y;
+            })
+        });
+            
+        function graphUpdate(delay) {
+          nodes
+            .transition()
+            .duration(delay)
+              .attr('transform', function(d) {
+                //return 'translate(' + d.x + ', ' + d.y + ')';
+                //console.log(d.x, d.y);
+              });
+        }
+          
+        //force.on('tick', function(d) {
+          //console.log(d.x);
+        //}
+
+          
+
+        //var forceLayout = function() {
+          
+        //}
 
       }); // end dataContrib
     }); // end jsonSis

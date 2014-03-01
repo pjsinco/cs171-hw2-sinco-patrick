@@ -41,7 +41,7 @@ d3.json('misc/guides-commits-master.json', function(jsonMaster)
       });
 
       jsonExcel.forEach(function(d) {
-        d.cat = 'excel';
+        d.cat = 'newexcellimit';
         graph.nodes.push(d);
       });
 
