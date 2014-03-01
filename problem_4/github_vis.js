@@ -83,7 +83,7 @@ d3.json('../misc/guides-commits-master.json', function(jsonMaster)
         var colorScale = d3.scale.linear()
           .domain([minCommits, maxCommits])
           .interpolate(d3.interpolateRgb)
-          .range(['aliceblue', 'darkblue'])
+          .range(['blue', 'darkblue'])
 
         var force = d3.layout.force()
           .nodes(contributors)
@@ -96,45 +96,61 @@ d3.json('../misc/guides-commits-master.json', function(jsonMaster)
           })
           .start();
 
-        var nodes = svg.selectAll('circle')
+        var node = svg.selectAll('.node')
           .data(contributors)
           .enter()
-            .append('circle')
+            .append('g')
             .attr('class', 'node')
-            .attr('r', function(d) {
-              return (d.commits * 4) + 40;
-              //console.log(d);
-            })
-            //.attr('fill', 'darkorange')
-            //.attr('fill', function(d, i) {
-              //console.log(d);
-            //})
-            .attr('fill', function(d) {
-              return colorScale(d.commits);
-            })
+
+        node.append('circle')
+          .attr('r', function(d) {
+            return (d.commits * 4) + 40;
+          })
+          .attr('fill', function(d) {
+            return colorScale(d.commits);
+          })
+
+        node.append('text')
+          .text(function(d) {
+            return d.login 
+          })
+          .attr('text-anchor', 'middle')
+          .attr('fill', '#ffffff')
+          .attr('font-size', '10px')
+          .attr('font-family', 'sans-serif')
+
 
         //var tick = function(d) {
         force.on('tick', function() {
-          //console.log('tickcalled');
-          //graphUpdate(0);
-          nodes
+          svg.selectAll('.node')
+            .select('circle')
             .attr('cx', function(d) {
               return d.x;
             })
             .attr('cy', function(d) {
               return d.y;
             })
+
+          svg.selectAll('.node')
+            .select('text')
+            .attr('x', function(d) {
+              return d.x;
+            })
+            .attr('y', function(d) {
+              return d.y;
+            })
+        
         });
             
-        function graphUpdate(delay) {
-          nodes
-            .transition()
-            .duration(delay)
-              .attr('transform', function(d) {
-                //return 'translate(' + d.x + ', ' + d.y + ')';
-                //console.log(d.x, d.y);
-              });
-        }
+//        function graphUpdate(delay) {
+//          nodes
+//            .transition()
+//            .duration(delay)
+//              .attr('transform', function(d) {
+//                //return 'translate(' + d.x + ', ' + d.y + ')';
+//                //console.log(d.x, d.y);
+//              });
+//        }
           
         //force.on('tick', function(d) {
           //console.log(d.x);
