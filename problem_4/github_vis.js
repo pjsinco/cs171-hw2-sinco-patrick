@@ -233,8 +233,6 @@ d3.json('../misc/guides-commits-master.json', function(jsonMaster)
         } // end contribViewByChanges()
 
         function commitViewByBranch() {
-          //force
-            //.stop()
           svg.selectAll('.node')
             .remove();
 
@@ -248,8 +246,6 @@ d3.json('../misc/guides-commits-master.json', function(jsonMaster)
 
           force.start();
 
-          //console.log(commits.nodes);
-
           //svg.selectAll('.node')
           node
             .data(commits.nodes)
@@ -262,34 +258,10 @@ d3.json('../misc/guides-commits-master.json', function(jsonMaster)
                     return colorScale(d.cat);
                   })
 
-          force
-            .on('tick', tick)
-//              svg.selectAll('.node')
-//                .transition()
-//                .duration(500)
-//                .attr('transform', function(d) {
-//                  //console.log(d);
-//                  return 'translate(' + d.x + ', ' + d.y + ')';
-//                })
-            //});
-
-      
-//          svg.selectAll('.node')
-//            .data(commits.nodes)
-//            .enter()
-//              .append('g')
-//              .attr('class', 'node')
-//              .append('circle')
-
-          //svg.selectAll('.node')
-            //.append('circle')
-            //.attr('r', 5)
-            //.attr('fill', 'darkorange')
-
-          //graphUpdate(500);
+          //force
+            //.on('tick', tick)
         
         } // end commitViewByBranch()
-
           
 
         /*
