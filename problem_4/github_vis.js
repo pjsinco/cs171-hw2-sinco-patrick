@@ -23,6 +23,10 @@ d3.json('../misc/guides-commits-master.json', function(jsonMaster)
     d3.json('../misc/guides-commits-sisi.json', function(jsonSisi) 
     {
       d3.json('guides-contributors.json', function(dataContrib) {
+      
+        /*
+         * DATA SETUP
+         */
 
         // add all master branch commits to commits.nodes
         jsonMaster.forEach(function(d) {
@@ -64,10 +68,32 @@ d3.json('../misc/guides-commits-master.json', function(jsonMaster)
           );
         }); // end dataContrib.forEach()
 
+
+        /*
+         *D3 MAGIC
+         */
+        var maxCommits = d3.max(contributors, function(d) {
+          return d.commits;
+        });
+
+        var minCommits = d3.min(contributors, function(d) {
+          return d.commits;
+        });
+
+        var colorScale = d3.scale.linear()
+          .domain([minCommits, maxCommits])
+          .interpolate(d3.interpolateRgb)
+          .range(['aliceblue', 'darkblue'])
+
         var force = d3.layout.force()
           .nodes(contributors)
           .size([width, height])
           //.on('tick', tick)
+          .charge(function(d) {
+            // charge equation from:
+            // http://vallandingham.me/bubble_charts_in_d3.html
+            return -Math.pow(d.commits * 4 + 50, 2.0) / 8;
+          })
           .start();
 
         var nodes = svg.selectAll('circle')
@@ -76,7 +102,7 @@ d3.json('../misc/guides-commits-master.json', function(jsonMaster)
             .append('circle')
             .attr('class', 'node')
             .attr('r', function(d) {
-              return (d.commits * 2) + 50;
+              return (d.commits * 4) + 40;
               //console.log(d);
             })
             //.attr('fill', 'darkorange')
