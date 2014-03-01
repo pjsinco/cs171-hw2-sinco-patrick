@@ -156,7 +156,7 @@ d3.json('../misc/guides-commits-master.json', function(jsonMaster)
         //});
             
         function graphUpdate(delay) {
-          node
+          svg.selectAll('.node')
             .transition()
             .duration(delay)
               .attr('transform', function(d) {
@@ -235,21 +235,58 @@ d3.json('../misc/guides-commits-master.json', function(jsonMaster)
         function commitViewByBranch() {
           //force
             //.stop()
+          svg.selectAll('.node')
+            .remove();
 
+          colorScale = d3.scale.category10();
 
+          force.stop(); // stop ticks so we can update force.nodes()
 
-        node
-          .data(commits.nodes)
-          .enter()
-            .append('g')
-            .attr('class', 'node')
+          force
+            .nodes(commits.nodes)
+            .charge(-40)
 
-        svg.selectAll('.node')
-          .append('circle')
-          .attr('r', 5)
-          .attr('fill', 'darkorange')
+          force.start();
 
-        graphUpdate(500);
+          //console.log(commits.nodes);
+
+          //svg.selectAll('.node')
+          node
+            .data(commits.nodes)
+            .enter()
+              .append('g')
+                .attr('class', 'node')
+                .append('circle')
+                  .attr('r', 10)
+                  .attr('fill', function(d) {
+                    return colorScale(d.cat);
+                  })
+
+          force
+            .on('tick', tick)
+//              svg.selectAll('.node')
+//                .transition()
+//                .duration(500)
+//                .attr('transform', function(d) {
+//                  //console.log(d);
+//                  return 'translate(' + d.x + ', ' + d.y + ')';
+//                })
+            //});
+
+      
+//          svg.selectAll('.node')
+//            .data(commits.nodes)
+//            .enter()
+//              .append('g')
+//              .attr('class', 'node')
+//              .append('circle')
+
+          //svg.selectAll('.node')
+            //.append('circle')
+            //.attr('r', 5)
+            //.attr('fill', 'darkorange')
+
+          //graphUpdate(500);
         
         } // end commitViewByBranch()
 
