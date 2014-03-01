@@ -1,6 +1,7 @@
 console.log('blue');
 
-var hashes = []; // all sha values
+//var checksums = []; // all sha values
+var contributors = [];
 
 d3.json('../misc/guides-commits-master.json', function(jsonMaster) 
 {
@@ -8,19 +9,48 @@ d3.json('../misc/guides-commits-master.json', function(jsonMaster)
   {
     d3.json('../misc/guides-commits-sisi.json', function(jsonSisi) 
     {
-      jsonMaster.forEach(function(d) {
-        hashes.push(d.sha);
-      });
+      d3.json('guides-contributors.json', function(dataContrib) {
 
-      jsonExcel.forEach(function(d) {
-        hashes.push(d.sha);
-      });
+        //jsonMaster.forEach(function(d) {
+          //checksums.push(d.sha);
+        //});
 
-      jsonSisi.forEach(function(d) {
-        hashes.push(d.sha);
-      });
+        //jsonExcel.forEach(function(d) {
+          //checksums.push(d.sha);
+        //});
 
-      console.log(hashes);
+        //jsonSisi.forEach(function(d) {
+          //checksums.push(d.sha);
+        //});
+
+        //contribs.map(function(d, i) {
+          //console.log(i);
+        //});
+        
+        dataContrib.forEach(function(d) {
+          var additions = 0;
+          var deletions = 0;
+    
+          // total additions, deletions for each user
+          d.weeks.forEach(function(d) {
+            additions += parseInt(d.a);
+            deletions += parseInt(d.d);
+          });
+
+          contributors.push(
+            {
+              'login': d.author.login, 
+              'commits': d.total,
+              'additions': additions,
+              'deletions': deletions
+            }
+          );
+        }); // end dataContrib.forEach()
+
+
+
+
+      }); // end dataContrib
     }); // end jsonSis
   }); // end jsonExcel
 }); // end jsonMaster
