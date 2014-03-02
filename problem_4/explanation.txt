@@ -1,0 +1,6 @@
+I wanted to visualize who are repository's most active contributors. I wasn't able to find the data for 2 of the 3 tasks I chose in Design Studio. 
+
+Instead, I ended up visualizing the number of each contributor's commits and changes to the repo. They're not perfect measures of activity, by any means, but I don't know of any that are better.
+
+I also had hoped to group all each user's commits inside the user's circle element, but I wasn't able to figure out how to do that.
+
