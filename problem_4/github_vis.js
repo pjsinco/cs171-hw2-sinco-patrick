@@ -70,36 +70,12 @@ d3.json('../misc/guides-commits-master.json', function(jsonMaster)
           );
         }); // end dataContrib.forEach()
 
-        commits.nodes.forEach(function(d) {
-          //console.log(d);
-        });
-
         /*
          *D3 MAGIC
          */
 
         var node;
         var radius;
-
-        var maxCommits = d3.max(contributors, function(d) {
-          return d.commits;
-        });
-
-        var minCommits = d3.min(contributors, function(d) {
-          return d.commits;
-        });
-
-        var maxChanges = d3.max(contributors, function(d) {
-          return d.changes;
-        });
-
-        var minChanges = d3.min(contributors, function(d) {
-          return d.changes;
-        });
-
-        //var colorScale = d3.scale.linear()
-          //.interpolate(d3.interpolateRgb)
-          //.range(['orange', 'darkblue'])
 
         // make a force layout
         var force = d3.layout.force()
@@ -111,6 +87,7 @@ d3.json('../misc/guides-commits-master.json', function(jsonMaster)
           graphUpdate(0);
         }
 
+        // code adapted from D3 book
         function addTooltip(metric, d) {
           var xPos = parseFloat(d.x);
           var yPos = parseFloat(d.y);
@@ -132,7 +109,6 @@ d3.json('../misc/guides-commits-master.json', function(jsonMaster)
             .classed('hidden', false);
         }
 
-
         node = svg.selectAll('.node')
           .data(contributors)
           .enter()
@@ -144,7 +120,7 @@ d3.json('../misc/guides-commits-master.json', function(jsonMaster)
             return (d.commits * 4) + 40;
           })
           .attr('fill', function(d) {
-            return 'rgb(0, 0, ' + (d.commits + 1) * 50 + ')';
+            return 'rgb(0, 0, ' + (d.commits + 1) * 100 + ')';
           })
 
         node.append('text')
@@ -153,10 +129,9 @@ d3.json('../misc/guides-commits-master.json', function(jsonMaster)
           })
           .attr('text-anchor', 'middle')
           .attr('fill', '#ffffff')
-          .attr('font-size', '10px')
+          .attr('font-size', '12px')
           .attr('font-family', 'sans-serif')
 
-        //svg.selectAll('.node')
         node
           .select('text')
           .attr('x', function(d) {
@@ -172,15 +147,10 @@ d3.json('../misc/guides-commits-master.json', function(jsonMaster)
             .duration(delay)
               .attr('transform', function(d) {
                 return 'translate(' + d.x + ', ' + d.y + ')';
-                //console.log(d.x, d.y);
               });
         }
           
         function contribViewByCommits() {
-          // update colorScale
-          //colorScale
-            //.domain([minCommits, maxCommits])
-
           force
             .nodes(contributors)
             .charge(function(d) {
@@ -197,8 +167,6 @@ d3.json('../misc/guides-commits-master.json', function(jsonMaster)
             .duration(500)
               .attr('fill', function(d) {
                 return 'rgb(0, 0, ' + (d.commits + 1) * 50 + ')';
-                //return 'rgb(0, 0, ' + d.commits * 50 + ')';
-                //return colorScale(d.commits); 
               })
             .attr('r', function(d) {
               return (d.commits * 4) + 40;
@@ -218,10 +186,6 @@ d3.json('../misc/guides-commits-master.json', function(jsonMaster)
         }  
 
         function contribViewByChanges() {
-          // update colorScale
-          //colorScale
-            //.domain([minChanges, maxChanges])
-          
           force
             .nodes(contributors)
             .charge(function(d) {
@@ -239,8 +203,6 @@ d3.json('../misc/guides-commits-master.json', function(jsonMaster)
             .duration(500)
               .attr('fill', function(d) {
                 return 'rgb(0, 0, ' + (d.changes + 1) * 15 + ')';
-                //return 'rgb(0, 0, ' + d.commits * 50 + ')';
-                //return colorScale(d.changes); 
               })
               .attr('r', function(d) {
                 return d.changes + 50;
