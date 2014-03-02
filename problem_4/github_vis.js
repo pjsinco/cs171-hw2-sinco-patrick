@@ -1,7 +1,6 @@
 var width = 900;
 var height = 600;
 
-//var checksums = []; // all sha values
 var contributors = [];
 
 var commits = 
@@ -13,8 +12,6 @@ var svg = d3.select('body')
   .append('svg')
   .attr('height', height)
   .attr('width', width)
-
-var colorScale = d3.scale.category10();
 
 d3.json('../misc/guides-commits-master.json', function(jsonMaster) 
 {
@@ -97,8 +94,8 @@ d3.json('../misc/guides-commits-master.json', function(jsonMaster)
         });
 
         var colorScale = d3.scale.linear()
-          .interpolate(d3.interpolateRgb)
-          .range(['blue', 'darkblue'])
+          //.interpolate(d3.interpolateRgb)
+          .range(['orange', 'darkblue'])
 
         // make a force layout
         var force = d3.layout.force()
@@ -120,40 +117,39 @@ d3.json('../misc/guides-commits-master.json', function(jsonMaster)
 //              return d.y;
 //            })
 
-          node = svg.selectAll('.node')
-            .data(contributors)
-            .enter()
-              .append('g')
-              .attr('class', 'node')
+        node = svg.selectAll('.node')
+          .data(contributors)
+          .enter()
+            .append('g')
+            .attr('class', 'node')
 
-          node.append('circle')
-            .attr('r', function(d) {
-              return (d.commits * 4) + 40;
-            })
-            .attr('fill', function(d) {
-              return colorScale(d.commits);
-            })
+        node.append('circle')
+          .attr('r', function(d) {
+            return (d.commits * 4) + 40;
+          })
+          .attr('fill', function(d) {
+            return 'rgb(0, 0, ' + (d.commits + 1) * 50 + ')';
+          })
 
-          node.append('text')
-            .text(function(d) {
-              return d.login 
-            })
-            .attr('text-anchor', 'middle')
-            .attr('fill', '#ffffff')
-            .attr('font-size', '10px')
-            .attr('font-family', 'sans-serif')
+        node.append('text')
+          .text(function(d) {
+            return d.login 
+          })
+          .attr('text-anchor', 'middle')
+          .attr('fill', '#ffffff')
+          .attr('font-size', '10px')
+          .attr('font-family', 'sans-serif')
 
-          //svg.selectAll('.node')
-          node
-            .select('text')
-            .attr('x', function(d) {
-              return d.x;
-            })
-            .attr('y', function(d) {
-              return d.y;
-            })
+        //svg.selectAll('.node')
+        node
+          .select('text')
+          .attr('x', function(d) {
+            return d.x;
+          })
+          .attr('y', function(d) {
+            return d.y;
+          })
         
-        //});
             
         function graphUpdate(delay) {
           svg.selectAll('.node')
@@ -184,14 +180,13 @@ d3.json('../misc/guides-commits-master.json', function(jsonMaster)
           svg.selectAll('circle')
             .transition()
             .duration(500)
-              .style('fill', function(d) {
-                return colorScale(d.commits); 
+              .attr('fill', function(d) {
+                return 'rgb(0, 0, ' + (d.commits + 1) * 50 + ')';
+                //return 'rgb(0, 0, ' + d.commits * 50 + ')';
+                //return colorScale(d.commits); 
               })
             .attr('r', function(d) {
               return (d.commits * 4) + 40;
-            })
-            .attr('fill', function(d) {
-              return colorScale(d.changes);
             })
 
           force
@@ -218,50 +213,49 @@ d3.json('../misc/guides-commits-master.json', function(jsonMaster)
           svg.selectAll('circle')
             .transition()
             .duration(500)
-              .style('fill', function(d) {
-                return colorScale(d.changes); 
+              .attr('fill', function(d) {
+                return 'rgb(0, 0, ' + (d.changes + 1) * 15 + ')';
+                //return 'rgb(0, 0, ' + d.commits * 50 + ')';
+                //return colorScale(d.changes); 
               })
-            .attr('r', function(d) {
-              return d.changes + 50;
-            })
-            .attr('fill', function(d) {
-              return colorScale(d.changes);
-            })
+              .attr('r', function(d) {
+                return d.changes + 50;
+              })
         
           force
             .start();
         } // end contribViewByChanges()
 
-        function commitViewByBranch() {
-          svg.selectAll('.node')
-            .remove();
-
-          colorScale = d3.scale.category10();
-
-          force.stop(); // stop ticks so we can update force.nodes()
-
-          force
-            .nodes(commits.nodes)
-            .charge(-40)
-
-          force.start();
-
-          //svg.selectAll('.node')
-          node
-            .data(commits.nodes)
-            .enter()
-              .append('g')
-                .attr('class', 'node')
-                .append('circle')
-                  .attr('r', 10)
-                  .attr('fill', function(d) {
-                    return colorScale(d.cat);
-                  })
-
-          //force
-            //.on('tick', tick)
-        
-        } // end commitViewByBranch()
+//        function commitViewByBranch() {
+//          svg.selectAll('.node')
+//            .remove();
+//
+//          colorScale = d3.scale.category10();
+//
+//          force.stop(); // stop ticks so we can update force.nodes()
+//
+//          force
+//            .nodes(commits.nodes)
+//            .charge(-40)
+//
+//          force.start();
+//
+//          //svg.selectAll('.node')
+//          node
+//            .data(commits.nodes)
+//            .enter()
+//              .append('g')
+//                .attr('class', 'node')
+//                .append('circle')
+//                  .attr('r', 10)
+//                  .attr('fill', function(d) {
+//                    return colorScale(d.cat);
+//                  })
+//
+//          //force
+//            //.on('tick', tick)
+//        
+//        } // end commitViewByBranch()
           
 
         /*
@@ -274,11 +268,11 @@ d3.json('../misc/guides-commits-master.json', function(jsonMaster)
         d3.select('input[value=\"changes\"]')
           .on('click', contribViewByChanges)
 
-        d3.select('input[value=\"branch\"]')
-          .on('click', commitViewByBranch)
+        //d3.select('input[value=\"branch\"]')
+          //.on('click', commitViewByBranch)
 
         /*
-         *GIDDYUP
+         *START THINGS UP
          */
         contribViewByCommits();
 
